@@ -86,6 +86,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  onWallHitSound: {fileID: 1000010548099654, guid: cdb5666b8f5886b4e82337557aa90bc7,
+    type: 2}
 --- !u!212 &212000010790622950
 SpriteRenderer:
   m_ObjectHideFlags: 1
