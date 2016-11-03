@@ -3,10 +3,17 @@ using System.Collections;
 
 public class EnemyMovement : MonoBehaviour {
     public int speed;
-	
-	// Update is called once per frame
-	void Update () {
-        Vector3 move = new Vector3(0, 1, 0);
-        transform.position += move * -speed * Time.deltaTime;
+
+    private Rigidbody2D rb2d;
+
+    void Start()
+    {
+        rb2d = gameObject.GetComponent<Rigidbody2D>();
+    }
+
+    void Update ()
+    {
+        Vector2 bulletForce = - transform.up * speed;
+        rb2d.velocity = bulletForce;
     }
 }

@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class TurretShooter : MonoBehaviour
+{
+    public GameObject projectile;
+    public float fireRate = 0.5F;
+    private float nextFire = 0.0F;
+	
+	void Update ()
+    {
+	    if(Input.GetKey(KeyCode.Space) && Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            GameObject clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
+        }
+    }
+}
