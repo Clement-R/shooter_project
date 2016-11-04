@@ -12,7 +12,7 @@ public class TurretShooter : MonoBehaviour
 	    if(Input.GetKey(KeyCode.Space) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
-            GameObject clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
+            Instantiate(projectile, transform.position, transform.rotation);
         }
     }
 }
