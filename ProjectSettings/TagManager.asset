@@ -7,6 +7,7 @@ TagManager:
   - wall
   - enemy
   - pivot
+  - trash
   layers:
   - Default
   - TransparentFX

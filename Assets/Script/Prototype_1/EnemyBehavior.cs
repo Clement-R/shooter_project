@@ -4,7 +4,6 @@ using System.Collections;
 public class EnemyBehavior : MonoBehaviour {
     public GameObject deathSound;
 
-    // Use this for initialization
     void Start () {
         Destroy(this.gameObject, 12.0f);
 	}

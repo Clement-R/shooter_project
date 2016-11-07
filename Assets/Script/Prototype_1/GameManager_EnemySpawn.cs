@@ -1,26 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameManager_EnemySpawn_2 : MonoBehaviour {
+public class GameManager_EnemySpawn : MonoBehaviour {
     public GameObject Enemy;
+    public int timeBetweenSpawn = 1;
 
-    private GameObject actualEnemy;
-
-    void Start ()
-    {
-        actualEnemy = spawnEnemy();
+    // Update is called once per frame
+    void Start() {
+        StartCoroutine("spawnEnemy");
     }
 
-    GameObject spawnEnemy()
-    {
-        return Instantiate(Enemy, new Vector3(Random.Range(-4.0f, 4.0f), 5.4f, 0), Quaternion.identity) as GameObject;
-    }
-
-    void Update()
-    {
-        if(actualEnemy == null)
-        {
-            actualEnemy = spawnEnemy();
-        }
+    IEnumerator spawnEnemy() {
+        Instantiate(Enemy, new Vector3(Random.Range(-4.0f, 4.0f), 5.4f, 0), Quaternion.identity);
+        yield return new WaitForSeconds(timeBetweenSpawn);
+        StartCoroutine("spawnEnemy");
     }
 }
+

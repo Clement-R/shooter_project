@@ -31,5 +31,10 @@ public class ProjectileBehavior : MonoBehaviour {
             Destroy(this.gameObject);
             coll.GetComponent<EnemyBehavior>().Die();
         }
+        else if(coll.gameObject.tag == "trash")
+        {
+            Destroy(this.gameObject);
+            coll.GetComponent<TrashBehavior>().Die();
+        }
     }
 }
