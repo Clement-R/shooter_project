@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ShuttleBehavior : MonoBehaviour {
     public GameObject onHitSound;
+    public bool isStuned = false;
+    public float stundCooldown;
 
     void OnTriggerEnter2D(Collider2D coll) {
         if (coll.gameObject.tag == "trash") {
@@ -10,9 +12,40 @@ public class ShuttleBehavior : MonoBehaviour {
             // GameObject onWallHitSoundEmitter = Instantiate(onHitSound);
             // onWallHitSoundEmitter.transform.position = gameObject.transform.position;
 
-            // TODO : add stunt effect
-            Debug.Log("Hit");
+            if(!isStuned)
+            {
+                isStuned = true;
+                StartCoroutine("stunEffect");
+            }
+
             coll.GetComponent<TrashBehavior>().Die();
         }
+    }
+
+    void Update() {
+        if (this.isStuned) {
+            StartCoroutine("effect");
+        }
+        else {
+            StopCoroutine("effect");
+        }
+    }
+
+    public IEnumerator stunEffect()
+    {
+        yield return new WaitForSeconds(stundCooldown);
+        isStuned = false;
+        GetComponent<SpriteRenderer>().enabled = true;
+    }
+
+    public IEnumerator effect() {
+        if (GetComponent<SpriteRenderer>().enabled == false) {
+            GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else {
+            GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        yield return new WaitForSeconds(0.25f);
     }
 }

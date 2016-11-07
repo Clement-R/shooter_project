@@ -6,10 +6,16 @@ public class ShuttleSoundEmitter : MonoBehaviour {
     public float minRange;
 
     private GameObject targetedEnemy = null;
+    private ShuttleBehavior behavior;
     private float closestDistance = 1000.0f;
     
+    void Start()
+    {
+        behavior = this.GetComponent<ShuttleBehavior>();
+    }
+
     void Update() {
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0) && !behavior.isStuned) {
             // Unmark last enemy if needed
             if(targetedEnemy != null)
             {
