@@ -22,6 +22,9 @@ GameObject:
   - 212: {fileID: 212000011882543954}
   - 114: {fileID: 114000014195879616}
   - 114: {fileID: 114000012248110250}
+  - 50: {fileID: 50000012072257676}
+  - 61: {fileID: 61000013514361122}
+  - 114: {fileID: 114000010882553688}
   m_Layer: 0
   m_Name: Shuttle
   m_TagString: Untagged
@@ -36,12 +39,55 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012439908834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.05, y: -4.47, z: 0}
+  m_LocalPosition: {x: -1.05, y: -4.47, z: -5}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &50000012072257676
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012439908834}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &61000013514361122
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012439908834}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 3.9999998, y: 3.9999998}
+--- !u!114 &114000010882553688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012439908834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06f7a05f46801c419fb512fd1d29356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHitSound: {fileID: 1000010986009646, guid: 7a3725a0c2ed9e34baefbec2e76cd93e, type: 2}
 --- !u!114 &114000012248110250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnOnLeftClick: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
-  spawnOnRightClick: {fileID: 124886, guid: 481b5d1edbddc8e4e863613a432b6cf3, type: 2}
+  minRange: 2
 --- !u!114 &114000014195879616
 MonoBehaviour:
   m_ObjectHideFlags: 1

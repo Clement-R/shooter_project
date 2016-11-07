@@ -430,6 +430,11 @@ Prefab:
       propertyPath: m_Name
       value: Fennec
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012248110250, guid: e6679080eadc1634fba737805d569587,
+        type: 2}
+      propertyPath: minRange
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e6679080eadc1634fba737805d569587, type: 2}
   m_IsPrefabParent: 0
