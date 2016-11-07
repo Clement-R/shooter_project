@@ -1,23 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ProjectileBehavior : MonoBehaviour {
+public class ProjectileBehavior : MonoBehaviour
+{
     public int speed;
     public GameObject onWallHitSound;
 
     private Rigidbody2D rb2d;
 
-    void Start() {
+    void Start()
+    {
         Destroy(this, 3.0f);
         rb2d = gameObject.GetComponent<Rigidbody2D>();
     }
 
-    void Update() {
+    void Update()
+    {
         Vector2 bulletForce = transform.up * speed;
         rb2d.velocity = bulletForce;
     }
     
-    void OnTriggerEnter2D(Collider2D coll) {
+    void OnTriggerEnter2D(Collider2D coll)
+    {
         if(coll.gameObject.tag == "wall")
         {
             // Play sound
