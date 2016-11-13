@@ -43,6 +43,9 @@ public class EnemyBehavior : MonoBehaviour {
         // Play sound
         GameObject deathSoundEmitter = Instantiate(deathSound);
         deathSoundEmitter.transform.position = gameObject.transform.position;
+
+        // Push information to the game manager
+        GameObject.Find("GameManager").GetComponent<GameManager_WaveSpawner>().numberOfEnemiesKilled ++;
         
         // Destroy game object
         Destroy(this.gameObject);
