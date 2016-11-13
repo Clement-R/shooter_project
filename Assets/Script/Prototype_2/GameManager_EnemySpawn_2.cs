@@ -4,7 +4,6 @@ using System.Collections;
 public class GameManager_EnemySpawn_2 : MonoBehaviour {
     public GameObject Enemy;
 
-    private GameObject actualEnemy;
     private GameManager_WaveSpawner spawner;
 
     void Start() {
@@ -12,12 +11,9 @@ public class GameManager_EnemySpawn_2 : MonoBehaviour {
     }
 
     GameObject spawnEnemy(float x, float y) {
-        return Instantiate(Enemy, new Vector3(Random.Range(-4.0f, 4.0f), 5.4f, 0), Quaternion.identity) as GameObject;
+        return Instantiate(Enemy, new Vector3(x, y, 0), Quaternion.identity) as GameObject;
     }
 
     void Update() {
-        if (actualEnemy == null) {
-            // spawner.nextWave();
-        }
     }
 }

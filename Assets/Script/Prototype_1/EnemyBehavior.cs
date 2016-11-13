@@ -5,9 +5,12 @@ public class EnemyBehavior : MonoBehaviour {
     public GameObject deathSound;
     public bool isTargeted = false;
 
+    private GameManager_GameRules god;
+
     void Start () {
         Destroy(this.gameObject, 12.0f);
-	}
+        god = GameObject.Find("GameManager").GetComponent<GameManager_GameRules>();
+    }
 
     void Update()
     {
@@ -43,5 +46,12 @@ public class EnemyBehavior : MonoBehaviour {
         
         // Destroy game object
         Destroy(this.gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D coll) {
+        if (coll.gameObject.tag == "southWall") {
+            god.loose();
+            Destroy(this.gameObject);
+        }
     }
 }
