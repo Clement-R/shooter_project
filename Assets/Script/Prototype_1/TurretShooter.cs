@@ -9,7 +9,7 @@ public class TurretShooter : MonoBehaviour
 	
 	void Update ()
     {
-	    if(Input.GetKey(KeyCode.Space) && Time.time > nextFire)
+        if (Input.GetButton("Fire_1") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             Instantiate(projectile, transform.position, transform.rotation);

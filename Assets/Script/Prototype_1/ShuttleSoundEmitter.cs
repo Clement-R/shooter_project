@@ -4,20 +4,25 @@ using System.Collections;
 public class ShuttleSoundEmitter : MonoBehaviour {
     public GameObject spawnOnLeftClick;
     public float minRange;
+    public float fireRate = 0.2F;
 
     private GameObject targetedEnemy = null;
     private ShuttleBehavior behavior;
     private float closestDistance = 1000.0f;
-    
+    private float nextFire = 0.0F;
+
     void Start()
     {
         behavior = this.GetComponent<ShuttleBehavior>();
     }
 
     void Update() {
-        if (Input.GetMouseButtonDown(0) && !behavior.isStuned) {
+        if (Input.GetButton("Fire_2") && !behavior.isStuned && Time.time > nextFire) {
+
+            nextFire = Time.time + fireRate;
+
             // Unmark last enemy if needed
-            if(targetedEnemy != null)
+            if (targetedEnemy != null)
             {
                 targetedEnemy.GetComponent<EnemyBehavior>().isTargeted = false;
                 targetedEnemy = null;

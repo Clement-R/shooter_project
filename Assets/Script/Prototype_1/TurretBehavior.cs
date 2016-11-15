@@ -2,25 +2,21 @@
 using System.Collections;
 
 public class TurretBehavior : MonoBehaviour {
-    public float speed;
-
-    public KeyCode left;
-    public KeyCode right;
-
     private Rigidbody2D rb2D;
-    private AudioSource child;
 
     void Start() {
         rb2D = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate() {
-        if (Input.GetKey(left)) {
-            rb2D.MoveRotation(rb2D.rotation + speed * Time.fixedDeltaTime);
+        var angle = Mathf.Atan2(Input.GetAxisRaw("Horizontal_2"), -Input.GetAxisRaw("Vertical_2")) * Mathf.Rad2Deg;
+
+        // QUICKFIX - Angle = 180 if there is no input
+        if (angle == 180) {
+            angle = 0;
         }
 
-        if (Input.GetKey(right)) {
-            rb2D.MoveRotation(rb2D.rotation - speed * Time.fixedDeltaTime);
-        }
+        angle = Mathf.Clamp(angle, -90, 90);
+        rb2D.MoveRotation(-angle);
     }
 }

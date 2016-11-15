@@ -2,11 +2,6 @@
 using System.Collections;
 
 public class ShuttleMovement : MonoBehaviour {
-    public KeyCode up;
-    public KeyCode down;
-    public KeyCode left;
-    public KeyCode right;
-
     public int speed;
 
     // Use this for initialization
@@ -15,7 +10,7 @@ public class ShuttleMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        Vector3 move = new Vector3(Input.GetAxis("Horizontal_1"), -Input.GetAxis("Vertical_1"), 0);
         transform.position += move * speed * Time.deltaTime;
     }
 }
