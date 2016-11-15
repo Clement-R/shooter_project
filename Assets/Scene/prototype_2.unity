@@ -180,6 +180,21 @@ Prefab:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 20000012155850224, guid: af3d4c2b188f3fd44b4e0bf62b8d4c2a,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0.47794116
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000012155850224, guid: af3d4c2b188f3fd44b4e0bf62b8d4c2a,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.47794116
+      objectReference: {fileID: 0}
+    - target: {fileID: 20000012155850224, guid: af3d4c2b188f3fd44b4e0bf62b8d4c2a,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.47794116
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af3d4c2b188f3fd44b4e0bf62b8d4c2a, type: 2}
   m_IsPrefabParent: 0
@@ -226,6 +241,12 @@ Prefab:
       propertyPath: m_Name
       value: GrandMa
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010902568058, guid: 6f26ca00594aefe48917c3c50736bdc2,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 711719906cc50ab4fa83846b354d4dec,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f26ca00594aefe48917c3c50736bdc2, type: 2}
   m_IsPrefabParent: 0
@@ -238,11 +259,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012572886028, guid: cb7e7d0328898a94b9faa622a8b6200e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 4000012572886028, guid: cb7e7d0328898a94b9faa622a8b6200e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.02
       objectReference: {fileID: 0}
     - target: {fileID: 4000012572886028, guid: cb7e7d0328898a94b9faa622a8b6200e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -271,6 +292,30 @@ Prefab:
     - target: {fileID: 1000013934208576, guid: cb7e7d0328898a94b9faa622a8b6200e, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013845957136, guid: cb7e7d0328898a94b9faa622a8b6200e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c33a794b131b13745bdc187681ec336e,
+        type: 3}
+    - target: {fileID: 4000012572886028, guid: cb7e7d0328898a94b9faa622a8b6200e, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012572886028, guid: cb7e7d0328898a94b9faa622a8b6200e, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013845957136, guid: cb7e7d0328898a94b9faa622a8b6200e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 89b611f8409af3a499d9f3e1959cde55, type: 2}
+    - target: {fileID: 212000013845957136, guid: cb7e7d0328898a94b9faa622a8b6200e,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 1989366547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb7e7d0328898a94b9faa622a8b6200e, type: 2}
@@ -365,6 +410,12 @@ Prefab:
       propertyPath: stundCooldown
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011882543954, guid: e6679080eadc1634fba737805d569587,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 78b584c518fc2844fa34c5caf434681f,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e6679080eadc1634fba737805d569587, type: 2}
   m_IsPrefabParent: 0
