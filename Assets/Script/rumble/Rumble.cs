@@ -24,6 +24,13 @@ public class Rumble : MonoBehaviour {
 
     }
 	
+    void OnApplicationQuit()
+    {
+        //Coupe tous les moteurs a la fin
+        GamePad.SetVibration(player1, 0.0f, 0.0f);
+        GamePad.SetVibration(player2, 0.0f, 0.0f);
+    }
+
 	// Update is called once per frame
 	void Update () {
         Hashtable tmp = new Hashtable(rumblesDuration); // On ne peut modifier rumblesDuration si on le parcourt. On parcourt donc une copie
@@ -66,15 +73,15 @@ public class Rumble : MonoBehaviour {
                 break;
             case MotorName.rightP1:
                 if (vibrate)
-                    GamePad.SetVibration(player1, GamePad.GetState(player1).Triggers.Right,1.0f);
+                    GamePad.SetVibration(player1, GamePad.GetState(player1).Triggers.Left,1.0f);
                 else
-                    GamePad.SetVibration(player1, GamePad.GetState(player1).Triggers.Right, 0.0f);
+                    GamePad.SetVibration(player1, GamePad.GetState(player1).Triggers.Left, 0.0f);
                 break;
             case MotorName.rightP2:
                 if (vibrate)
-                    GamePad.SetVibration(player2, GamePad.GetState(player2).Triggers.Right, 1.0f);
+                    GamePad.SetVibration(player2, GamePad.GetState(player2).Triggers.Left, 1.0f);
                 else
-                    GamePad.SetVibration(player2, GamePad.GetState(player2).Triggers.Right, 0.0f);
+                    GamePad.SetVibration(player2, GamePad.GetState(player2).Triggers.Left, 0.0f);
                 break;
             default:
                 Debug.Log("Passage non prevu ici");
