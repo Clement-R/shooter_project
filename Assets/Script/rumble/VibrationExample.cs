@@ -18,6 +18,7 @@ public class VibrationExample : MonoBehaviour {
         {
             gameObject.GetComponent<Rumble>().rumble(Rumble.MotorName.rightP1);
         }
+        
 	
 	}
 }
