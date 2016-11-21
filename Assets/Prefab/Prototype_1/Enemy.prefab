@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012052927362}
   - 212: {fileID: 212000012808757508}
-  - 114: {fileID: 114000013413395250}
   - 50: {fileID: 50000011876297368}
   - 58: {fileID: 58000010985885276}
+  - 114: {fileID: 114000013413395250}
   - 114: {fileID: 114000010206034302}
   m_Layer: 0
   m_Name: Enemy
@@ -87,6 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSound: {fileID: 1000013318471560, guid: 32d4df1bc86396f4782cb977643b5b3d, type: 2}
+  isTargeted: 0
 --- !u!114 &114000013413395250
 MonoBehaviour:
   m_ObjectHideFlags: 1

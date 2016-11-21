@@ -48,7 +48,6 @@ public class ShuttleSoundEmitter : MonoBehaviour {
                 targetedEnemy.GetComponent<EnemyBehavior>().isTargeted = true;
             }
             
-
             // Play sound effect
             GameObject explosion = Instantiate(spawnOnLeftClick);
             explosion.transform.position = gameObject.transform.position;

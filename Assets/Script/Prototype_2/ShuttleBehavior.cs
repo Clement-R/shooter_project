@@ -16,14 +16,9 @@ public class ShuttleBehavior : MonoBehaviour {
             {
                 isStuned = true;
                 StartCoroutine("stunEffect");
+                coll.gameObject.GetComponent<TrashBehavior>().Die();
             }
-
-            coll.gameObject.GetComponent<TrashBehavior>().Die();
-        } else if (coll.gameObject.tag == "wall" || coll.gameObject.tag == "southWall") {
-            Debug.Log("COLL");
         }
-
-        Debug.Log("COLLISION");
     }
 
     void Update() {
