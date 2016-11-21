@@ -3,14 +3,27 @@ using System.Collections;
 
 public class ShuttleMovement : MonoBehaviour {
     public int speed;
+    public float hMaxSpeed = 175f;
+    public float vMaxSpeed = 150f;
+
+    private Rigidbody2D rb2d;
 
     // Use this for initialization
     void Start () {
+        rb2d = this.GetComponent<Rigidbody2D>();
     }
 	
-	// Update is called once per frame
-	void Update () {
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal_1"), -Input.GetAxis("Vertical_1"), 0);
-        transform.position += move * speed * Time.deltaTime;
+	void FixedUpdate () {
+
+        float h = Input.GetAxisRaw("Horizontal_1");
+        float v = -Input.GetAxisRaw("Vertical_1");
+
+        rb2d.velocity = new Vector2(h * hMaxSpeed, v * vMaxSpeed);
+        
+        /*
+        if (Input.GetButton("Fire_" + ControllerIndex)) {
+            weapon.fire();
+        }
+        */
     }
 }

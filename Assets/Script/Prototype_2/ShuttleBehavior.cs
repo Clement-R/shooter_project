@@ -6,7 +6,7 @@ public class ShuttleBehavior : MonoBehaviour {
     public bool isStuned = false;
     public float stundCooldown;
 
-    void OnTriggerEnter2D(Collider2D coll) {
+    void OnCollisionEnter2D(Collision2D coll) {
         if (coll.gameObject.tag == "trash") {
             // Play sound
             // GameObject onWallHitSoundEmitter = Instantiate(onHitSound);
@@ -18,8 +18,12 @@ public class ShuttleBehavior : MonoBehaviour {
                 StartCoroutine("stunEffect");
             }
 
-            coll.GetComponent<TrashBehavior>().Die();
+            coll.gameObject.GetComponent<TrashBehavior>().Die();
+        } else if (coll.gameObject.tag == "wall" || coll.gameObject.tag == "southWall") {
+            Debug.Log("COLL");
         }
+
+        Debug.Log("COLLISION");
     }
 
     void Update() {
