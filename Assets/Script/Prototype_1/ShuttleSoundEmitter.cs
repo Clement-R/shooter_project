@@ -47,10 +47,11 @@ public class ShuttleSoundEmitter : MonoBehaviour {
             if (targetedEnemy != null) {
                 targetedEnemy.GetComponent<EnemyBehavior>().isTargeted = true;
             }
-            
+
             // Play sound effect
-            GameObject explosion = Instantiate(spawnOnLeftClick);
-            explosion.transform.position = gameObject.transform.position;
+            AkSoundEngine.PostEvent("Indic", gameObject);
+            // GameObject explosion = Instantiate(spawnOnLeftClick);
+            // explosion.transform.position = gameObject.transform.position;
         }
     }
 }

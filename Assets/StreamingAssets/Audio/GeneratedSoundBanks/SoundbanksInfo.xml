@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>E:\New folder\Handi_shooter\Handi_shooter\</ProjectRoot>
+		<SourceFilesRoot>E:\New folder\Handi_shooter\Handi_shooter\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\_Dev\Gamedev\shooter_project\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\New folder\Handi_shooter\Handi_shooter\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="971839176" Name="Indic" ObjectPath="\Events\Default Work Unit\Indic"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="73627726" Language="SFX">
+					<ShortName>proj_move.wav</ShortName>
+					<Path>SFX\proj_move_9E69E797.wem</Path>
+				</File>
+				<File Id="260920937" Language="SFX">
+					<ShortName>hit_3.wav</ShortName>
+					<Path>SFX\hit_3_9E69E797.wem</Path>
+				</File>
+				<File Id="415368753" Language="SFX">
+					<ShortName>hit_2.wav</ShortName>
+					<Path>SFX\hit_2_9E69E797.wem</Path>
+				</File>
+				<File Id="843767764" Language="SFX">
+					<ShortName>hit_1.wav</ShortName>
+					<Path>SFX\hit_1_9E69E797.wem</Path>
+				</File>
+				<File Id="908083750" Language="SFX">
+					<ShortName>indic.wav</ShortName>
+					<Path>SFX\indic_CDC63E89.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

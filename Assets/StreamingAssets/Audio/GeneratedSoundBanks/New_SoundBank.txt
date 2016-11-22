@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	971839176	Indic			\Default Work Unit\Indic	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	189100965	left_right			\Default Work Unit\left_right	
+	2092038934	distance_player_object			\Default Work Unit\distance_player_object	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	73627726	proj_move	E:\New folder\Handi_shooter\Handi_shooter\.cache\Windows\SFX\proj_move_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\proj_move		1632064
+	260920937	hit_3	E:\New folder\Handi_shooter\Handi_shooter\.cache\Windows\SFX\hit_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit\hit_3		55144
+	415368753	hit_2	E:\New folder\Handi_shooter\Handi_shooter\.cache\Windows\SFX\hit_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit\hit_2		47572
+	843767764	hit_1	E:\New folder\Handi_shooter\Handi_shooter\.cache\Windows\SFX\hit_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit\hit_1		45504
+	908083750	indic	E:\New folder\Handi_shooter\Handi_shooter\.cache\Windows\SFX\indic_CDC63E89.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic		323636
+
