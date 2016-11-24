@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using XInputDotNetPure;
 
 public class ShuttleBehavior : MonoBehaviour {
     public GameObject onHitSound;
@@ -8,10 +9,6 @@ public class ShuttleBehavior : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll) {
         if (coll.gameObject.tag == "trash") {
-            // Play sound
-            // GameObject onWallHitSoundEmitter = Instantiate(onHitSound);
-            // onWallHitSoundEmitter.transform.position = gameObject.transform.position;
-
             if(!isStuned)
             {
                 isStuned = true;
@@ -27,6 +24,7 @@ public class ShuttleBehavior : MonoBehaviour {
         }
         else {
             StopCoroutine("effect");
+            GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 
@@ -46,5 +44,6 @@ public class ShuttleBehavior : MonoBehaviour {
         }
 
         yield return new WaitForSeconds(0.25f);
+        StartCoroutine("effect");
     }
 }
