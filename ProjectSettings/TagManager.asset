@@ -9,6 +9,7 @@ TagManager:
   - pivot
   - trash
   - southWall
+  - m
   layers:
   - Default
   - TransparentFX

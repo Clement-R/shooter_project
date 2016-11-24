@@ -46,6 +46,7 @@ public class EnemyBehavior : MonoBehaviour {
 
         // Push information to the game manager
         GameObject.Find("GameManager").GetComponent<GameManager_WaveSpawner>().numberOfEnemiesKilled ++;
+        god.ennemyShot();
         
         // Destroy game object
         Destroy(this.gameObject);
@@ -53,7 +54,11 @@ public class EnemyBehavior : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D coll) {
         if (coll.gameObject.tag == "southWall") {
-            god.loose();
+            god.ennemyPassed();
+            Destroy(this.gameObject);
+        } else if(coll.gameObject.tag == "Player")
+        {
+            god.playerTouched();
             Destroy(this.gameObject);
         }
     }

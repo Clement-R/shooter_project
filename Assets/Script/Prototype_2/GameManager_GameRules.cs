@@ -38,11 +38,13 @@ public class GameManager_GameRules : MonoBehaviour
     public void ennemyShot()
     {
         score += pointPerHit;
+        Debug.Log("Score :" + score);
     }
 
     public void playerTouched()
     {
         life--;
+        Debug.Log("Vie restante : " + life);
     }
 
     public void ennemyPassed()
@@ -52,6 +54,7 @@ public class GameManager_GameRules : MonoBehaviour
         {
             score = 0;
         }
+        Debug.Log("Score : " + score);
     }
     
 }
