@@ -49,7 +49,7 @@ public class ShuttleSoundEmitter : MonoBehaviour {
             }
 
             // Play sound effect
-            AkSoundEngine.PostEvent("Indic", gameObject);
+            AkSoundEngine.PostEvent("indic", gameObject);
             // GameObject explosion = Instantiate(spawnOnLeftClick);
             // explosion.transform.position = gameObject.transform.position;
         }

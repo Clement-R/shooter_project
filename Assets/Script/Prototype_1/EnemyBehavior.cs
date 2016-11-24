@@ -21,6 +21,7 @@ public class EnemyBehavior : MonoBehaviour {
         else
         {
             StopCoroutine("effect");
+            GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 

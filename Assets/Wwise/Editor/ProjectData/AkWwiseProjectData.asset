@@ -16,56 +16,86 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F0CB76AC-3149-4F62-BFB5-554C81412ADC}'
-    m_lastTimePsrt1: -123575745
-    m_lastTimePart2: -1999367392
+    m_lastTimePsrt1: 1976178604
+    m_lastTimePart2: -1999367020
     List:
-    - Name: Indic
-      Path: Default Work Unit\Indic
+    - Name: hit
+      Path: Default Work Unit\hit
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Indic
+      - ElementName: hit
+        ObjectType: 3
+      ID: 1116398592
+      Guid: d4859c0fcb20c44da1048503101986c7
+      maxAttenuation: 0
+    - Name: indic
+      Path: Default Work Unit\indic
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: indic
         ObjectType: 3
       ID: 971839176
-      Guid: ed45e16f5300814e963abd4d58d094d3
+      Guid: 9a37f8ce8925a047880b1c97b737e9c1
+      maxAttenuation: 0
+    - Name: miss
+      Path: Default Work Unit\miss
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: miss
+        ObjectType: 3
+      ID: -1232444055
+      Guid: c32afa89f2cd1b40b20fbe9ada27eb32
+      maxAttenuation: 0
+    - Name: shoot
+      Path: Default Work Unit\shoot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: shoot
+        ObjectType: 3
+      ID: -1256760242
+      Guid: 25d09f91340b6040aab3c41c51075b23
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}'
-    m_lastTimePsrt1: -72811933
-    m_lastTimePart2: -1999367398
+    m_lastTimePsrt1: 1976158440
+    m_lastTimePart2: -1999367020
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4C73F35E-CFA3-48C3-AC2C-14B56E91AA77}'
-    m_lastTimePsrt1: -73032915
-    m_lastTimePart2: -1999367398
+    m_lastTimePsrt1: 1976924124
+    m_lastTimePart2: -1999367020
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{56DA7FC2-9ED8-4AE5-9F3D-EBA4719E3B51}'
-    m_lastTimePsrt1: -73348558
-    m_lastTimePart2: -1999367398
+    m_lastTimePsrt1: 1976608849
+    m_lastTimePart2: -1999367020
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{35064881-6812-452C-BC96-FE88AC430106}'
-    m_lastTimePsrt1: 334615100
-    m_lastTimePart2: -1999367388
+    m_lastTimePsrt1: 1976223644
+    m_lastTimePart2: -1999367020
     List:
-    - Name: New_SoundBank
-      Path: Default Work Unit\New_SoundBank
+    - Name: player
+      Path: Default Work Unit\player
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: New_SoundBank
+      - ElementName: player
         ObjectType: 7
-      ID: -222937841
-      Guid: b0b78a7105cbdb4898c33b5acc8af3f7
+      ID: 1069431850
+      Guid: b928753f86846b4aae9cbe941edb102e
   ExpandedItems:
   - /Handi_shooter
   - /Handi_shooter/Events

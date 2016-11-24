@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>E:\New folder\Handi_shooter\Handi_shooter\</ProjectRoot>
-		<SourceFilesRoot>E:\New folder\Handi_shooter\Handi_shooter\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\_Dev\Gamedev\shooter_project\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ProjectRoot>F:\Documents\Handi_shooter_v2\</ProjectRoot>
+		<SourceFilesRoot>F:\Documents\Handi_shooter_v2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\_Dev\Gamedev\projet_shooter\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\New folder\Handi_shooter\Handi_shooter\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\Documents\Handi_shooter_v2\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
-			<ShortName>New_SoundBank</ShortName>
-			<Path>New_SoundBank.bnk</Path>
+		<SoundBank Id="1069431850" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\player</ObjectPath>
+			<ShortName>player</ShortName>
+			<Path>player.bnk</Path>
 			<IncludedEvents>
-				<Event Id="971839176" Name="Indic" ObjectPath="\Events\Default Work Unit\Indic"/>
+				<Event Id="1116398592" Name="hit" ObjectPath="\Events\Default Work Unit\hit"/>
+				<Event Id="971839176" Name="indic" ObjectPath="\Events\Default Work Unit\indic"/>
+				<Event Id="3062523241" Name="miss" ObjectPath="\Events\Default Work Unit\miss"/>
+				<Event Id="3038207054" Name="shoot" ObjectPath="\Events\Default Work Unit\shoot"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="73627726" Language="SFX">
@@ -40,11 +38,20 @@
 					<ShortName>hit_1.wav</ShortName>
 					<Path>SFX\hit_1_9E69E797.wem</Path>
 				</File>
+				<File Id="857759710" Language="SFX">
+					<ShortName>miss.wav</ShortName>
+					<Path>SFX\miss_9E69E797.wem</Path>
+				</File>
 				<File Id="908083750" Language="SFX">
 					<ShortName>indic.wav</ShortName>
 					<Path>SFX\indic_CDC63E89.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
