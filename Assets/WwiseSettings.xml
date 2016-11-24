@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WwiseSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <WwiseProjectPath>../../../../New folder/Handi_shooter/Handi_shooter/Handi_shooter.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../../../Documents/Handi_shooter_v2/Handi_shooter.wproj</WwiseProjectPath>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <CreateWwiseGlobal>true</CreateWwiseGlobal>
   <CreateWwiseListener>true</CreateWwiseListener>
