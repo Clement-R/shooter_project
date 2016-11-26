@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using master;
 
 public class towerGenerator : MonoBehaviour {
 
@@ -14,9 +15,7 @@ public class towerGenerator : MonoBehaviour {
     private bool respawning = false;
     private Vector3 respawnTransform;
 
-    // Use this for initialization
     void Start () {
-
         respawnTransform = new Vector3(gameObject.transform.position.x, yRespawn, 0);
         Sprite[] sprites = getTowerLevel();
         Sprite sprite;
@@ -32,17 +31,13 @@ public class towerGenerator : MonoBehaviour {
 
     }
 	
-	// Update is called once per frame
 	void Update () {
-
         transform.position += Vector3.up * scrollSpeed * -1;
-            
-	
 	}
 
     Sprite [] getTowerLevel()
     {
-        switch (GameObject.Find("GameManager").GetComponent<GameManager_GameRules>().levelLife)
+        switch (GameObject.Find("GameManager").GetComponent<master.GameManager_GameRules>().levelLife)
         {
             case 4:  return towerLevel5;
             case 3:  return towerLevel4;

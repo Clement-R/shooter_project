@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class EnemyMovement : MonoBehaviour {
-    public int speed;
+    public float speed;
 
     private Rigidbody2D rb2d;
 

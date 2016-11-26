@@ -1150,7 +1150,6 @@ GameObject:
   - 20: {fileID: 960707985}
   - 92: {fileID: 960707984}
   - 124: {fileID: 960707983}
-  - 114: {fileID: 960707982}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1158,18 +1157,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &960707982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 960707981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207e194adb8be9f49b554723ee00d854, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  listenerId: 0
 --- !u!124 &960707983
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1324,7 +1311,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeInit: 0
-  levelLife: 4
+  pointPerHit: 0
+  malus: 0
 --- !u!4 &1161972143 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010859742978, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
@@ -1513,7 +1501,7 @@ MonoBehaviour:
   streamingPoolSize: 1024
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
-  engineLogging: 1
+  engineLogging: 0
 --- !u!114 &1730884290
 MonoBehaviour:
   m_ObjectHideFlags: 0
