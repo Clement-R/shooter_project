@@ -64,7 +64,7 @@ public class GameManager_WaveSpawner : MonoBehaviour
 	
 	void Update ()
     {
-	    if(numberOfEnemiesInWave == numberOfEnemiesKilled)
+	    if(numberOfEnemiesInWave == numberOfEnemiesKilled && currentWave != (numberOfWaves - 1))
         {
             currentWave ++;
             // Send next wave

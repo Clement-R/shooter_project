@@ -210,23 +210,6 @@ MonoBehaviour:
   spawnOnLeftClick: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
   minRange: 2
   fireRate: 0.2
---- !u!1 &385278321 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000013383446342, guid: a607fddf48d78c4469578af7baa6218f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1301224835}
---- !u!114 &385278322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 385278321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207e194adb8be9f49b554723ee00d854, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  listenerId: 0
 --- !u!1001 &507241514
 Prefab:
   m_ObjectHideFlags: 0
@@ -265,11 +248,6 @@ Prefab:
     - target: {fileID: 4000013837408086, guid: dd142a1d0375ba44783a81db5d08dd89, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 81000011617753126, guid: dd142a1d0375ba44783a81db5d08dd89,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd142a1d0375ba44783a81db5d08dd89, type: 2}
@@ -316,66 +294,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f93fd9a513d4214a91d13c3895af3e5, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &987717813
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 987717816}
-  - 114: {fileID: 987717815}
-  - 114: {fileID: 987717814}
-  m_Layer: 0
-  m_Name: WwiseGlobal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &987717814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 987717813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 210f4ee645bc29e46ae22f5975faa0e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  basePath: Audio\GeneratedSoundBanks
-  language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
-  preparePoolSize: 0
-  memoryCutoffThreshold: 0.95
-  engineLogging: 0
---- !u!114 &987717815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 987717813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da0ff70acf3a00d4eb81ed0d4ff7463f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &987717816
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 987717813}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
 --- !u!1001 &1181829804
 Prefab:
   m_ObjectHideFlags: 0
@@ -460,6 +378,10 @@ Prefab:
     - target: {fileID: 4000012355883114, guid: a607fddf48d78c4469578af7baa6218f, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013383446342, guid: a607fddf48d78c4469578af7baa6218f, type: 2}
+      propertyPath: m_Name
+      value: Main Camera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a607fddf48d78c4469578af7baa6218f, type: 2}
