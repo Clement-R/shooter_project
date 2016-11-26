@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: c39cc60a909fa574e802497e04d65fbf
+timeCreated: 1480036561
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tours-Degradation_0
+    21300002: Tours-Degradation_1
+    21300004: Tours-Degradation_2
+    21300006: Tours-Degradation_3
+    21300008: Tours-Degradation_4
+    21300010: Tours-Degradation_5
+    21300012: Tours-Degradation_6
+    21300014: Tours-Degradation_7
+    21300016: Tours-Degradation_8
+    21300018: Tours-Degradation_9
+    21300020: Tours-Degradation_10
+    21300022: Tours-Degradation_11
+    21300024: Tours-Degradation_12
+    21300026: Tours-Degradation_13
+    21300028: Tours-Degradation_14
+    21300030: Tours-Degradation_15
+    21300032: Tours-Degradation_16
+    21300034: Tours-Degradation_17
+    21300036: Tours-Degradation_18
+    21300038: Tours-Degradation_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tours-Degradation_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2234
+        width: 228
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_1
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2230
+        width: 231
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_2
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 2231
+        width: 226
+        height: 718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_3
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 2228
+        width: 227
+        height: 753
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_4
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 2235
+        width: 225
+        height: 683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1500
+        width: 275
+        height: 621
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_6
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1497
+        width: 274
+        height: 626
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_7
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1498
+        width: 278
+        height: 651
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_8
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1496
+        width: 277
+        height: 662
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_9
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 1497
+        width: 284
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_10
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 787
+        width: 458
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_11
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 794
+        width: 467
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_12
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 791
+        width: 462
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_13
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 792
+        width: 463
+        height: 599
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 793
+        width: 453
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 45
+        width: 453
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_16
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 46
+        width: 454
+        height: 654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_17
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 47
+        width: 453
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_18
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 44
+        width: 459
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tours-Degradation_19
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 46
+        width: 456
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
