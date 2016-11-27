@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class scrolling : MonoBehaviour {
+public class scrolling_master : MonoBehaviour {
 
     public float scrollSpeed;
     public float sizeY;
@@ -20,7 +20,7 @@ public class scrolling : MonoBehaviour {
         {
             neighboor = Instantiate(gameObject);
             neighboor.transform.position = transform.position + (new Vector3(0, sizeY, 0));
-            neighboor.GetComponent<scrolling>().setIsAlone(false);
+            neighboor.GetComponent<scrolling_master>().setIsAlone(false);
             neighboor.name = gameObject.name;
             isAlone = false;
         }
@@ -35,7 +35,7 @@ public class scrolling : MonoBehaviour {
     {
         if (neighboor)
         {
-            neighboor.GetComponent<scrolling>().setIsAlone(true);
+            neighboor.GetComponent<scrolling_master>().setIsAlone(true);
         }
         Destroy(gameObject);
     }

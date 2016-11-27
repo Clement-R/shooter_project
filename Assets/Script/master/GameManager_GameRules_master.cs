@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace master {
-    public class GameManager_GameRules : MonoBehaviour {
+    public class GameManager_GameRules_master : MonoBehaviour {
         bool gameLost = false;
 
 
@@ -40,4 +39,3 @@ namespace master {
         }
 
     }
-}
