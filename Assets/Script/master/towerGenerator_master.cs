@@ -19,6 +19,7 @@ public class towerGenerator_master : MonoBehaviour {
     void Start () {        
         respawnTransform = new Vector3(gameObject.transform.position.x, yRespawn, 0);
         randomSprite();
+        randomSize();
     }
 	
 	void Update () {
@@ -27,8 +28,15 @@ public class towerGenerator_master : MonoBehaviour {
         if (transform.position.y < yDisappear)
         {
             randomSprite();
+            randomSize();
             transform.position = respawnTransform;
         }
+    }
+
+    void randomSize()
+    {
+        float randScale = Random.Range(scaleMin, scaleMax);
+        transform.localScale = new Vector3(randScale, randScale, 1);
     }
 
     void randomSprite()
