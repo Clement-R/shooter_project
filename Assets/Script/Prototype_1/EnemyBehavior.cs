@@ -5,12 +5,16 @@ public class EnemyBehavior : MonoBehaviour {
     public GameObject deathSound;
     public GameObject indicatorSound;
     public bool isTargeted = false;
+    public bool isFocused = false;
+
+    public float normalVolume = 0.2f;
+    public float focusedVolume = 0.4f;
 
     private GameManager_GameRules god;
     private bool effectLaunched = false;
 
     void Start () {
-        Destroy(this.gameObject, 12.0f);
+        Destroy(this.gameObject, 24.0f);
         god = GameObject.Find("GameManager").GetComponent<GameManager_GameRules>();
     }
 
@@ -31,6 +35,10 @@ public class EnemyBehavior : MonoBehaviour {
         }
     }
 
+    void LateUpdate() {
+        isFocused = false;
+    }
+
     public IEnumerator effect()
     {
         /*
@@ -47,6 +55,13 @@ public class EnemyBehavior : MonoBehaviour {
         // Play sound
         GameObject indicatorSoundEmitter = Instantiate(indicatorSound);
         indicatorSoundEmitter.transform.position = gameObject.transform.position;
+        AudioSource audio = indicatorSoundEmitter.GetComponent<AudioSource>();
+        if (isFocused) {
+            audio.volume = focusedVolume;
+        } else {
+            audio.volume = normalVolume;
+        }
+        audio.Play();
 
         yield return new WaitForSeconds(0.5f);
         StartCoroutine("effect");
