@@ -152,17 +152,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -209,16 +209,6 @@ Prefab:
     - target: {fileID: 1000011892740270, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
       propertyPath: m_Name
       value: Tower (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
@@ -269,17 +259,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -336,17 +326,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -393,16 +383,6 @@ Prefab:
     - target: {fileID: 1000011892740270, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
       propertyPath: m_Name
       value: Tower (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
@@ -458,17 +438,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -549,16 +529,6 @@ Prefab:
       propertyPath: m_Name
       value: Tower (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
   m_IsPrefabParent: 0
@@ -624,17 +594,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -691,17 +661,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -763,17 +733,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -821,16 +791,6 @@ Prefab:
       propertyPath: m_Name
       value: Tower (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
   m_IsPrefabParent: 0
@@ -876,16 +836,6 @@ Prefab:
     - target: {fileID: 1000011892740270, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
       propertyPath: m_Name
       value: Tower (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
@@ -980,16 +930,6 @@ Prefab:
       propertyPath: m_Name
       value: Tower (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
   m_IsPrefabParent: 0
@@ -1083,16 +1023,6 @@ Prefab:
     - target: {fileID: 1000011892740270, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
       propertyPath: m_Name
       value: Tower (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
@@ -1223,16 +1153,6 @@ Prefab:
     - target: {fileID: 1000011892740270, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
       propertyPath: m_Name
       value: Tower (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
@@ -1532,17 +1452,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -1595,16 +1515,6 @@ Prefab:
       propertyPath: m_Name
       value: Tower (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
   m_IsPrefabParent: 0
@@ -1655,17 +1565,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -1777,17 +1687,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -1834,16 +1744,6 @@ Prefab:
     - target: {fileID: 1000011892740270, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
       propertyPath: m_Name
       value: Tower (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
@@ -1900,17 +1800,17 @@ Prefab:
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.5441177
+      value: 0.6691177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
@@ -1957,16 +1857,6 @@ Prefab:
     - target: {fileID: 1000011892740270, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}
       propertyPath: m_Name
       value: Tower (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1989366547
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000014060894580, guid: c123a4c93eacc4b4391dc4d1b0cd2b59,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c123a4c93eacc4b4391dc4d1b0cd2b59, type: 2}

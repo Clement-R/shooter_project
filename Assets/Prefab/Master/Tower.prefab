@@ -81,7 +81,7 @@ MonoBehaviour:
   yRespawn: -6
   scaleMin: 0.15
   scaleMax: 0.45
-  scrollSpeed: 0.015
+  scrollSpeed: 0.01
 --- !u!212 &212000014060894580
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -112,6 +112,6 @@ SpriteRenderer:
   m_SortingLayerID: 1989366547
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300010, guid: c39cc60a909fa574e802497e04d65fbf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.90086204, b: 0.8308824, a: 1}
   m_FlipX: 0
   m_FlipY: 0
