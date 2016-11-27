@@ -3,7 +3,6 @@ using System.Collections;
 using XInputDotNetPure;
 
 public class ShuttleBehavior : MonoBehaviour {
-    public GameObject onHitSound;
     public bool isStuned = false;
     public float stunCooldown;
 

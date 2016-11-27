@@ -42,6 +42,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011456407604}
   - 212: {fileID: 212000010567335942}
+  - 50: {fileID: 50000012741076678}
+  - 61: {fileID: 61000014083578556}
+  - 114: {fileID: 114000011333415348}
   m_Layer: 0
   m_Name: scope
   m_TagString: Untagged
@@ -76,6 +79,23 @@ Transform:
   - {fileID: 4000011456407604}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &50000012741076678
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013021811158}
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!50 &50000014193940638
 Rigidbody2D:
   serializedVersion: 2
@@ -93,6 +113,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &61000014083578556
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013021811158}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!81 &81000011617753126
 AudioListener:
   m_ObjectHideFlags: 1
@@ -100,6 +134,17 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010846115478}
   m_Enabled: 1
+--- !u!114 &114000011333415348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013021811158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0843c39a04625e43a2420d191eadd4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000012094624250
 MonoBehaviour:
   m_ObjectHideFlags: 1
