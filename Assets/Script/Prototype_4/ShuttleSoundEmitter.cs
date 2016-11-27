@@ -47,8 +47,8 @@ namespace proto4 {
                 }
 
                 // Play sound effect
-                GameObject explosion = Instantiate(spawnOnLeftClick);
-                explosion.transform.position = gameObject.transform.position;
+                // GameObject explosion = Instantiate(spawnOnLeftClick);
+                // explosion.transform.position = gameObject.transform.position;
             }
         }
     }

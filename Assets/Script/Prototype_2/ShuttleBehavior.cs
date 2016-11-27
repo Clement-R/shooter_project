@@ -5,7 +5,7 @@ using XInputDotNetPure;
 public class ShuttleBehavior : MonoBehaviour {
     public GameObject onHitSound;
     public bool isStuned = false;
-    public float stundCooldown;
+    public float stunCooldown;
 
     void OnCollisionEnter2D(Collision2D coll) {
         if (coll.gameObject.tag == "trash") {
@@ -30,7 +30,7 @@ public class ShuttleBehavior : MonoBehaviour {
 
     public IEnumerator stunEffect()
     {
-        yield return new WaitForSeconds(stundCooldown);
+        yield return new WaitForSeconds(stunCooldown);
         isStuned = false;
         GetComponent<SpriteRenderer>().enabled = true;
     }

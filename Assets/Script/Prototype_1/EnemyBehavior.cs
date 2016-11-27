@@ -3,9 +3,11 @@ using System.Collections;
 
 public class EnemyBehavior : MonoBehaviour {
     public GameObject deathSound;
+    public GameObject indicatorSound;
     public bool isTargeted = false;
 
     private GameManager_GameRules god;
+    private bool effectLaunched = false;
 
     void Start () {
         Destroy(this.gameObject, 12.0f);
@@ -16,17 +18,22 @@ public class EnemyBehavior : MonoBehaviour {
     {
         if (this.isTargeted)
         {
-            StartCoroutine("effect");
+            if(!effectLaunched) {
+                effectLaunched = true;
+                StartCoroutine("effect");
+            }
         }
         else
         {
+            effectLaunched = false;
             StopCoroutine("effect");
-            GetComponent<SpriteRenderer>().enabled = true;
+            // GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 
     public IEnumerator effect()
     {
+        /*
         if(GetComponent<SpriteRenderer>().enabled == false)
         {
             GetComponent<SpriteRenderer>().enabled = true;
@@ -35,8 +42,14 @@ public class EnemyBehavior : MonoBehaviour {
         {
             GetComponent<SpriteRenderer>().enabled = false;
         }
+        */
         
-        yield return new WaitForSeconds(0.25f);
+        // Play sound
+        GameObject indicatorSoundEmitter = Instantiate(indicatorSound);
+        indicatorSoundEmitter.transform.position = gameObject.transform.position;
+
+        yield return new WaitForSeconds(0.5f);
+        StartCoroutine("effect");
     }
 
     public void Die()

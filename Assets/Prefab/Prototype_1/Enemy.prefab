@@ -87,6 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSound: {fileID: 1000013318471560, guid: 32d4df1bc86396f4782cb977643b5b3d, type: 2}
+  indicatorSound: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
   isTargeted: 0
 --- !u!114 &114000013413395250
 MonoBehaviour:
