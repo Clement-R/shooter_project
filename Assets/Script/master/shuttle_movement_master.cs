@@ -16,12 +16,18 @@ public class shuttle_movement_master : MonoBehaviour {
 
     void FixedUpdate()
     {
-
+        
         float h = Input.GetAxisRaw("Horizontal_1");
         float v = -Input.GetAxisRaw("Vertical_1");
 
         rb2d.velocity = new Vector2(h * hMaxSpeed, v * vMaxSpeed);
-        if(h != 0 || v != 0)
-            transform.localEulerAngles = new Vector3(0, 0, (Mathf.Atan2(-h, v)*180) / Mathf.PI);
+        if (h != 0 || v != 0)
+        {
+            transform.localEulerAngles = new Vector3(0, 0, (Mathf.Atan2(-h, v) * 180) / Mathf.PI);
+            GetComponent<Animator>().speed = 1;
+        } else
+        {
+            GetComponent<Animator>().speed = 0;
+        }
     }
 }
