@@ -54,6 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollSpeed: 0.005
   sizeY: 30.37
+  respawnY: -31
 --- !u!212 &212000011480030118
 SpriteRenderer:
   m_ObjectHideFlags: 1
