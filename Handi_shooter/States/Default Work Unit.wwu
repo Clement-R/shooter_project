@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C73F35E-CFA3-48C3-AC2C-14B56E91AA77}" SchemaVersion="75">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{4C73F35E-CFA3-48C3-AC2C-14B56E91AA77}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Targeting" ID="{74FB865E-164F-4909-9803-9A6710978AC8}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{51A2F02E-F164-4D1F-B1EC-0DD576CCEED8}"/>
+						<State Name="true" ID="{835E160D-734A-4C8C-B5D5-94DB19A50AF9}"/>
+						<State Name="false" ID="{DE9DEC24-2337-486F-8AB3-89C64AF22778}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="IsPlaying" ID="{236E4FAC-CE13-438C-A1BF-AA34FE0D81C8}">
+					<ChildrenList>
+						<State Name="None" ID="{48A52A10-1B80-46B3-92A5-900DB6FED417}"/>
+						<State Name="true" ID="{B71BF22C-0AD0-4CFE-9F76-15F253A2C576}"/>
+						<State Name="false" ID="{160A282E-3336-40CF-B5EB-0ECC9C1FF312}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

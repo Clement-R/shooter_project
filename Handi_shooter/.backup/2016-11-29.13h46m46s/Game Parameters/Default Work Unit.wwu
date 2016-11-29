@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8E9BF25-7B95-46DE-8CE8-68E2AB39E5E2}" SchemaVersion="70">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{E8E9BF25-7B95-46DE-8CE8-68E2AB39E5E2}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="dist_proj_ennemi" ID="{3A424389-2691-46E4-B872-BF225E168C6D}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

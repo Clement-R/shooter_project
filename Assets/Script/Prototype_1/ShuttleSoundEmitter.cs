@@ -10,6 +10,7 @@ public class ShuttleSoundEmitter : MonoBehaviour {
     private ShuttleBehavior behavior;
     private float closestDistance = 1000.0f;
     private float nextFire = 0.0F;
+    private bool soundIsPlaying = false;
 
     void Start()
     {
@@ -49,7 +50,6 @@ public class ShuttleSoundEmitter : MonoBehaviour {
             }
 
             // Play sound effect
-            AkSoundEngine.PostEvent("indic", gameObject);
             // GameObject explosion = Instantiate(spawnOnLeftClick);
             // explosion.transform.position = gameObject.transform.position;
         }

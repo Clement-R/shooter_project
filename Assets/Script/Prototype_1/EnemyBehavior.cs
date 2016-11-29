@@ -12,6 +12,9 @@ public class EnemyBehavior : MonoBehaviour {
 
     private GameManager_GameRules god;
     private bool effectLaunched = false;
+    private bool soundIsPlaying = false;
+    private uint eventIdIndic = 0;
+    private uint eventIdOn = 0;
 
     void Start () {
         Destroy(this.gameObject, 24.0f);
@@ -51,17 +54,19 @@ public class EnemyBehavior : MonoBehaviour {
             GetComponent<SpriteRenderer>().enabled = false;
         }
         */
-        
-        // Play sound
-        GameObject indicatorSoundEmitter = Instantiate(indicatorSound);
-        indicatorSoundEmitter.transform.position = gameObject.transform.position;
-        AudioSource audio = indicatorSoundEmitter.GetComponent<AudioSource>();
+
+        // Play sound when the scope is on the enemy
+        // GameObject indicatorSoundEmitter = Instantiate(indicatorSound);
+        // indicatorSoundEmitter.transform.position = gameObject.transform.position;
+        // AudioSource audio = indicatorSoundEmitter.GetComponent<AudioSource>();
         if (isFocused) {
-            audio.volume = focusedVolume;
-        } else {
-            audio.volume = normalVolume;
+            eventIdOn = AkSoundEngine.PostEvent("indic", gameObject);
         }
-        audio.Play();
+
+        if(!soundIsPlaying) {
+            soundIsPlaying = true;
+            eventIdIndic = AkSoundEngine.PostEvent("indic", gameObject);
+        }
 
         yield return new WaitForSeconds(0.5f);
         StartCoroutine("effect");
@@ -79,6 +84,9 @@ public class EnemyBehavior : MonoBehaviour {
         
         // Destroy game object
         Destroy(this.gameObject);
+
+        // Stop sound
+        AkSoundEngine.StopPlayingID(eventIdIndic);
     }
 
     void OnTriggerEnter2D(Collider2D coll) {

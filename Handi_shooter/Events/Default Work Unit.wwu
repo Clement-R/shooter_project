@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="shoot" ID="{919FD025-0B34-4060-AAB3-C41C51075B23}">
+					<ChildrenList>
+						<Action Name="Play" ID="{58C58FC1-BC23-4E29-A278-E73C802C1FCA}" ShortID="582645269" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F30351E1-DAED-434B-8597-A36C8D11889D}" Global="false">
+									<ObjectRef Name="proj_move" ID="{CFF65E41-FADB-4359-9F07-12001837BFA3}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{8A53B1D6-DFAE-4524-AEE1-0FEEDAB1C2C8}" ShortID="761757593" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{57666652-0F93-4F14-8478-1AB56C9EF1A6}" Global="false">
+									<ObjectRef Name="proj_indic" ID="{0792D9FC-DB2F-4F39-94C8-1D5B700069E9}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hit" ID="{0F9C85D4-20CB-4DC4-A104-8503101986C7}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{8E4ECFCC-B0E0-43D3-9FCB-915DA2B1B5C3}" ShortID="849723786" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8E7F9E81-E89E-4586-AEFF-E137DE60EA77}" Global="false">
+									<ObjectRef Name="proj_move" ID="{CFF65E41-FADB-4359-9F07-12001837BFA3}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{CD145899-AF8C-4D30-81D3-D9C04D71C0CA}" ShortID="764545503" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1F0574CC-3B39-4F7A-A17C-5B7A13E84574}" Global="false">
+									<ObjectRef Name="hit" ID="{E9C30680-39BD-4402-82A0-7073049F6D72}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{52E4453A-D00D-4F37-8725-C4A352620986}" ShortID="617420383" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{09E9E6C1-CAA5-4D0D-A311-330B64122C26}" Global="false">
+									<ObjectRef Name="proj_indic" ID="{0792D9FC-DB2F-4F39-94C8-1D5B700069E9}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="miss" ID="{89FA2AC3-CDF2-401B-B20F-BE9ADA27EB32}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{A0B4928B-3EDF-4A3C-B52F-811CA9CB6C3F}" ShortID="665650367" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9D3F23A6-99BE-4DCD-83D5-22312B67AD2A}" Global="false">
+									<ObjectRef Name="proj_move" ID="{CFF65E41-FADB-4359-9F07-12001837BFA3}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{2BD94B9F-657B-4933-9E71-1825807928D5}" ShortID="21539425" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{85A5978B-9FAC-4BFF-BBCE-E54760E57388}" Global="false">
+									<ObjectRef Name="miss" ID="{A2886D67-4D1C-484C-961E-0000306F916A}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{4FB4B2CC-436D-43D5-A9E7-C28841C52E0D}" ShortID="858643684" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{22ED61DF-48B1-46E2-AE3E-2A4E555B3FBE}" Global="false">
+									<ObjectRef Name="proj_indic" ID="{0792D9FC-DB2F-4F39-94C8-1D5B700069E9}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="indic" ID="{CEF8379A-2589-47A0-880B-1C97B737E9C1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{25312E08-9459-4802-9466-DFE629147692}" ShortID="523877335" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{28D6BBB2-4CBE-48F6-9D2E-075A193BA55B}" Global="false">
+									<ObjectRef Name="indic_chord" ID="{390AF4FA-809C-4163-AAAF-F3275FC6BA75}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{842B9DE4-ED5D-4B4E-9DB9-992B7D0A29B5}" ShortID="275338085" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4D327906-4CA1-47CF-8C99-B7AA707476A7}" Global="false">
+									<ObjectRef Name="indic" ID="{A045649A-9B4A-49F7-BB68-26259ED9F448}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{9EA19FBC-A127-433A-ACEA-758F96CC4E1A}" ShortID="10396733" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8DDEF96E-B9EF-4514-B77D-6E8393FCE397}" Global="false">
+									<ObjectRef Name="indic_chord" ID="{390AF4FA-809C-4163-AAAF-F3275FC6BA75}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{293C1113-ECC9-4801-9516-A3E566CF54E1}" ShortID="588553988" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{010079D5-43D8-4B2B-8F4B-051F904ECF97}" Global="false">
+									<ObjectRef Name="indic" ID="{A045649A-9B4A-49F7-BB68-26259ED9F448}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pause" ID="{DC3DF4AC-0F54-49C7-ADE5-C3ECF6850399}">
+					<ChildrenList>
+						<Action Name="Stop All Except" ID="{EDA8BBC8-44EC-46DE-9467-F0B7AF003946}" ShortID="157181103" Type="Stop" Scope="AllExcept" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="miss_up" ID="{4C52DF7F-20D3-48B6-9E8D-1EAB1AC84B37}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2B39ED71-C992-4424-A69F-25531F1FAA39}" ShortID="916125699" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{22247E0A-3F1A-43D3-88B0-3D072E7B235F}" Global="false">
+									<ObjectRef Name="proj_indic_up" ID="{F9B0E59E-C5FE-4FC5-9FCD-06C180B88FE5}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="miss_down" ID="{70E5479A-C957-47E2-BB6D-0AE354799625}">
+					<ChildrenList>
+						<Action Name="Play" ID="{33715976-1EB5-4157-8933-332C092CD8C8}" ShortID="453183881" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A32348C5-5AF0-4982-B2B0-8918C27C0877}" Global="false">
+									<ObjectRef Name="proj_indic_down" ID="{8B515232-148A-41BC-9F75-4943A8C4B658}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="chord" ID="{04768F9A-D450-48A0-B110-666FB44D710D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{83C91B7D-E16F-4E67-BBFA-C211478E9CD0}" ShortID="962061416" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0568B847-B50C-4801-BF78-C7F088F2687E}" Global="false">
+									<ObjectRef Name="indic_chord" ID="{390AF4FA-809C-4163-AAAF-F3275FC6BA75}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{E3D27BE8-4EB0-45A8-89DE-C37F346020F6}" ShortID="164035449" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CEFA5023-2EA5-4156-8640-ECA0B97888A4}" Global="false">
+									<ObjectRef Name="indic_chord" ID="{390AF4FA-809C-4163-AAAF-F3275FC6BA75}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{7CD01AE7-5C40-4AFE-B51F-3D9FFA1BBE78}" ShortID="921777363" Type="SetState" Scope="All" Global="true"/>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -16,9 +16,19 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F0CB76AC-3149-4F62-BFB5-554C81412ADC}'
-    m_lastTimePsrt1: 1976178604
-    m_lastTimePart2: -1999367020
+    m_lastTimePsrt1: -24315312
+    m_lastTimePart2: -1999366022
     List:
+    - Name: chord
+      Path: Default Work Unit\chord
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: chord
+        ObjectType: 3
+      ID: 32591245
+      Guid: 9a8f760450d4a048b110666fb44d710d
+      maxAttenuation: 0
     - Name: hit
       Path: Default Work Unit\hit
       PathAndIcons:
@@ -49,6 +59,36 @@ MonoBehaviour:
       ID: -1232444055
       Guid: c32afa89f2cd1b40b20fbe9ada27eb32
       maxAttenuation: 0
+    - Name: miss_down
+      Path: Default Work Unit\miss_down
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: miss_down
+        ObjectType: 3
+      ID: 1176010168
+      Guid: 9a47e57057c9e247bb6d0ae354799625
+      maxAttenuation: 0
+    - Name: miss_up
+      Path: Default Work Unit\miss_up
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: miss_up
+        ObjectType: 3
+      ID: 742465371
+      Guid: 7fdf524cd320b6489e8d1eab1ac84b37
+      maxAttenuation: 0
+    - Name: pause
+      Path: Default Work Unit\pause
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: pause
+        ObjectType: 3
+      ID: -1202379803
+      Guid: acf43ddc540fc749ade5c3ecf6850399
+      maxAttenuation: 0
     - Name: shoot
       Path: Default Work Unit\shoot
       PathAndIcons:
@@ -63,29 +103,79 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}'
-    m_lastTimePsrt1: 1976158440
-    m_lastTimePart2: -1999367020
+    m_lastTimePsrt1: -915155397
+    m_lastTimePart2: -1999366059
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{4C73F35E-CFA3-48C3-AC2C-14B56E91AA77}'
-    m_lastTimePsrt1: 1976924124
-    m_lastTimePart2: -1999367020
-    List: []
+    m_lastTimePsrt1: -24370362
+    m_lastTimePart2: -1999366022
+    List:
+    - Name: IsPlaying
+      Path: Default Work Unit\IsPlaying
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: IsPlaying
+        ObjectType: 9
+      ID: 728654205
+      Guid: ac4f6e2313ce8c43a1bfaa34fe0d81c8
+      values:
+      - false
+      - None
+      - true
+      ValueIcons:
+      - ElementName: false
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: true
+        ObjectType: 8
+      valueIDs: 2ab22992db3ba32c41b402b6
+      ValueGuids:
+      - bytes: 2e280a163633cf40b5eb0ecc9c1ff312
+      - bytes: 102aa548801bb34692a5900db6fed417
+      - bytes: 2cf21bb7d00afe4c9f7615f253a2c576
+    - Name: Targeting
+      Path: Default Work Unit\Targeting
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Targeting
+        ObjectType: 9
+      ID: -556706774
+      Guid: 5e86fb744f16094998039a6710978ac8
+      values:
+      - false
+      - None
+      - true
+      ValueIcons:
+      - ElementName: false
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: true
+        ObjectType: 8
+      valueIDs: 2ab22992db3ba32c41b402b6
+      ValueGuids:
+      - bytes: 24ec9dde37236f488ab389c64af22778
+      - bytes: 2ef0a25164f11f4db1ec0dd576cceed8
+      - bytes: 0d165e834a738c4cb5d594db19a50af9
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{56DA7FC2-9ED8-4AE5-9F3D-EBA4719E3B51}'
-    m_lastTimePsrt1: 1976608849
-    m_lastTimePart2: -1999367020
+    m_lastTimePsrt1: -917747646
+    m_lastTimePart2: -1999366059
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{35064881-6812-452C-BC96-FE88AC430106}'
-    m_lastTimePsrt1: 1976223644
-    m_lastTimePart2: -1999367020
+    m_lastTimePsrt1: -917352368
+    m_lastTimePart2: -1999366059
     List:
     - Name: player
       Path: Default Work Unit\player

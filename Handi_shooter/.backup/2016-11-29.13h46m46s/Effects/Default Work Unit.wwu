@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{782CA8A1-70E8-4A70-8E76-483032788FEA}" SchemaVersion="70">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{782CA8A1-70E8-4A70-8E76-483032788FEA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="LFO" ID="{9DCE8C8F-5D75-4151-8761-659F4EE29DB5}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="88.4"/>
+						<Property Name="ModFrequency" Type="Real32" Value="3.34">
+							<RTPCList>
+								<RTPC Name="" ID="{C2108A63-BD66-433E-85BF-C2DC8E09EEBE}" ShortID="564906795">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="dist_proj_ennemi" ID="{3A424389-2691-46E4-B872-BF225E168C6D}" WorkUnitID="{E8E9BF25-7B95-46DE-8CE8-68E2AB39E5E2}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B2EAF5F9-157C-4FA4-838E-D7E389E4619B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>35.69789</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.24688279301746</XPos>
+												<YPos>16.7352105719278</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>19.9459</XPos>
+												<YPos>8.58397</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>66.83291</XPos>
+												<YPos>1.37954</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0.02</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="LFO_bell" ID="{29FD8B16-53AD-4506-930D-5AADFDE20734}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="61.6"/>
+						<Property Name="ModFrequency" Type="Real32" Value="7.04"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModSmoothing" Type="Real32" Value="6"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

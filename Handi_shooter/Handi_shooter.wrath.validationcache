@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="861932968" DateHigh="30558817"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="2801297553" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="2800421808" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Attenuations\Default Work Unit.wwu" DateLow="2796112991" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Audio Devices\Default Work Unit.wwu" DateLow="2796188084" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Control Surface Sessions\Default Work Unit.wwu" DateLow="2795822594" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Conversion Settings\Default Work Unit.wwu" DateLow="2801437640" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2801522716" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2796037813" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Default Work Unit.wwu" DateLow="2797759334" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="2797414024" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory Auro Headphone.wwu" DateLow="2798585072" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory Convolution Reverb Effects.wwu" DateLow="2797644325" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory Effects.wwu" DateLow="2798325197" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Box Modeler.wwu" DateLow="2796293016" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Delay.wwu" DateLow="2796393239" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Dynamics.wwu" DateLow="2797949505" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Filters.wwu" DateLow="2798675166" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="2797859428" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="2798775247" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="2798414923" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory McDSP Effects.wwu" DateLow="2796868696" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Events\Default Work Unit.wwu" DateLow="1633832966" DateHigh="30558817"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Game Parameters\Default Work Unit.wwu" DateLow="2801372671" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2798489995" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Handi_shooter.wproj" DateLow="2795707507" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2797148850" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2801587771" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Mixing Sessions\Default Work Unit.wwu" DateLow="2795897657" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Modulators\Default Work Unit.wwu" DateLow="2795967887" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Presets\Default Work Unit.wwu" DateLow="2798855319" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Queries\Default Work Unit.wwu" DateLow="2796953606" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Queries\Factory Queries.wwu" DateLow="2797078718" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\SoundBanks\Default Work Unit.wwu" DateLow="2799390800" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2798930382" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\States\Default Work Unit.wwu" DateLow="2799060585" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Switches\Default Work Unit.wwu" DateLow="2798995522" DateHigh="30558782"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Triggers\Default Work Unit.wwu" DateLow="2797213908" DateHigh="30558782"/>
+</ValidationCache>
