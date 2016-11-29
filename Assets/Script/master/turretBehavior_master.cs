@@ -3,11 +3,16 @@ using System.Collections;
 
 public class turretBehavior_master : MonoBehaviour {
 
+    public Sprite middleSprite;
+    public Sprite leftSprite;
+    public Sprite rightSprite;
+
     private Rigidbody2D rb2D;
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        GetComponent<SpriteRenderer>().sprite = middleSprite;
     }
 
     void FixedUpdate()
@@ -27,7 +32,18 @@ public class turretBehavior_master : MonoBehaviour {
         {
             angle = -90;
         }
+        
 
-        transform.FindChild("pivotScope").transform.localEulerAngles = new Vector3(0, 0, -angle);
+        if(Input.GetAxisRaw("Horizontal_2") < 0)
+        {
+            GetComponent<SpriteRenderer>().sprite = leftSprite;
+        } else if (Input.GetAxisRaw("Horizontal_2") > 0)
+        {
+            GetComponent<SpriteRenderer>().sprite = rightSprite;
+        } else
+        {
+            GetComponent<SpriteRenderer>().sprite = middleSprite;
+        }
+        
     }
 }
