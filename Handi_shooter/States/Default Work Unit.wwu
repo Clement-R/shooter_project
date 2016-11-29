@@ -13,13 +13,6 @@
 						<State Name="false" ID="{DE9DEC24-2337-486F-8AB3-89C64AF22778}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="IsPlaying" ID="{236E4FAC-CE13-438C-A1BF-AA34FE0D81C8}">
-					<ChildrenList>
-						<State Name="None" ID="{48A52A10-1B80-46B3-92A5-900DB6FED417}"/>
-						<State Name="true" ID="{B71BF22C-0AD0-4CFE-9F76-15F253A2C576}"/>
-						<State Name="false" ID="{160A282E-3336-40CF-B5EB-0ECC9C1FF312}"/>
-					</ChildrenList>
-				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

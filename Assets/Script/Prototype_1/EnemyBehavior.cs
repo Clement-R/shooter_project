@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyBehavior : MonoBehaviour {
     public GameObject deathSound;
     public GameObject indicatorSound;
+
     public bool isTargeted = false;
     public bool isFocused = false;
 
@@ -34,7 +35,12 @@ public class EnemyBehavior : MonoBehaviour {
         {
             effectLaunched = false;
             StopCoroutine("effect");
-            // GetComponent<SpriteRenderer>().enabled = true;
+        }
+
+        // Play chord when the scope is over the enemy
+        if (isTargeted && isFocused && eventIdOn == 0) {
+            Debug.Log("PlaySound");
+            eventIdOn = AkSoundEngine.PostEvent("chord", gameObject, (uint)AkCallbackType.AK_EndOfEvent, MyCallbackFunction, null);
         }
     }
 
@@ -44,32 +50,25 @@ public class EnemyBehavior : MonoBehaviour {
 
     public IEnumerator effect()
     {
-        /*
-        if(GetComponent<SpriteRenderer>().enabled == false)
-        {
-            GetComponent<SpriteRenderer>().enabled = true;
-        }
-        else
-        {
-            GetComponent<SpriteRenderer>().enabled = false;
-        }
-        */
-
         // Play sound when the scope is on the enemy
         // GameObject indicatorSoundEmitter = Instantiate(indicatorSound);
         // indicatorSoundEmitter.transform.position = gameObject.transform.position;
         // AudioSource audio = indicatorSoundEmitter.GetComponent<AudioSource>();
-        if (isFocused) {
-            eventIdOn = AkSoundEngine.PostEvent("indic", gameObject);
-        }
 
-        if(!soundIsPlaying) {
-            soundIsPlaying = true;
+        if(eventIdIndic == 0) {
             eventIdIndic = AkSoundEngine.PostEvent("indic", gameObject);
         }
 
         yield return new WaitForSeconds(0.5f);
         StartCoroutine("effect");
+    }
+
+    void MyCallbackFunction(object in_cookie, AkCallbackType in_type, object in_info) {
+        Debug.Log("SoundEnd");
+        if (in_type == AkCallbackType.AK_EndOfEvent) {
+            Debug.Log("SoundEnd");
+            eventIdOn = 0;
+        }
     }
 
     public void Die()
@@ -87,6 +86,7 @@ public class EnemyBehavior : MonoBehaviour {
 
         // Stop sound
         AkSoundEngine.StopPlayingID(eventIdIndic);
+        AkSoundEngine.StopPlayingID(eventIdOn);
     }
 
     void OnTriggerEnter2D(Collider2D coll) {

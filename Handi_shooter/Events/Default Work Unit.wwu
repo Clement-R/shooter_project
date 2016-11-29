@@ -165,7 +165,6 @@
 								</Element>
 							</ElementList>
 						</Action>
-						<Action Name="Set State" ID="{7CD01AE7-5C40-4AFE-B51F-3D9FFA1BBE78}" ShortID="921777363" Type="SetState" Scope="All" Global="true"/>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

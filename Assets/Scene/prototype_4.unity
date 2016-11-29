@@ -192,68 +192,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114000012861791064, guid: a1541e791f5020a45b5fb795672460cc,
-        type: 2}
-      propertyPath: stundCooldown
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012861791064, guid: a1541e791f5020a45b5fb795672460cc,
-        type: 2}
-      propertyPath: stunCooldown
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012861791064, guid: a1541e791f5020a45b5fb795672460cc,
-        type: 2}
-      propertyPath: onHitSound
-      value: 
-      objectReference: {fileID: 1000010548099654, guid: cdb5666b8f5886b4e82337557aa90bc7,
-        type: 2}
-    m_RemovedComponents:
-    - {fileID: 114000011991871874, guid: a1541e791f5020a45b5fb795672460cc, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1541e791f5020a45b5fb795672460cc, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &133145287 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000012277715578, guid: a1541e791f5020a45b5fb795672460cc,
-    type: 2}
-  m_PrefabInternal: {fileID: 106609039}
---- !u!114 &133145288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 133145287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ebc3870b6581a4e9918b65f0d2454a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnOnLeftClick: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
-  minRange: 2
-  fireRate: 0.2
---- !u!114 &133145289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 133145287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e1f70790811aaa46a78b8c618ecbaed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  durationInSeconds: 0.5
---- !u!114 &133145290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 133145287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7406e952b38ccc644b4bef8d6f716f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &224890514
 GameObject:
   m_ObjectHideFlags: 0

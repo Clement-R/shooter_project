@@ -9,6 +9,7 @@
 						<ObjectRef Name="shoot" ID="{919FD025-0B34-4060-AAB3-C41C51075B23}" WorkUnitID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="indic" ID="{CEF8379A-2589-47A0-880B-1C97B737E9C1}" WorkUnitID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="miss_down" ID="{70E5479A-C957-47E2-BB6D-0AE354799625}" WorkUnitID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="chord" ID="{04768F9A-D450-48A0-B110-666FB44D710D}" WorkUnitID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="miss_up" ID="{4C52DF7F-20D3-48B6-9E8D-1EAB1AC84B37}" WorkUnitID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="pause" ID="{DC3DF4AC-0F54-49C7-ADE5-C3ECF6850399}" WorkUnitID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="hit" ID="{0F9C85D4-20CB-4DC4-A104-8503101986C7}" WorkUnitID="{F0CB76AC-3149-4F62-BFB5-554C81412ADC}" Filter="7" Origin="Manual"/>

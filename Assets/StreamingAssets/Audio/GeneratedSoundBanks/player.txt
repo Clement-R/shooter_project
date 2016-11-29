@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	32591245	chord			\Default Work Unit\chord	
 	742465371	miss_up			\Default Work Unit\miss_up	
 	971839176	indic			\Default Work Unit\indic	
 	1116398592	hit			\Default Work Unit\hit	
@@ -14,6 +15,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	696369874	LFO	Wwise Tremolo			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	58932175	chord_2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_2_24BBA429.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_2		19264
 	73627726	proj_move	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\proj_move_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\proj_move		1632064
 	120704400	proj_indic	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\proj_indic_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\proj_indic		2592064
 	124523946	clochette_6	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_6_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_6		19264
@@ -21,19 +23,28 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	179911967	proj_indic_down	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\proj_indic_70EDCAC5.wem		\Actor-Mixer Hierarchy\Default Work Unit\proj_indic_down		336076
 	251319979	clochette_4	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_4_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_4		19264
 	260920937	hit_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\hit_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit\hit_3		55144
+	303711300	chord_1	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_1_E2EAFCAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_1		19264
 	342155983	clochette_2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_2_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_2		19264
 	415368753	hit_2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\hit_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit\hit_2		47572
 	540786218	clochette_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_3_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_3		19264
+	646363793	chord_5	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_5_19268CB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_5		19264
 	659652459	clochette_5	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_5_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_5		19264
+	660461652	chord_4	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_4_1E27FF91.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_4		19264
 	705410793	proj_indic_up	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\proj_indic_353915F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\proj_indic_up		301256
+	758885357	chord_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_3_7D8FFA1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_3		19264
 	843767764	hit_1	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\hit_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit\hit_1		45504
 	857759710	miss	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\miss_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\miss		274424
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	58932175	chord_2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_2_24BBA429.wem	58932175.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_2	
 	124523946	clochette_6	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_6_4B8CC0C5.wem	124523946.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_6	
 	125352965	clochette	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_4B8CC0C5.wem	125352965.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette	
 	251319979	clochette_4	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_4_4B8CC0C5.wem	251319979.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_4	
+	303711300	chord_1	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_1_E2EAFCAD.wem	303711300.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_1	
 	342155983	clochette_2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_2_4B8CC0C5.wem	342155983.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_2	
 	540786218	clochette_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_3_4B8CC0C5.wem	540786218.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_3	
+	646363793	chord_5	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_5_19268CB4.wem	646363793.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_5	
 	659652459	clochette_5	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_5_4B8CC0C5.wem	659652459.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_5	
+	660461652	chord_4	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_4_1E27FF91.wem	660461652.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_4	
+	758885357	chord_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_3_7D8FFA1F.wem	758885357.wem	\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_3	
 

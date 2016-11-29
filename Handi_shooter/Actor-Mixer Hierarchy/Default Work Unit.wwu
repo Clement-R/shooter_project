@@ -455,10 +455,9 @@
 				</Sound>
 				<RandomSequenceContainer Name="indic_chord" ID="{390AF4FA-809C-4163-AAAF-F3275FC6BA75}" ShortID="1066101357">
 					<PropertyList>
-						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -469,221 +468,19 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="indic_aux" ID="{51F5C621-45E7-4A29-9493-1D837C952F71}" ShortID="860831759">
+						<Sound Name="chord_1" ID="{B27ADE0C-7152-4EEC-BC31-E3185490AACE}" ShortID="322000211" Type="SoundFX">
 							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{3A58FFFF-F0DC-48B4-9195-AFF16CD22903}">
-												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="7"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{8CFA2C37-91AD-4CD8-980C-D64C1D272C01}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="chord_1" ID="{B27ADE0C-7152-4EEC-BC31-E3185490AACE}" ShortID="322000211" Type="SoundFX">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsZeroLantency" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="chord_1" ID="{955E2AF3-5262-4AD0-B29D-1361D73BD705}" ShortID="303711300">
-											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="1.50198917904655"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>chord_1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="chord_1" ID="{955E2AF3-5262-4AD0-B29D-1361D73BD705}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="chord_2" ID="{95D8AA60-898C-456B-AB97-2A8DB10B6C5E}" ShortID="645199470" Type="SoundFX">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsZeroLantency" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="chord_2" ID="{2B30EA25-520A-4A11-9486-A85CEB251A7E}" ShortID="58932175">
-											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="1.50177317890804"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>chord_2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="chord_2" ID="{2B30EA25-520A-4A11-9486-A85CEB251A7E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="chord_3" ID="{3FF72A24-ED79-4C6B-ADFB-76ABF82B70ED}" ShortID="1062478145" Type="SoundFX">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsZeroLantency" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="chord_3" ID="{26A0423F-6180-4AE0-A00C-D6B2D48ACD36}" ShortID="758885357">
-											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="1.50201157678818"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>chord_3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="chord_3" ID="{26A0423F-6180-4AE0-A00C-D6B2D48ACD36}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="chord_4" ID="{A24C34A5-3757-41E4-99A0-13AC7F273A70}" ShortID="55027212" Type="SoundFX">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsZeroLantency" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="chord_4" ID="{A9C38EB4-5987-4B53-BB84-E2BA11AD465F}" ShortID="660461652">
-											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="1.50205084954064"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>chord_4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="chord_4" ID="{A9C38EB4-5987-4B53-BB84-E2BA11AD465F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="chord_5" ID="{3E613820-CF5A-48D6-BB9A-512FD00D0096}" ShortID="602177320" Type="SoundFX">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsZeroLantency" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="chord_5" ID="{30062FE7-5322-4110-B099-C522E2964ED6}" ShortID="646363793">
-											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="1.50199194041195"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>chord_5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="chord_5" ID="{30062FE7-5322-4110-B099-C522E2964ED6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="silence" ID="{80868C85-8548-4889-AB1B-394E7A20A83D}" ShortID="252529150">
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
+								<Property Name="IsStreamingEnabled" Type="bool">
 									<ValueList>
-										<Value>0.4</Value>
+										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -694,97 +491,159 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="silence_1_502" ID="{21122C37-F313-460F-B315-0773EDFF8157}" ShortID="558344546" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Wwise Silence" ID="{4E2AB099-4026-4952-81D2-2D2C50A7B80F}" ShortID="151000050" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="1.502"/>
-											</PropertyList>
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{4E2AB099-4026-4952-81D2-2D2C50A7B80F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="silence_3_004" ID="{285B6A99-6348-49E0-85C4-21670BD83D59}" ShortID="51305646" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Wwise Silence" ID="{28666800-FD00-4104-B04D-2C13628D3246}" ShortID="842290198" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="3.004"/>
-											</PropertyList>
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{28666800-FD00-4104-B04D-2C13628D3246}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="silence_4_506" ID="{FE42BCD6-347A-4BCF-A928-44920C5BA10D}" ShortID="166348434" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Wwise Silence" ID="{347A8F1A-163A-4176-85D3-58663C043215}" ShortID="359426434" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="4.506"/>
-											</PropertyList>
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{347A8F1A-163A-4176-85D3-58663C043215}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="silence_6_008" ID="{937A07A3-9785-4EC7-8EC1-F6FED53FEDBA}" ShortID="434516342" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Wwise Silence" ID="{A397CB7B-9157-4C82-A676-803AC9BD412C}" ShortID="485821059" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="6.008"/>
-											</PropertyList>
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{A397CB7B-9157-4C82-A676-803AC9BD412C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								<AudioFileSource Name="chord_1" ID="{955E2AF3-5262-4AD0-B29D-1361D73BD705}" ShortID="303711300">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.50198917904655"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>chord_1.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
-						</RandomSequenceContainer>
+							<ActiveSourceList>
+								<ActiveSource Name="chord_1" ID="{955E2AF3-5262-4AD0-B29D-1361D73BD705}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="chord_3" ID="{3FF72A24-ED79-4C6B-ADFB-76ABF82B70ED}" ShortID="1062478145" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="chord_3" ID="{26A0423F-6180-4AE0-A00C-D6B2D48ACD36}" ShortID="758885357">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.50201157678818"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>chord_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="chord_3" ID="{26A0423F-6180-4AE0-A00C-D6B2D48ACD36}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="chord_2" ID="{95D8AA60-898C-456B-AB97-2A8DB10B6C5E}" ShortID="645199470" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="chord_2" ID="{2B30EA25-520A-4A11-9486-A85CEB251A7E}" ShortID="58932175">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.50177317890804"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>chord_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="chord_2" ID="{2B30EA25-520A-4A11-9486-A85CEB251A7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="chord_4" ID="{A24C34A5-3757-41E4-99A0-13AC7F273A70}" ShortID="55027212" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="chord_4" ID="{A9C38EB4-5987-4B53-BB84-E2BA11AD465F}" ShortID="660461652">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.50205084954064"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>chord_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="chord_4" ID="{A9C38EB4-5987-4B53-BB84-E2BA11AD465F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="chord_5" ID="{3E613820-CF5A-48D6-BB9A-512FD00D0096}" ShortID="602177320" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="chord_5" ID="{30062FE7-5322-4110-B099-C522E2964ED6}" ShortID="646363793">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.50199194041195"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>chord_5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="chord_5" ID="{30062FE7-5322-4110-B099-C522E2964ED6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<Playlist>
-						<ItemRef Name="silence" ID="{80868C85-8548-4889-AB1B-394E7A20A83D}"/>
-						<ItemRef Name="indic_aux" ID="{51F5C621-45E7-4A29-9493-1D837C952F71}"/>
-					</Playlist>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="indic" ID="{A045649A-9B4A-49F7-BB68-26259ED9F448}" ShortID="332626466">
 					<PropertyList>

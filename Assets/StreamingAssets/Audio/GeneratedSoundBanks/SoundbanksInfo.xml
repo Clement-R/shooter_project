@@ -9,6 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
+		<File Id="58932175" Language="SFX">
+			<ShortName>chord_2.wav</ShortName>
+			<Path>SFX\chord_2_24BBA429.wem</Path>
+		</File>
 		<File Id="124523946" Language="SFX">
 			<ShortName>clochette_6.wav</ShortName>
 			<Path>SFX\clochette_6_4B8CC0C5.wem</Path>
@@ -21,6 +25,10 @@
 			<ShortName>clochette_4.wav</ShortName>
 			<Path>SFX\clochette_4_4B8CC0C5.wem</Path>
 		</File>
+		<File Id="303711300" Language="SFX">
+			<ShortName>chord_1.wav</ShortName>
+			<Path>SFX\chord_1_E2EAFCAD.wem</Path>
+		</File>
 		<File Id="342155983" Language="SFX">
 			<ShortName>clochette_2.wav</ShortName>
 			<Path>SFX\clochette_2_4B8CC0C5.wem</Path>
@@ -29,9 +37,21 @@
 			<ShortName>clochette_3.wav</ShortName>
 			<Path>SFX\clochette_3_4B8CC0C5.wem</Path>
 		</File>
+		<File Id="646363793" Language="SFX">
+			<ShortName>chord_5.wav</ShortName>
+			<Path>SFX\chord_5_19268CB4.wem</Path>
+		</File>
 		<File Id="659652459" Language="SFX">
 			<ShortName>clochette_5.wav</ShortName>
 			<Path>SFX\clochette_5_4B8CC0C5.wem</Path>
+		</File>
+		<File Id="660461652" Language="SFX">
+			<ShortName>chord_4.wav</ShortName>
+			<Path>SFX\chord_4_1E27FF91.wem</Path>
+		</File>
+		<File Id="758885357" Language="SFX">
+			<ShortName>chord_3.wav</ShortName>
+			<Path>SFX\chord_3_7D8FFA1F.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -41,6 +61,7 @@
 			<ShortName>player</ShortName>
 			<Path>player.bnk</Path>
 			<IncludedEvents>
+				<Event Id="32591245" Name="chord" ObjectPath="\Events\Default Work Unit\chord"/>
 				<Event Id="1116398592" Name="hit" ObjectPath="\Events\Default Work Unit\hit"/>
 				<Event Id="971839176" Name="indic" ObjectPath="\Events\Default Work Unit\indic"/>
 				<Event Id="3062523241" Name="miss" ObjectPath="\Events\Default Work Unit\miss"/>
@@ -50,14 +71,24 @@
 				<Event Id="3038207054" Name="shoot" ObjectPath="\Events\Default Work Unit\shoot"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
+				<File Id="58932175"/>
 				<File Id="124523946"/>
 				<File Id="125352965"/>
 				<File Id="251319979"/>
+				<File Id="303711300"/>
 				<File Id="342155983"/>
 				<File Id="540786218"/>
+				<File Id="646363793"/>
 				<File Id="659652459"/>
+				<File Id="660461652"/>
+				<File Id="758885357"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="58932175" Language="SFX">
+					<ShortName>chord_2.wav</ShortName>
+					<Path>SFX\chord_2_24BBA429.wem</Path>
+					<PrefetchSize>19264</PrefetchSize>
+				</File>
 				<File Id="73627726" Language="SFX">
 					<ShortName>proj_move.wav</ShortName>
 					<Path>SFX\proj_move_4B8CC0C5.wem</Path>
@@ -89,6 +120,11 @@
 					<ShortName>hit_3.wav</ShortName>
 					<Path>SFX\hit_3_9E69E797.wem</Path>
 				</File>
+				<File Id="303711300" Language="SFX">
+					<ShortName>chord_1.wav</ShortName>
+					<Path>SFX\chord_1_E2EAFCAD.wem</Path>
+					<PrefetchSize>19264</PrefetchSize>
+				</File>
 				<File Id="342155983" Language="SFX">
 					<ShortName>clochette_2.wav</ShortName>
 					<Path>SFX\clochette_2_4B8CC0C5.wem</Path>
@@ -103,14 +139,29 @@
 					<Path>SFX\clochette_3_4B8CC0C5.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="646363793" Language="SFX">
+					<ShortName>chord_5.wav</ShortName>
+					<Path>SFX\chord_5_19268CB4.wem</Path>
+					<PrefetchSize>19264</PrefetchSize>
+				</File>
 				<File Id="659652459" Language="SFX">
 					<ShortName>clochette_5.wav</ShortName>
 					<Path>SFX\clochette_5_4B8CC0C5.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="660461652" Language="SFX">
+					<ShortName>chord_4.wav</ShortName>
+					<Path>SFX\chord_4_1E27FF91.wem</Path>
+					<PrefetchSize>19264</PrefetchSize>
+				</File>
 				<File Id="705410793" Language="SFX">
 					<ShortName>proj_indic.wav</ShortName>
 					<Path>SFX\proj_indic_353915F6.wem</Path>
+				</File>
+				<File Id="758885357" Language="SFX">
+					<ShortName>chord_3.wav</ShortName>
+					<Path>SFX\chord_3_7D8FFA1F.wem</Path>
+					<PrefetchSize>19264</PrefetchSize>
 				</File>
 				<File Id="843767764" Language="SFX">
 					<ShortName>hit_1.wav</ShortName>
