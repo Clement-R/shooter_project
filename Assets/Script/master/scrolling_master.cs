@@ -5,6 +5,7 @@ public class scrolling_master : MonoBehaviour {
 
     public float scrollSpeed;
     public float sizeY;
+    public float respawnY;
 
     private bool isAlone = true;
     private GameObject neighboor;
@@ -24,19 +25,19 @@ public class scrolling_master : MonoBehaviour {
             neighboor.name = gameObject.name;
             isAlone = false;
         }
+
+        if(transform.position.y < respawnY)
+        {
+            if (neighboor)
+            {
+                neighboor.GetComponent<scrolling_master>().setIsAlone(true);
+            }
+            Destroy(gameObject);
+        }
     }
 
     public void setIsAlone(bool l)
     {
         isAlone = l;
-    }
-
-    void OnBecameInvisible()
-    {
-        if (neighboor)
-        {
-            neighboor.GetComponent<scrolling_master>().setIsAlone(true);
-        }
-        Destroy(gameObject);
     }
 }
