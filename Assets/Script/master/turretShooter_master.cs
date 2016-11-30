@@ -2,11 +2,15 @@
 using System.Collections;
 
 public class turretShooter_master : MonoBehaviour {
-
-    public GameObject projectile;
+    // Public
     public float fireRate = 0.5F;
+
+    // Public but not visible
+    [HideInInspector]
+    public GameObject projectile;
+
+    // Private
     private float nextFire = 0.0F;
-    
 
     void Update()
     {
