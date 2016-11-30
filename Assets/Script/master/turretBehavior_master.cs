@@ -17,6 +17,7 @@ public class turretBehavior_master : MonoBehaviour {
 
     void FixedUpdate()
     {
+        
         var angle = Mathf.Atan2(Input.GetAxisRaw("Horizontal_2"), -Input.GetAxisRaw("Vertical_2")) * Mathf.Rad2Deg;
 
         // QUICKFIX - Angle = 180 if there is no input
@@ -33,6 +34,8 @@ public class turretBehavior_master : MonoBehaviour {
             angle = -90;
         }
         
+        //A supprimer, permet de faire les tests au clavier
+        transform.FindChild("pivotScope").transform.eulerAngles += Vector3.back * Input.GetAxisRaw("Horizontal");
 
         if(Input.GetAxisRaw("Horizontal_2") < 0)
         {
