@@ -60,9 +60,9 @@ public class towerGenerator_master : MonoBehaviour {
 
     Sprite [] getTowerLevel()
     {
-        if (GameObject.Find("GameManager"))
+        if (GameObject.Find("GameManager_master"))
         {
-            switch (GameObject.Find("GameManager").GetComponent<GameManager_GameRules_master>().levelLife)
+            switch (GameObject.Find("GameManager_master").GetComponent<GameManager_GameRules_master>().levelLife)
             {
                 case 4: return towerLevel5;
                 case 3: return towerLevel4;
