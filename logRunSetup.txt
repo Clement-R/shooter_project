@@ -1,10 +1,10 @@
 
-LICENSE SYSTEM [20161124 19:8:12] No start/stop license dates set
+LICENSE SYSTEM [20161129 13:41:0] No start/stop license dates set
 
-LICENSE SYSTEM [20161124 19:8:12] Next license update check is after 2016-10-12T14:48:52
+LICENSE SYSTEM [20161129 13:41:0] Next license update check is after 2016-10-12T14:48:52
 
 
-LICENSE SYSTEM [20161124 19:8:12] 00331-10000-00001-AA035 != 00331-10000-00001-AA330
+LICENSE SYSTEM [20161129 13:41:0] 00331-10000-00001-AA035 != 00331-10000-00001-AA330
 
 Built from '5.4/release' branch; Version is '5.4.2f2 (b7e030c65c9b) revision 12050480'; Using compiler version '160040219'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'fr' Physical Memory: 3957 MB
@@ -14,7 +14,7 @@ Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/Mono/lib/mono/2.0'
 Mono path[2] = 'C:/Program Files/Unity/Editor/Data/UnityScript'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/Mono/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56940
 
  BATCHMODE ARGUMENTS:
 
@@ -31,13 +31,13 @@ win64
 WwiseSetupWizard.RunModify
 Successfully changed project path to: F:\_Dev\Gamedev\projet_shooter
 F:/_Dev/Gamedev/projet_shooter
-Loading GUID <-> Path mappings...0.000227 seconds
-Loading Asset Database...0.013838 seconds
+Loading GUID <-> Path mappings...0.000657 seconds
+Loading Asset Database...0.176613 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.023674 seconds
+AssetDatabase consistency checks...0.165940 seconds
 Targeting platform: win64
 Initialize engine version: 5.4.2f2 (b7e030c65c9b)
-Refreshing native plugins compatible for Editor in 39.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 728.75 ms, found 2 plugins.
 Forcing GfxDevice: Null
 NullGfxDevice:
     Version:  NULL 1.0 [1.0]
@@ -86,7 +86,7 @@ Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEng
 Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.069374 seconds.
+Registered in 0.724574 seconds.
 Non platform assembly: F:\_Dev\Gamedev\projet_shooter\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
 Loading F:\_Dev\Gamedev\projet_shooter\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
 Non platform assembly: F:\_Dev\Gamedev\projet_shooter\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
@@ -126,7 +126,7 @@ Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\
 Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
 Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\nunit.core.interfaces.dll (this message is harmless)
-Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
@@ -136,281 +136,19 @@ Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.X
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\nunit.core.dll (this message is harmless)
 Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
+- Completed reload, in 14.638 seconds
 Registering platform support modules:
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Compiler.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Mono.Security.dll (this message is harmless)
-Registered platform support modules in: 0.1584782s.
+Registered platform support modules in: 1.1174659s.
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Native extension for Android target not found
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-
------Compiler Commandline Arguments:
-Filename: "C:\Program Files\Unity\Editor\Data\Mono\bin\mono.exe"
-Arguments: "C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\smcs.exe"  @Temp/UnityTempFile-1330a89d25b16ae42803d4f3cfcf377a
-MONO_PATH: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity
-MONO_CFG_DIR: C:\Program Files\Unity\Editor\Data\Mono\etc
-index: 68
-Responsefile: Temp/UnityTempFile-1330a89d25b16ae42803d4f3cfcf377a Contents: 
--debug
--target:library
--nowarn:0169
--out:Temp/Assembly-CSharp.dll
--r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:Assets/Plugins/XInputDotNetPure.dll
--r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
--define:UNITY_5_3_OR_NEWER
--define:UNITY_5_4_OR_NEWER
--define:UNITY_5_4_2
--define:UNITY_5_4
--define:UNITY_5
--define:UNITY_64
--define:ENABLE_NEW_BUGREPORTER
--define:ENABLE_AUDIO
--define:ENABLE_CACHING
--define:ENABLE_CLOTH
--define:ENABLE_DUCK_TYPING
--define:ENABLE_EDITOR_RETINA
--define:ENABLE_RETINA_GUISTYLES
--define:ENABLE_FRAME_DEBUGGER
--define:ENABLE_GENERICS
--define:ENABLE_HOME_SCREEN
--define:ENABLE_IMAGEEFFECTS
--define:ENABLE_LIGHT_PROBES_LEGACY
--define:ENABLE_MICROPHONE
--define:ENABLE_MULTIPLE_DISPLAYS
--define:ENABLE_PHYSICS
--define:ENABLE_PLUGIN_INSPECTOR
--define:ENABLE_SHADOWS
--define:ENABLE_SPRITERENDERER_FLIPPING
--define:ENABLE_SPRITES
--define:ENABLE_SPRITE_POLYGON
--define:ENABLE_TERRAIN
--define:ENABLE_RAKNET
--define:ENABLE_UNET
--define:ENABLE_UNITYEVENTS
--define:ENABLE_VR
--define:ENABLE_WEBCAM
--define:ENABLE_WWW
--define:ENABLE_CLOUD_SERVICES
--define:ENABLE_CLOUD_SERVICES_COLLAB
--define:ENABLE_CLOUD_SERVICES_ADS
--define:ENABLE_CLOUD_HUB
--define:ENABLE_CLOUD_PROJECT_ID
--define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
--define:ENABLE_CLOUD_SERVICES_PURCHASING
--define:ENABLE_CLOUD_SERVICES_ANALYTICS
--define:ENABLE_CLOUD_SERVICES_UNET
--define:ENABLE_CLOUD_SERVICES_BUILD
--define:ENABLE_CLOUD_LICENSE
--define:ENABLE_EDITOR_METRICS
--define:ENABLE_EDITOR_METRICS_CACHING
--define:INCLUDE_DYNAMIC_GI
--define:INCLUDE_GI
--define:INCLUDE_IL2CPP
--define:INCLUDE_DIRECTX12
--define:PLATFORM_SUPPORTS_MONO
--define:RENDER_SOFTWARE_CURSOR
--define:INCLUDE_PUBNUB
--define:ENABLE_LOCALIZATION
--define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
--define:ENABLE_EDITOR_TESTS_RUNNER
--define:UNITY_STANDALONE_WIN
--define:UNITY_STANDALONE
--define:ENABLE_SUBSTANCE
--define:ENABLE_TEXTUREID_MAP
--define:ENABLE_RUNTIME_GI
--define:ENABLE_MOVIES
--define:ENABLE_NETWORK
--define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
--define:ENABLE_UNITYWEBREQUEST
--define:ENABLE_EVENT_QUEUE
--define:ENABLE_CLUSTERINPUT
--define:ENABLE_WEBSOCKET_HOST
--define:ENABLE_MONO
--define:ENABLE_PROFILER
--define:DEBUG
--define:TRACE
--define:UNITY_ASSERTIONS
--define:UNITY_EDITOR
--define:UNITY_EDITOR_64
--define:UNITY_EDITOR_WIN
--define:UNITY_TEAM_LICENSE
--define:ENABLE_VSTU
-Assets/Script/Prototype_1/EnemyBehavior.cs
-Assets/Script/Prototype_1/EnemyMovement.cs
-Assets/Script/Prototype_1/GameManager_EnemySpawn.cs
-Assets/Script/Prototype_1/ProjectileBehavior.cs
-Assets/Script/Prototype_1/ShuttleMovement.cs
-Assets/Script/Prototype_1/ShuttleSoundEmitter.cs
-Assets/Script/Prototype_1/TurretBehavior.cs
-Assets/Script/Prototype_1/TurretShooter.cs
-Assets/Script/Prototype_2/GameManager_EnemySpawn_2.cs
-Assets/Script/Prototype_2/GameManager_GameRules.cs
-Assets/Script/Prototype_2/GameManager_TrashSpawn.cs
-Assets/Script/Prototype_2/GameManager_WaveSpawner.cs
-Assets/Script/Prototype_2/ShuttleBehavior.cs
-Assets/Script/Prototype_2/TrashBehavior.cs
-Assets/Script/explosionBehavior.cs
-Assets/Script/laserBehavior.cs
-Assets/Script/mouseFire.cs
-Assets/Script/playerMovement.cs
-Assets/Script/rumble/Rumble.cs
-Assets/Script/rumble/VibrationExample.cs
-Assets/Wwise/Deployment/API/Generated/Common/AKRESULT.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkActionOnEventType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkAudioFormat.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkAudioSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkAuxSendValue.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkBankContent.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkBusType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkCallbackSerializer.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkCallbackType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfig.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfigType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkChannelEmitter.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkChannelOrdering.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkConnectionType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkCurveInterpolation.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkDeviceSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkExternalSourceInfo.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkGlobalCallbackLocation.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkGroupType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkInitSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEvent.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventCallbackInfo.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkMIDIPost.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkMemSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkMeteringFlags.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkMusicPlaylistCallbackInfo.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkMusicSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkNodeType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkObjectInfo.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkOutputSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkPannerType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkPanningRule.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistArray.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkPositionSourceType.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkPositioningInfo.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkRamp.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkSegmentInfo.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkSourceSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkStreamMgrSettings.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkTransform.cs
-Assets/Wwise/Deployment/API/Generated/Common/AkVector.cs
-Assets/Wwise/Deployment/API/Generated/Common/DynamicSequenceType.cs
-Assets/Wwise/Deployment/API/Generated/Common/EnvelopePoint.cs
-Assets/Wwise/Deployment/API/Generated/Common/ErrorCode.cs
-Assets/Wwise/Deployment/API/Generated/Common/ErrorLevel.cs
-Assets/Wwise/Deployment/API/Generated/Common/Iterator.cs
-Assets/Wwise/Deployment/API/Generated/Common/MultiPositionType.cs
-Assets/Wwise/Deployment/API/Generated/Common/Playlist.cs
-Assets/Wwise/Deployment/API/Generated/Common/PlaylistItem.cs
-Assets/Wwise/Deployment/API/Generated/Common/PreparationType.cs
-Assets/Wwise/Deployment/API/Generated/Common/RTPCValue_type.cs
-Assets/Wwise/Deployment/API/Generated/Common/WwiseObjectID.cs
-Assets/Wwise/Deployment/API/Generated/Common/WwiseObjectIDext.cs
-Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolDefault.cs
-Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolLEngineDefault.cs
-Assets/Wwise/Deployment/API/Generated/Mac/AkAudioOutputType_Mac.cs
-Assets/Wwise/Deployment/API/Generated/Mac/AkMemPoolAttributes_Mac.cs
-Assets/Wwise/Deployment/API/Generated/Mac/AkPlatformInitSettings_Mac.cs
-Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEnginePINVOKE_Mac.cs
-Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEngine_Mac.cs
-Assets/Wwise/Deployment/API/Generated/Mac/AkThreadProperties_Mac.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkAudioAPI_Windows.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkAudioOutputType_Windows.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkMemPoolAttributes_Windows.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkPlatformInitSettings_Windows.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEnginePINVOKE_Windows.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEngine_Windows.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkSoundQuality_Windows.cs
-Assets/Wwise/Deployment/API/Generated/Windows/AkThreadProperties_Windows.cs
-Assets/Wwise/Deployment/API/Handwritten/AkAutoObject.cs
-Assets/Wwise/Deployment/API/Handwritten/AkAuxSendArray.cs
-Assets/Wwise/Deployment/API/Handwritten/AkCallbackManager.cs
-Assets/Wwise/Deployment/API/Handwritten/AkChannelEmitterArray.cs
-Assets/Wwise/Deployment/API/Handwritten/AkPositionArray.cs
-Assets/Wwise/Deployment/Components/AkAmbient.cs
-Assets/Wwise/Deployment/Components/AkAudioListener.cs
-Assets/Wwise/Deployment/Components/AkBank.cs
-Assets/Wwise/Deployment/Components/AkBankManager.cs
-Assets/Wwise/Deployment/Components/AkBasePathGetter.cs
-Assets/Wwise/Deployment/Components/AkDragDropHelper.cs
-Assets/Wwise/Deployment/Components/AkEnvironment.cs
-Assets/Wwise/Deployment/Components/AkEnvironmentPortal.cs
-Assets/Wwise/Deployment/Components/AkEvent.cs
-Assets/Wwise/Deployment/Components/AkEventCallbackData.cs
-Assets/Wwise/Deployment/Components/AkGameObj.cs
-Assets/Wwise/Deployment/Components/AkGameObjEnvironmentData.cs
-Assets/Wwise/Deployment/Components/AkGameObjPosOffsetData.cs
-Assets/Wwise/Deployment/Components/AkGameObjPositionData.cs
-Assets/Wwise/Deployment/Components/AkGameObjPositionOffsetData.cs
-Assets/Wwise/Deployment/Components/AkInitializer.cs
-Assets/Wwise/Deployment/Components/AkMemBankLoader.cs
-Assets/Wwise/Deployment/Components/AkState.cs
-Assets/Wwise/Deployment/Components/AkSwitch.cs
-Assets/Wwise/Deployment/Components/AkTerminator.cs
-Assets/Wwise/Deployment/Components/AkTriggerBase.cs
-Assets/Wwise/Deployment/Components/AkTriggerCollisionEnter.cs
-Assets/Wwise/Deployment/Components/AkTriggerCollisionExit.cs
-Assets/Wwise/Deployment/Components/AkTriggerDisable.cs
-Assets/Wwise/Deployment/Components/AkTriggerEnable.cs
-Assets/Wwise/Deployment/Components/AkTriggerEnter.cs
-Assets/Wwise/Deployment/Components/AkTriggerExit.cs
-Assets/Wwise/Deployment/Components/AkTriggerMouseDown.cs
-Assets/Wwise/Deployment/Components/AkTriggerMouseEnter.cs
-Assets/Wwise/Deployment/Components/AkTriggerMouseExit.cs
-Assets/Wwise/Deployment/Components/AkTriggerMouseUp.cs
-Assets/Wwise/Deployment/Components/AkUnityEventHandler.cs
-Assets/Wwise/Deployment/Components/AkUtilities.cs
-Assets/XInputDotNet/Examples/XInputTestCS.cs
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
-
------CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
-Compilation succeeded - 1 warning(s)
------CompilerOutput:-stderr----------
-Assets/Script/Prototype_2/GameManager_EnemySpawn_2.cs(7,37): warning CS0414: The private field `GameManager_EnemySpawn_2.spawner' is assigned but its value is never used
------EndCompilerOutput---------------
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
-WeaveUnetFromEditor Temp/Assembly-CSharp.dll
-Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.UNetWeaver.dll (this message is harmless)
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-WeaveAssemblies unityPath= C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll
-WeaveAssemblies unetPath= C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
-Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.Pdb.dll (this message is harmless)
-Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.Mdb.dll (this message is harmless)
-Symbols will be read from Temp/Assembly-CSharp.dll.mdb
-Script Module: Assembly-CSharp.dll
-Assets/Script/Prototype_2/GameManager_EnemySpawn_2.cs(7,37): warning CS0414: The private field `GameManager_EnemySpawn_2.spawner' is assigned but its value is never used
- 
-(Filename: Assets/Script/Prototype_2/GameManager_EnemySpawn_2.cs Line: 7)
-
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 19
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-WeaveUnetFromEditor Temp/Assembly-CSharp-Editor.dll
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-WeaveAssemblies unityPath= C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll
-WeaveAssemblies unetPath= C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 Reloading assemblies after successful script compilation.
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll (this message is harmless)
@@ -425,7 +163,7 @@ Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEng
 Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Core.dll (this message is harmless)
-Registered in 0.119914 seconds.
+Registered in 1.346713 seconds.
 Non platform assembly: F:\_Dev\Gamedev\projet_shooter\Library\ScriptAssemblies\Assembly-CSharp.dll (this message is harmless)
 Loading F:\_Dev\Gamedev\projet_shooter\Library\ScriptAssemblies\Assembly-CSharp.dll into Unity Child Domain
 Non platform assembly: F:\_Dev\Gamedev\projet_shooter\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll (this message is harmless)
@@ -465,7 +203,7 @@ Loading C:\Program Files\Unity\Editor\Data\PlaybackEngines\MacStandaloneSupport\
 Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll (this message is harmless)
 Loading C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll into Unity Child Domain
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\nunit.core.interfaces.dll (this message is harmless)
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll (this message is harmless)
@@ -477,7 +215,7 @@ Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\Unity.IvyParser.dl
 Platform assembly: C:\Program Files\Unity\Editor\Data\Managed\nunit.core.dll (this message is harmless)
 Non platform assembly: C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\2015\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll (this message is harmless)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
+- Completed reload, in 11.772 seconds
 Initializing Unity.PackageManager (PackageManager) v5.4.2 for Unity v5.4.2f2
 Setting Android v5.4.2 for Unity v5.4.2f2 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer
 Setting StandaloneLinux v5.4.2 for Unity v5.4.2f2 to C:\Program Files\Unity\Editor\Data\PlaybackEngines\LinuxStandaloneSupport
@@ -507,44 +245,29 @@ Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\Boo.Lang.Parser.dll (this message is harmless)
 Platform assembly: C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\UnityScript.Lang.dll (this message is harmless)
-Registered platform support modules in: 0.0866154s.
+Registered platform support modules in: 0.898969s.
 Native extension for OSXStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Native extension for Android target not found
-Validating Project structure ... 0.007830 seconds.
+Validating Project structure ... 0.147283 seconds.
 Refresh: detecting if any assets need to be imported or removed ... 
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
+Hashing assets ... 0.011 seconds
+  file open: 0.001 seconds (2 files)
   file read: 0.000 seconds (0.001 MB)
   hash: 0.000 seconds
 ----- Compute hash(es) for 1 asset(s).
 
-Refresh: elapses 0.076048 seconds
+Refresh: elapses 0.820123 seconds
 Updating Assets/WwiseSettings.xml - GUID: eb397d3851f7909409d4dc16a132c874...
- done. [Time: 92.709770 ms] 
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+ done. [Time: 831.820251 ms] 
+Refreshing native plugins compatible for Editor in 7.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.509707s, AssetImport time: 0.438529s, Asset hashing: 0.001210s [0.7 KB, 0.535323 mb/s]
+----- Total AssetImport time: 5.567225s, AssetImport time: 4.770070s, Asset hashing: 0.014984s [0.6 KB, 0.041814 mb/s]
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.008651 seconds (Nothing changed)
-Determining assets that need to be reimported for target platform ... DisplayProgressbar: Hold on
-2.041331 seconds.
-
-Hashing assets ... 1.304 seconds
-  file open: 0.143 seconds (122 files)
-  file read: 1.148 seconds (45.557 MB)
-  hash: 0.103 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 3.349673s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Warming cache for 487 main assets: 0.001687 seconds elapsed
+Warming cache for 513 main assets: 0.051596 seconds elapsed
 Initializing Unity extensions:
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll' 
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll' 
@@ -557,12 +280,12 @@ Initializing Unity extensions:
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' 
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll' 
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' 
-Unloading 433 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.6 MB.
-System memory in use after: 43.7 MB.
+Unloading 295 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.2 MB.
+System memory in use after: 41.3 MB.
 
-Unloading 397 unused Assets to reduce memory usage. Loaded Objects now: 2528.
-Total: 7.033240 ms (FindLiveObjects: 0.342187 ms CreateObjectMapping: 0.064160 ms MarkObjects: 6.495578 ms  DeleteObjects: 0.129603 ms)
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2536.
+Total: 48.244640 ms (FindLiveObjects: 0.784893 ms CreateObjectMapping: 0.159117 ms MarkObjects: 47.169743 ms  DeleteObjects: 0.128748 ms)
 
 WwiseUnity: Running modify setup...
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -576,1030 +299,920 @@ UnityEditor.EditorApplication:Internal_CallDelayFunctions() (at C:\buildslave\un
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 35.1 MB.
-System memory in use after: 35.2 MB.
+System memory in use after: 35.3 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2528.
-Total: 8.668470 ms (FindLiveObjects: 0.329783 ms CreateObjectMapping: 0.045767 ms MarkObjects: 8.275382 ms  DeleteObjects: 0.015826 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2536.
+Total: 589.511475 ms (FindLiveObjects: 1.413663 ms CreateObjectMapping: 0.198896 ms MarkObjects: 587.829590 ms  DeleteObjects: 0.067582 ms)
 
 
-Hashing assets ... 0.025 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.024 seconds (0.063 MB)
+Hashing assets ... 0.074 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.028 seconds (0.063 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTremolo.bundle - GUID: 3f721910a8fd32045adfaad0fb1861f9...
- done. [Time: 14.882599 ms] 
-Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+ done. [Time: 208.182388 ms] 
+Refreshing native plugins compatible for Editor in 6.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.133565s, AssetImport time: 0.072365s, Asset hashing: 0.025596s [64.2 KB, 2.450690 mb/s]
+----- Total AssetImport time: 1.842829s, AssetImport time: 1.295771s, Asset hashing: 0.076913s [64.2 KB, 0.815556 mb/s]
 
 
-Hashing assets ... 0.020 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.020 seconds (0.082 MB)
+Hashing assets ... 0.121 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.025 seconds (0.082 MB)
   hash: 0.000 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkFlanger.bundle - GUID: 462f77405a29ec6498803032d6ac9fd0...
- done. [Time: 15.079785 ms] 
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+ done. [Time: 199.924545 ms] 
+Refreshing native plugins compatible for Editor in 4.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.115165s, AssetImport time: 0.059093s, Asset hashing: 0.021273s [84.2 KB, 3.864568 mb/s]
+----- Total AssetImport time: 1.343666s, AssetImport time: 0.772940s, Asset hashing: 0.126781s [84.2 KB, 0.648462 mb/s]
 
 Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll - GUID: 852e56802eb941638acbb491814497b0...
- done. [Time: 86.324547 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
+ done. [Time: 526.546692 ms] 
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
 - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.257452s, AssetImport time: 0.219562s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 2.383888s, AssetImport time: 1.954396s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 
-Hashing assets ... 0.031 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.022 seconds (0.060 MB)
-  hash: 0.000 seconds
-Updating Assets/Plugins/x86/XInputInterface.dll - GUID: bbceb1b00a2e35849a7020d601589c40...
- done. [Time: 54.284657 ms] 
-Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.486599s, AssetImport time: 0.366464s, Asset hashing: 0.071944s [61.5 KB, 0.834270 mb/s]
-
-
-Hashing assets ... 0.057 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.225 MB)
-  hash: 0.001 seconds
+Hashing assets ... 0.055 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.026 seconds (0.225 MB)
+  hash: 0.002 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/SynthOne.dll - GUID: 96806251376612d4a8241618f0486e74...
- done. [Time: 51.137817 ms] 
-Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+ done. [Time: 480.961731 ms] 
+Refreshing native plugins compatible for Editor in 12.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.537594s, AssetImport time: 0.117887s, Asset hashing: 0.142895s [230.9 KB, 1.578027 mb/s]
-
-
-Hashing assets ... 0.015 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.014 seconds (0.279 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll - GUID: 5f9f8951c5922d040a8112092007f47a...
- done. [Time: 19.615055 ms] 
-Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.163341s, AssetImport time: 0.071334s, Asset hashing: 0.016194s [285.9 KB, 17.241526 mb/s]
-
-
-Hashing assets ... 0.208 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.206 seconds (3.658 MB)
-  hash: 0.008 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll - GUID: 9495a671c63fdfb4096bbf3a1b6f251b...
- done. [Time: 17.343784 ms] 
-Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.320306s, AssetImport time: 0.065472s, Asset hashing: 0.209164s [3.7 MB, 17.489191 mb/s]
-
-
-Hashing assets ... 0.053 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.052 seconds (1.343 MB)
-  hash: 0.003 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.dll - GUID: d05084c1b5d411c448aa5f84d82cd4ea...
- done. [Time: 17.971699 ms] 
-Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.168516s, AssetImport time: 0.073887s, Asset hashing: 0.054364s [1.3 MB, 24.708246 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.232 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkGuitarDistortion.dll - GUID: d798e5220bb1054418c24112aaae81c5...
- done. [Time: 18.902878 ms] 
-Refreshing native plugins compatible for Editor in 2.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.145817s, AssetImport time: 0.082809s, Asset hashing: 0.002374s [237.9 KB, 97.848663 mb/s]
-
-
-Hashing assets ... 0.015 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.014 seconds (0.004 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/AkWwiseSDKVersion.h - GUID: eb0b5a22c383eb345beee97a6ed0947f...
- done. [Time: 21.930813 ms] 
-Refreshing native plugins compatible for Editor in 2.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.162505s, AssetImport time: 0.092528s, Asset hashing: 0.016031s [4.2 KB, 0.256629 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.207 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTremolo.dll - GUID: a383ba22589254d4083a3b86f9c25eb4...
- done. [Time: 16.613213 ms] 
-Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.129496s, AssetImport time: 0.083609s, Asset hashing: 0.001610s [212.4 KB, 128.836029 mb/s]
-
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll - GUID: f5f67c52d1564df4a8936ccd202a3bd8...
- done. [Time: 200.862488 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.405116s, AssetImport time: 0.368862s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 1.829890s, AssetImport time: 1.438149s, Asset hashing: 0.061798s [230.9 KB, 3.648832 mb/s]
 
 
 Hashing assets ... 0.035 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.033 seconds (0.282 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll - GUID: 82dc5892d4e7b5648b8ce59fe4a80be0...
- done. [Time: 19.735678 ms] 
-Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+  file open: 0.001 seconds (2 files)
+  file read: 0.018 seconds (0.279 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll - GUID: 5f9f8951c5922d040a8112092007f47a...
+ done. [Time: 417.910645 ms] 
+Refreshing native plugins compatible for Editor in 5.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.201442s, AssetImport time: 0.123771s, Asset hashing: 0.035541s [288.9 KB, 7.938239 mb/s]
+----- Total AssetImport time: 1.243388s, AssetImport time: 0.862395s, Asset hashing: 0.038142s [285.9 KB, 7.320003 mb/s]
 
 
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.220 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTimeStretch.dll - GUID: 79e090d21c5affa43a3f1450cf1712ee...
- done. [Time: 17.853216 ms] 
-Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Hashing assets ... 0.061 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.056 seconds (3.658 MB)
+  hash: 0.021 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll - GUID: 9495a671c63fdfb4096bbf3a1b6f251b...
+ done. [Time: 89.300339 ms] 
+Refreshing native plugins compatible for Editor in 20.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.121507s, AssetImport time: 0.073730s, Asset hashing: 0.002468s [225.4 KB, 89.188789 mb/s]
+----- Total AssetImport time: 0.712630s, AssetImport time: 0.398876s, Asset hashing: 0.063315s [3.7 MB, 57.776318 mb/s]
 
 
-Hashing assets ... 0.037 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.036 seconds (0.107 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTimeStretch.bundle - GUID: b03caad215742b945a9916b8ab1cfa3f...
- done. [Time: 16.626902 ms] 
-Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Hashing assets ... 0.056 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.040 seconds (1.343 MB)
+  hash: 0.007 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.dll - GUID: d05084c1b5d411c448aa5f84d82cd4ea...
+ done. [Time: 109.123711 ms] 
+Refreshing native plugins compatible for Editor in 6.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.155683s, AssetImport time: 0.068892s, Asset hashing: 0.037929s [109.4 KB, 2.817654 mb/s]
+----- Total AssetImport time: 0.645258s, AssetImport time: 0.370456s, Asset hashing: 0.058095s [1.3 MB, 23.121710 mb/s]
 
 
 Hashing assets ... 0.021 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.020 seconds (0.073 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRecorder.bundle - GUID: b39b47f2a71ac8547ba1f01bd5553576...
- done. [Time: 17.236851 ms] 
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.134910s, AssetImport time: 0.072916s, Asset hashing: 0.021646s [74.6 KB, 3.366639 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.194 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkRecorder.dll - GUID: 5339a033a0505484ebf582c2cef28558...
- done. [Time: 19.721134 ms] 
-Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.126730s, AssetImport time: 0.074495s, Asset hashing: 0.001487s [198.4 KB, 130.315170 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.249 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: 0353f0f3b58639c4eac615b18549a56e...
- done. [Time: 20.836237 ms] 
-Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.136751s, AssetImport time: 0.075608s, Asset hashing: 0.001881s [254.9 KB, 132.356323 mb/s]
-
-
-Hashing assets ... 0.003 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.179 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libCrankcaseAudioREVModelPlayer.bundle - GUID: 725fc724fd884d848b5f54ae83b6bb33...
- done. [Time: 17.352768 ms] 
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.118436s, AssetImport time: 0.072870s, Asset hashing: 0.003690s [183.4 KB, 48.537849 mb/s]
-
-
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.215 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkFlanger.dll - GUID: 8c3c53442362f0a45afcef91ea2e7751...
- done. [Time: 19.990179 ms] 
-Refreshing native plugins compatible for Editor in 2.19 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.119416s, AssetImport time: 0.072901s, Asset hashing: 0.002471s [219.9 KB, 86.892044 mb/s]
-
-Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle - GUID: 17865444b51c913448b8b65b85f6d366...
- done. [Time: 39.087677 ms] 
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.140904s, AssetImport time: 0.095815s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-
-Hashing assets ... 0.026 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.023 seconds (0.346 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/McDSP.dll - GUID: 32e230740cd07544c986e6d6c1d50f65...
- done. [Time: 18.116701 ms] 
-Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.142546s, AssetImport time: 0.072364s, Asset hashing: 0.026227s [354.4 KB, 13.196006 mb/s]
-
-
-Hashing assets ... 0.037 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.036 seconds (0.081 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkGuitarDistortion.bundle - GUID: 4a5b1574237118448953feed97e120d6...
- done. [Time: 18.965326 ms] 
-Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.171126s, AssetImport time: 0.087414s, Asset hashing: 0.037896s [82.9 KB, 2.136506 mb/s]
-
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll - GUID: 5f32cd94baa94578a686d4b9d6b660f7...
- done. [Time: 52.391079 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.226615s, AssetImport time: 0.178967s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle - GUID: a11d28e4775e94d4492328d8eee35eb0...
- done. [Time: 17.761253 ms] 
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.121735s, AssetImport time: 0.075633s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-
-Hashing assets ... 0.015 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.014 seconds (0.066 MB)
-  hash: 0.000 seconds
-Updating Assets/Plugins/x86_64/XInputInterface.dll - GUID: ea895df4f09804d47ac0a43ce22418cb...
- done. [Time: 16.885681 ms] 
-Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.130281s, AssetImport time: 0.071975s, Asset hashing: 0.015907s [68.0 KB, 4.173083 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.010 MB)
-  hash: 0.000 seconds
-Updating Assets/Plugins/x86/XInputDotNetPure.dll - GUID: c4e96c35cd46f534592ecc07b608e110...
-Filename: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\bin\mono.exe"
-Arguments: "C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe"  --timestamp 636156113117375702  --api-version 5.4.2f2 --check-update-required -a F:/_Dev/Gamedev/projet_shooter/Assets/Plugins/x86/XInputDotNetPure.dll -s "C:\Program Files\Unity\Editor\Data\Managed,+C:/Program Files/Unity/Editor/Data\UnityExtensions/Unity,+F:/_Dev/Gamedev/projet_shooter/Assets" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor/UnityEditor.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/nunit.framework.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/UnityEditor.EditorTestsRunner.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor/UnityEditor.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\Editor/UnityEditor.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor/UnityEditor.TreeEditor.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll"
-MONO_PATH: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.0
-MONO_CFG_DIR: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\etc
-index: -1
-
- done. [Time: 679.168213 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.881207s, AssetImport time: 0.829509s, Asset hashing: 0.002379s [10.5 KB, 4.326478 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.235 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkStereoDelay.dll - GUID: 85ae125561040e249a4e163dab3a52fb...
- done. [Time: 18.222778 ms] 
-Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.121359s, AssetImport time: 0.076380s, Asset hashing: 0.002037s [240.4 KB, 115.235291 mb/s]
-
-
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.212 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkPitchShifter.dll - GUID: 0217b8a5749ba5846928d119156ff435...
- done. [Time: 20.734436 ms] 
-Refreshing native plugins compatible for Editor in 2.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.125597s, AssetImport time: 0.079075s, Asset hashing: 0.002670s [216.9 KB, 79.335609 mb/s]
-
-
-Hashing assets ... 0.020 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.019 seconds (0.289 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: 191983e556f6d804aa0a62eefa569797...
- done. [Time: 20.177099 ms] 
-Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.145179s, AssetImport time: 0.078583s, Asset hashing: 0.020674s [295.9 KB, 13.977282 mb/s]
-
-Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle - GUID: 09fe9d460b8c2584bbc882ce5f2c4de0...
- done. [Time: 21.973583 ms] 
-Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.121036s, AssetImport time: 0.076064s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-
-Hashing assets ... 0.002 seconds
   file open: 0.001 seconds (2 files)
-  file read: 0.000 seconds (0.233 MB)
+  file read: 0.016 seconds (0.232 MB)
   hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkHarmonizer.dll - GUID: 64e03986c1da53548bdb0bc51fb690bf...
- done. [Time: 19.376379 ms] 
-Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkGuitarDistortion.dll - GUID: d798e5220bb1054418c24112aaae81c5...
+ done. [Time: 78.810997 ms] 
+Refreshing native plugins compatible for Editor in 5.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.125328s, AssetImport time: 0.073496s, Asset hashing: 0.002744s [238.9 KB, 85.025902 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.054 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle - GUID: a7f29096e07e3f84689c73f0325eb75d...
- done. [Time: 20.800308 ms] 
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.136396s, AssetImport time: 0.074999s, Asset hashing: 0.001989s [55.7 KB, 27.345015 mb/s]
-
-
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.181 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedAir.bundle - GUID: 3de54d96a82abe84a9f4592ff84c796a...
- done. [Time: 17.904545 ms] 
-Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.115556s, AssetImport time: 0.071840s, Asset hashing: 0.002563s [185.2 KB, 70.578117 mb/s]
-
-
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.113 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libSynthOne.bundle - GUID: 40b084a69d7945b4cb115518334f0709...
- done. [Time: 17.541397 ms] 
-Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.127609s, AssetImport time: 0.073673s, Asset hashing: 0.002528s [115.5 KB, 44.610744 mb/s]
-
-
-Hashing assets ... 0.036 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.035 seconds (0.755 MB)
-  hash: 0.002 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/iZotope.dll - GUID: 65743fe68c8e2fc40932bec6a6a1609e...
- done. [Time: 18.204813 ms] 
-Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.153648s, AssetImport time: 0.072527s, Asset hashing: 0.036507s [0.8 MB, 20.688457 mb/s]
-
-
-Hashing assets ... 0.020 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.019 seconds (0.538 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/iZotope.dll - GUID: 1d81ca874465e4e408bf9463bfe56e7e...
- done. [Time: 18.269403 ms] 
-Refreshing native plugins compatible for Editor in 2.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.144752s, AssetImport time: 0.071613s, Asset hashing: 0.021224s [0.5 MB, 25.371550 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.244 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll - GUID: 6bc5f3d74972d99419327fadc54f05f8...
- done. [Time: 20.343914 ms] 
-Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.124929s, AssetImport time: 0.081803s, Asset hashing: 0.001515s [249.4 KB, 160.715195 mb/s]
-
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll - GUID: adebbd281f1a4ef3a30be7f21937e02f...
- done. [Time: 51.281532 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.262717s, AssetImport time: 0.201638s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-
-Hashing assets ... 0.022 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.021 seconds (0.288 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/IOSONOProximity.dll - GUID: a0932e687d460644fa7c869f3e88cdf5...
- done. [Time: 18.674038 ms] 
-Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.142765s, AssetImport time: 0.071409s, Asset hashing: 0.022668s [294.4 KB, 12.683334 mb/s]
+----- Total AssetImport time: 0.564744s, AssetImport time: 0.383598s, Asset hashing: 0.023796s [237.9 KB, 9.763228 mb/s]
 
 
 Hashing assets ... 0.019 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.018 seconds (0.255 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll - GUID: bcde7b78b39c830419d4f59f9d0498c4...
- done. [Time: 20.237837 ms] 
-Refreshing native plugins compatible for Editor in 2.50 ms, found 2 plugins.
+  file open: 0.001 seconds (2 files)
+  file read: 0.018 seconds (0.004 MB)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/AkWwiseSDKVersion.h - GUID: eb0b5a22c383eb345beee97a6ed0947f...
+ done. [Time: 69.211777 ms] 
+Refreshing native plugins compatible for Editor in 9.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.149943s, AssetImport time: 0.080165s, Asset hashing: 0.020034s [261.4 KB, 12.742294 mb/s]
+----- Total AssetImport time: 0.501014s, AssetImport time: 0.304060s, Asset hashing: 0.021953s [4.2 KB, 0.187403 mb/s]
 
 
-Hashing assets ... 0.060 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.059 seconds (3.605 MB)
-  hash: 0.008 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/Auro.dll - GUID: 3a0445880ff16854086da111f6951110...
- done. [Time: 20.032524 ms] 
-Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Hashing assets ... 0.034 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.026 seconds (0.207 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTremolo.dll - GUID: a383ba22589254d4083a3b86f9c25eb4...
+ done. [Time: 123.768066 ms] 
+Refreshing native plugins compatible for Editor in 5.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.185381s, AssetImport time: 0.079208s, Asset hashing: 0.060935s [3.6 MB, 59.167885 mb/s]
+----- Total AssetImport time: 0.622437s, AssetImport time: 0.388785s, Asset hashing: 0.036516s [212.4 KB, 5.680366 mb/s]
 
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.323 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/IOSONOProximity.dll - GUID: 31d5df8815c80244ba9a139ff10501ac...
- done. [Time: 20.302423 ms] 
-Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.120024s, AssetImport time: 0.076210s, Asset hashing: 0.002230s [330.4 KB, 144.676865 mb/s]
-
-
-Hashing assets ... 0.029 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.028 seconds (0.476 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libMcDSP.bundle - GUID: e4c3d1a85456d5d46b35dff64202eb93...
- done. [Time: 20.517149 ms] 
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.161061s, AssetImport time: 0.087216s, Asset hashing: 0.030077s [487.4 KB, 15.824735 mb/s]
-
-
-Hashing assets ... 0.040 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.039 seconds (1.167 MB)
-  hash: 0.003 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.dll - GUID: 2abbcb499838a9849b7c8baec2fdd4e4...
- done. [Time: 18.162897 ms] 
-Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.154913s, AssetImport time: 0.069332s, Asset hashing: 0.041157s [1.2 MB, 28.352018 mb/s]
-
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll - GUID: 3c0ad459c1534645b5d603b7cc258f97...
- done. [Time: 61.896626 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll - GUID: f5f67c52d1564df4a8936ccd202a3bd8...
+ done. [Time: 844.945679 ms] 
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
 - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.260990s, AssetImport time: 0.213575s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 1.667802s, AssetImport time: 1.437141s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.212 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll - GUID: 27a25969e5e9b6d49be309e982cc909d...
- done. [Time: 18.646666 ms] 
-Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
+Hashing assets ... 0.026 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.016 seconds (0.282 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll - GUID: 82dc5892d4e7b5648b8ce59fe4a80be0...
+ done. [Time: 80.949669 ms] 
+Refreshing native plugins compatible for Editor in 9.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.123885s, AssetImport time: 0.072599s, Asset hashing: 0.001896s [217.4 KB, 111.968071 mb/s]
+----- Total AssetImport time: 0.562797s, AssetImport time: 0.319949s, Asset hashing: 0.028408s [288.9 KB, 9.931280 mb/s]
 
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll - GUID: 870353891bb340e2b2a9c8707e7419ba...
- done. [Time: 120.030472 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+
+Hashing assets ... 0.006 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.002 seconds (0.220 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTimeStretch.dll - GUID: 79e090d21c5affa43a3f1450cf1712ee...
+ done. [Time: 66.540565 ms] 
+Refreshing native plugins compatible for Editor in 14.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.289409s, AssetImport time: 0.245512s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-
-Hashing assets ... 0.035 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.033 seconds (1.525 MB)
-  hash: 0.003 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.dll - GUID: ddfeb989d0186174d8cda00d6448c2c8...
- done. [Time: 17.523861 ms] 
-Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.156619s, AssetImport time: 0.074721s, Asset hashing: 0.036029s [1.5 MB, 42.335804 mb/s]
-
-
-Hashing assets ... 0.009 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.008 seconds (0.078 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkStereoDelay.bundle - GUID: 99bc39b9747d9994f93d3f84f250d922...
- done. [Time: 19.425140 ms] 
-Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.127305s, AssetImport time: 0.074606s, Asset hashing: 0.009705s [80.1 KB, 8.059750 mb/s]
-
-
-Hashing assets ... 0.010 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.010 seconds (0.076 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkPitchShifter.bundle - GUID: 00ffb86a8bb9bd945b4d9452eabdba3e...
- done. [Time: 19.135565 ms] 
-Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.133392s, AssetImport time: 0.073915s, Asset hashing: 0.011273s [77.7 KB, 6.733954 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.204 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkMotion.dll - GUID: 13549abad5c6127458503dbaffaddb63...
- done. [Time: 17.003735 ms] 
-Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.108466s, AssetImport time: 0.067958s, Asset hashing: 0.002357s [209.4 KB, 86.751877 mb/s]
-
-
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.001 seconds (0.144 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkHarmonizer.bundle - GUID: 60a57bcaa8b3a344686e12f41a39c706...
- done. [Time: 17.708214 ms] 
-Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.136999s, AssetImport time: 0.077276s, Asset hashing: 0.002329s [147.0 KB, 61.626865 mb/s]
-
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll - GUID: 97decbdab0634cdd991f8d23ddf0dead...
- done. [Time: 25.084497 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.191213s, AssetImport time: 0.150904s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.484297s, AssetImport time: 0.283956s, Asset hashing: 0.007763s [225.4 KB, 28.355221 mb/s]
 
 
 Hashing assets ... 0.049 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.048 seconds (2.725 MB)
-  hash: 0.006 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.dll - GUID: 5c4a43fa7194a25438e6a201b217a533...
- done. [Time: 16.232956 ms] 
-Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.167432s, AssetImport time: 0.074946s, Asset hashing: 0.049748s [2.7 MB, 54.766674 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.231 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTremolo.dll - GUID: 3115db1b20826364cbceae5017c06bbc...
- done. [Time: 19.620188 ms] 
-Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.122168s, AssetImport time: 0.079389s, Asset hashing: 0.001512s [236.9 KB, 153.048935 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.040 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkMotion.bundle - GUID: 69e3b92bf2535ba45a46ed6c3a4a361b...
- done. [Time: 17.804882 ms] 
-Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.138430s, AssetImport time: 0.086416s, Asset hashing: 0.001871s [41.0 KB, 21.397779 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.066 MB)
-  hash: 0.000 seconds
-Updating Assets/Plugins/XInputInterface.dll - GUID: 2812848b4e1d74e478529c17f458e892...
------ Compute hash for Assets/Plugins/XInputInterface.dll.
- done. [Time: 41.844429 ms] 
-Refreshing native plugins compatible for Editor in 2.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.163026s, AssetImport time: 0.116319s, Asset hashing: 0.002442s [134.8 KB, 53.903122 mb/s]
-
-
-Hashing assets ... 0.022 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.021 seconds (0.264 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkHarmonizer.dll - GUID: 65f79d1cb9cb5374b801cf1a723fa305...
- done. [Time: 18.703125 ms] 
-Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.141652s, AssetImport time: 0.075958s, Asset hashing: 0.022424s [269.9 KB, 11.754487 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.214 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll - GUID: 5e5f563c634aecc4b971e3c1cb9bcf9b...
- done. [Time: 17.975122 ms] 
-Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.121546s, AssetImport time: 0.079443s, Asset hashing: 0.001465s [219.4 KB, 146.254181 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.214 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkStereoDelay.dll - GUID: c7e14f3cc66dc8a4791db07a62a4c10d...
- done. [Time: 17.935341 ms] 
-Refreshing native plugins compatible for Editor in 1.97 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.115579s, AssetImport time: 0.070474s, Asset hashing: 0.001507s [218.9 KB, 141.861771 mb/s]
-
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll - GUID: 80a3616ca19596e4da0f10f14d241e9f...
- done. [Time: 129.664337 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.308279s, AssetImport time: 0.260139s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-
-Hashing assets ... 0.020 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.018 seconds (0.010 MB)
-  hash: 0.000 seconds
-Updating Assets/Plugins/x86_64/XInputDotNetPure.dll - GUID: b9f05caccaeb48146ae995df3ed431ab...
-Filename: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\bin\mono.exe"
-Arguments: "C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe"  --timestamp 636156113180937800  --api-version 5.4.2f2 --check-update-required -a F:/_Dev/Gamedev/projet_shooter/Assets/Plugins/x86_64/XInputDotNetPure.dll -s "C:\Program Files\Unity\Editor\Data\Managed,+C:/Program Files/Unity/Editor/Data\UnityExtensions/Unity,+F:/_Dev/Gamedev/projet_shooter/Assets" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor/UnityEditor.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/nunit.framework.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/UnityEditor.EditorTestsRunner.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor/UnityEditor.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\Editor/UnityEditor.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor/UnityEditor.TreeEditor.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll"
-MONO_PATH: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.0
-MONO_CFG_DIR: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\etc
-index: -1
-
- done. [Time: 627.393066 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.835164s, AssetImport time: 0.767968s, Asset hashing: 0.020832s [10.0 KB, 0.471106 mb/s]
-
-
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.242 MB)
-  hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/SynthOne.dll - GUID: bc2d11cc048267d41994241e3a5a7166...
- done. [Time: 20.815708 ms] 
-Refreshing native plugins compatible for Editor in 1.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.130872s, AssetImport time: 0.079884s, Asset hashing: 0.001495s [247.9 KB, 161.988907 mb/s]
-
-
-Hashing assets ... 0.003 seconds
   file open: 0.001 seconds (2 files)
-  file read: 0.002 seconds (0.224 MB)
+  file read: 0.040 seconds (0.107 MB)
   hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRoomVerb.bundle - GUID: 7ba11d1d31a956643b45ad51d4ba51d2...
- done. [Time: 17.801033 ms] 
-Refreshing native plugins compatible for Editor in 2.15 ms, found 1 plugins.
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTimeStretch.bundle - GUID: b03caad215742b945a9916b8ab1cfa3f...
+ done. [Time: 91.854774 ms] 
+Refreshing native plugins compatible for Editor in 6.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.121831s, AssetImport time: 0.072568s, Asset hashing: 0.003851s [229.5 KB, 58.199245 mb/s]
+----- Total AssetImport time: 0.542964s, AssetImport time: 0.316540s, Asset hashing: 0.052003s [109.4 KB, 2.055080 mb/s]
 
 
-Hashing assets ... 0.027 seconds
-  file open: 0.025 seconds (2 files)
-  file read: 0.000 seconds (0.214 MB)
-  hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkGuitarDistortion.dll - GUID: 66634edd3e7b22240b2c6f19a5d67b76...
- done. [Time: 18.777552 ms] 
-Refreshing native plugins compatible for Editor in 1.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.156282s, AssetImport time: 0.076191s, Asset hashing: 0.027904s [219.4 KB, 7.678473 mb/s]
-
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll - GUID: 8e0cd8ed44d4412cbe0642067abc9e44...
- done. [Time: 60.365761 ms] 
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
-- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-
------ Total AssetImport time: 0.227355s, AssetImport time: 0.184689s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
-
-
-Hashing assets ... 0.004 seconds
+Hashing assets ... 0.025 seconds
   file open: 0.001 seconds (2 files)
-  file read: 0.000 seconds (0.175 MB)
+  file read: 0.022 seconds (0.073 MB)
   hash: 0.000 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkRecorder.dll - GUID: 9a71935ed5822a340a596d1a9e745961...
- done. [Time: 19.150108 ms] 
-Refreshing native plugins compatible for Editor in 2.34 ms, found 1 plugins.
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRecorder.bundle - GUID: b39b47f2a71ac8547ba1f01bd5553576...
+ done. [Time: 330.921783 ms] 
+Refreshing native plugins compatible for Editor in 4.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.128326s, AssetImport time: 0.074044s, Asset hashing: 0.004935s [179.4 KB, 35.502853 mb/s]
+----- Total AssetImport time: 0.966377s, AssetImport time: 0.774995s, Asset hashing: 0.026673s [74.6 KB, 2.732117 mb/s]
 
 
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
+Hashing assets ... 0.055 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.026 seconds (0.194 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkRecorder.dll - GUID: 5339a033a0505484ebf582c2cef28558...
+ done. [Time: 275.209717 ms] 
+Refreshing native plugins compatible for Editor in 7.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.066158s, AssetImport time: 0.604137s, Asset hashing: 0.058719s [198.4 KB, 3.299692 mb/s]
+
+
+Hashing assets ... 0.034 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.028 seconds (0.249 MB)
+  hash: 0.003 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: 0353f0f3b58639c4eac615b18549a56e...
+ done. [Time: 347.922943 ms] 
+Refreshing native plugins compatible for Editor in 16.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.982674s, AssetImport time: 0.654385s, Asset hashing: 0.037291s [254.9 KB, 6.675351 mb/s]
+
+
+Hashing assets ... 0.025 seconds
+  file open: 0.001 seconds (2 files)
   file read: 0.000 seconds (0.009 MB)
   hash: 0.000 seconds
-Updating Assets/Plugins/XInputDotNetPure.dll - GUID: 4a9ff35eefe04664793dae7fe7db85f9...
+Updating Assets/Plugins/XInputDotNetPure.dll - GUID: 87a02cf38acbebf46befac4c9023c4ac...
 Filename: "C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\bin\mono.exe"
-Arguments: "C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe"  --timestamp 636156113196706978  --api-version 5.4.2f2 --check-update-required -a F:/_Dev/Gamedev/projet_shooter/Assets/Plugins/XInputDotNetPure.dll -s "C:\Program Files\Unity\Editor\Data\Managed,+C:/Program Files/Unity/Editor/Data\UnityExtensions/Unity,+F:/_Dev/Gamedev/projet_shooter/Assets" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor/UnityEditor.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/nunit.framework.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/UnityEditor.EditorTestsRunner.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor/UnityEditor.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\Editor/UnityEditor.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor/UnityEditor.TreeEditor.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll"
+Arguments: "C:/Program Files/Unity/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe"  --timestamp 636160237296364894  --api-version 5.4.2f2 --check-update-required -a F:/_Dev/Gamedev/projet_shooter/Assets/Plugins/XInputDotNetPure.dll -s "C:\Program Files\Unity\Editor\Data\Managed,+C:/Program Files/Unity/Editor/Data\UnityExtensions/Unity,+F:/_Dev/Gamedev/projet_shooter/Assets" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor/UnityEditor.Advertisements.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/nunit.framework.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\EditorTestsRunner\Editor/UnityEditor.EditorTestsRunner.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor/UnityEditor.UI.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\Editor/UnityEditor.Networking.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor/UnityEditor.TreeEditor.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll" "C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll" "C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll"
 MONO_PATH: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.0
 MONO_CFG_DIR: C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\etc
 index: -1
 
 ----- Compute hash for Assets/Plugins/XInputDotNetPure.dll.
- done. [Time: 634.001526 ms] 
+ done. [Time: 4231.294922 ms] 
 Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
 Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
 - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.807425s, AssetImport time: 0.763359s, Asset hashing: 0.001828s [18.9 KB, 10.116119 mb/s]
+----- Total AssetImport time: 5.203767s, AssetImport time: 4.898029s, Asset hashing: 0.028740s [18.9 KB, 0.642696 mb/s]
 
 
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.208 MB)
+Hashing assets ... 0.044 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.012 seconds (0.179 MB)
   hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkMotion.dll - GUID: 0890bf8e130a930488686e72d2ac5aa9...
- done. [Time: 20.410643 ms] 
-Refreshing native plugins compatible for Editor in 2.35 ms, found 1 plugins.
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libCrankcaseAudioREVModelPlayer.bundle - GUID: 725fc724fd884d848b5f54ae83b6bb33...
+ done. [Time: 247.362473 ms] 
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.126099s, AssetImport time: 0.073963s, Asset hashing: 0.002186s [212.9 KB, 95.104774 mb/s]
+----- Total AssetImport time: 1.214695s, AssetImport time: 0.788987s, Asset hashing: 0.046750s [183.4 KB, 3.831653 mb/s]
 
-Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll - GUID: 7cbab2be89b54486bbd23a6fe637d30e...
- done. [Time: 57.051678 ms] 
+
+Hashing assets ... 0.118 seconds
+  file open: 0.002 seconds (2 files)
+  file read: 0.023 seconds (0.215 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkFlanger.dll - GUID: 8c3c53442362f0a45afcef91ea2e7751...
+ done. [Time: 101.201210 ms] 
+Refreshing native plugins compatible for Editor in 6.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.889796s, AssetImport time: 0.483120s, Asset hashing: 0.121526s [219.9 KB, 1.767108 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle - GUID: 17865444b51c913448b8b65b85f6d366...
+ done. [Time: 138.765732 ms] 
+Refreshing native plugins compatible for Editor in 22.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.864450s, AssetImport time: 0.590414s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.046 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.003 seconds (0.346 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/McDSP.dll - GUID: 32e230740cd07544c986e6d6c1d50f65...
+ done. [Time: 264.154907 ms] 
+Refreshing native plugins compatible for Editor in 6.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.092256s, AssetImport time: 0.794124s, Asset hashing: 0.047979s [354.4 KB, 7.213508 mb/s]
+
+
+Hashing assets ... 0.033 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.027 seconds (0.081 MB)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkGuitarDistortion.bundle - GUID: 4a5b1574237118448953feed97e120d6...
+ done. [Time: 119.917603 ms] 
+Refreshing native plugins compatible for Editor in 4.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.040147s, AssetImport time: 0.741716s, Asset hashing: 0.035751s [82.9 KB, 2.264697 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll - GUID: 5f32cd94baa94578a686d4b9d6b660f7...
+ done. [Time: 426.322052 ms] 
 Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
 Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
 - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.02 ms.
+
+----- Total AssetImport time: 1.562302s, AssetImport time: 1.133343s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle - GUID: a11d28e4775e94d4492328d8eee35eb0...
+ done. [Time: 90.352997 ms] 
+Refreshing native plugins compatible for Editor in 66.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.233027s, AssetImport time: 0.185736s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 1.060804s, AssetImport time: 0.625256s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.227 MB)
+Hashing assets ... 0.048 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.021 seconds (0.235 MB)
   hash: 0.001 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkPitchShifter.dll - GUID: ae5caaee2c0d5c841ae5f68570bf964e...
- done. [Time: 19.611206 ms] 
-Refreshing native plugins compatible for Editor in 2.28 ms, found 1 plugins.
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkStereoDelay.dll - GUID: 85ae125561040e249a4e163dab3a52fb...
+ done. [Time: 233.432877 ms] 
+Refreshing native plugins compatible for Editor in 51.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.126727s, AssetImport time: 0.079216s, Asset hashing: 0.001820s [232.4 KB, 124.729881 mb/s]
+----- Total AssetImport time: 1.254577s, AssetImport time: 0.763062s, Asset hashing: 0.049959s [240.4 KB, 4.699231 mb/s]
 
 
-Hashing assets ... 0.061 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.060 seconds (3.392 MB)
-  hash: 0.008 seconds
-Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/Auro.dll - GUID: bd4811fe70b5b904284a1d158e293cd4...
- done. [Time: 18.425524 ms] 
-Refreshing native plugins compatible for Editor in 2.57 ms, found 1 plugins.
+Hashing assets ... 0.049 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.026 seconds (0.212 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkPitchShifter.dll - GUID: 0217b8a5749ba5846928d119156ff435...
+ done. [Time: 120.737564 ms] 
+Refreshing native plugins compatible for Editor in 32.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.184362s, AssetImport time: 0.077210s, Asset hashing: 0.061904s [3.4 MB, 54.794159 mb/s]
+----- Total AssetImport time: 1.005171s, AssetImport time: 0.579398s, Asset hashing: 0.051373s [216.9 KB, 4.123163 mb/s]
+
+
+Hashing assets ... 0.032 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.022 seconds (0.289 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: 191983e556f6d804aa0a62eefa569797...
+ done. [Time: 256.200775 ms] 
+Refreshing native plugins compatible for Editor in 4.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.100561s, AssetImport time: 0.655933s, Asset hashing: 0.034417s [295.9 KB, 8.396128 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle - GUID: 09fe9d460b8c2584bbc882ce5f2c4de0...
+ done. [Time: 156.447433 ms] 
+Refreshing native plugins compatible for Editor in 8.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.037991s, AssetImport time: 0.668587s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.037 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.023 seconds (0.233 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkHarmonizer.dll - GUID: 64e03986c1da53548bdb0bc51fb690bf...
+ done. [Time: 181.073410 ms] 
+Refreshing native plugins compatible for Editor in 39.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.044741s, AssetImport time: 0.669466s, Asset hashing: 0.039318s [238.9 KB, 5.933800 mb/s]
+
+
+Hashing assets ... 0.045 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.020 seconds (0.054 MB)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle - GUID: a7f29096e07e3f84689c73f0325eb75d...
+ done. [Time: 138.796539 ms] 
+Refreshing native plugins compatible for Editor in 22.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.972300s, AssetImport time: 0.623556s, Asset hashing: 0.048355s [55.7 KB, 1.124519 mb/s]
 
 
 Hashing assets ... 0.028 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.027 seconds (0.134 MB)
+  file open: 0.001 seconds (2 files)
+  file read: 0.026 seconds (0.181 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedAir.bundle - GUID: 3de54d96a82abe84a9f4592ff84c796a...
+ done. [Time: 53.384300 ms] 
+Refreshing native plugins compatible for Editor in 5.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.576772s, AssetImport time: 0.226130s, Asset hashing: 0.030429s [185.2 KB, 5.943594 mb/s]
+
+
+Hashing assets ... 0.070 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.067 seconds (0.113 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libSynthOne.bundle - GUID: 40b084a69d7945b4cb115518334f0709...
+ done. [Time: 63.838997 ms] 
+Refreshing native plugins compatible for Editor in 7.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.507596s, AssetImport time: 0.247456s, Asset hashing: 0.072341s [115.5 KB, 1.558902 mb/s]
+
+
+Hashing assets ... 0.042 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.029 seconds (0.755 MB)
+  hash: 0.005 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/iZotope.dll - GUID: 65743fe68c8e2fc40932bec6a6a1609e...
+ done. [Time: 197.039047 ms] 
+Refreshing native plugins compatible for Editor in 6.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.125600s, AssetImport time: 0.637151s, Asset hashing: 0.044754s [0.8 MB, 16.876223 mb/s]
+
+
+Hashing assets ... 0.035 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.028 seconds (0.538 MB)
+  hash: 0.003 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/iZotope.dll - GUID: 1d81ca874465e4e408bf9463bfe56e7e...
+ done. [Time: 116.875122 ms] 
+Refreshing native plugins compatible for Editor in 28.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.854067s, AssetImport time: 0.483798s, Asset hashing: 0.037829s [0.5 MB, 14.234465 mb/s]
+
+
+Hashing assets ... 0.028 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.025 seconds (0.244 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll - GUID: 6bc5f3d74972d99419327fadc54f05f8...
+ done. [Time: 168.217422 ms] 
+Refreshing native plugins compatible for Editor in 5.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.960369s, AssetImport time: 0.628712s, Asset hashing: 0.029842s [249.4 KB, 8.161644 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll - GUID: adebbd281f1a4ef3a30be7f21937e02f...
+ done. [Time: 551.819031 ms] 
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
+Refreshing native plugins compatible for Editor in 15.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.903450s, AssetImport time: 1.551829s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.075 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.071 seconds (0.288 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/IOSONOProximity.dll - GUID: a0932e687d460644fa7c869f3e88cdf5...
+ done. [Time: 170.967331 ms] 
+Refreshing native plugins compatible for Editor in 33.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.074904s, AssetImport time: 0.556107s, Asset hashing: 0.077097s [294.4 KB, 3.729107 mb/s]
+
+
+Hashing assets ... 0.027 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.020 seconds (0.255 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll - GUID: bcde7b78b39c830419d4f59f9d0498c4...
+ done. [Time: 440.028778 ms] 
+Refreshing native plugins compatible for Editor in 5.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.418923s, AssetImport time: 1.043867s, Asset hashing: 0.030116s [261.4 KB, 8.476339 mb/s]
+
+
+Hashing assets ... 0.071 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.059 seconds (3.605 MB)
+  hash: 0.023 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/Auro.dll - GUID: 3a0445880ff16854086da111f6951110...
+ done. [Time: 125.487999 ms] 
+Refreshing native plugins compatible for Editor in 7.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.694600s, AssetImport time: 0.422058s, Asset hashing: 0.072654s [3.6 MB, 49.623764 mb/s]
+
+
+Hashing assets ... 0.024 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.019 seconds (0.323 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/IOSONOProximity.dll - GUID: 31d5df8815c80244ba9a139ff10501ac...
+ done. [Time: 210.877548 ms] 
+Refreshing native plugins compatible for Editor in 22.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.030785s, AssetImport time: 0.642495s, Asset hashing: 0.025584s [330.4 KB, 12.611929 mb/s]
+
+
+Hashing assets ... 0.044 seconds
+  file open: 0.002 seconds (2 files)
+  file read: 0.027 seconds (0.476 MB)
+  hash: 0.003 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libMcDSP.bundle - GUID: e4c3d1a85456d5d46b35dff64202eb93...
+ done. [Time: 184.082108 ms] 
+Refreshing native plugins compatible for Editor in 13.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.776423s, AssetImport time: 0.492645s, Asset hashing: 0.046044s [487.4 KB, 10.336856 mb/s]
+
+
+Hashing assets ... 0.037 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.034 seconds (1.167 MB)
+  hash: 0.007 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.dll - GUID: 2abbcb499838a9849b7c8baec2fdd4e4...
+ done. [Time: 185.747284 ms] 
+Refreshing native plugins compatible for Editor in 31.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.056125s, AssetImport time: 0.678158s, Asset hashing: 0.039758s [1.2 MB, 29.349731 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll - GUID: 3c0ad459c1534645b5d603b7cc258f97...
+ done. [Time: 473.580750 ms] 
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
+Refreshing native plugins compatible for Editor in 3.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.661221s, AssetImport time: 1.375817s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.035 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.021 seconds (0.212 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll - GUID: 27a25969e5e9b6d49be309e982cc909d...
+ done. [Time: 208.821426 ms] 
+Refreshing native plugins compatible for Editor in 5.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.956993s, AssetImport time: 0.556402s, Asset hashing: 0.037634s [217.4 KB, 5.641349 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll - GUID: 870353891bb340e2b2a9c8707e7419ba...
+ done. [Time: 683.587402 ms] 
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
+Refreshing native plugins compatible for Editor in 3.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.991245s, AssetImport time: 1.660612s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.051 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.036 seconds (1.525 MB)
+  hash: 0.008 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.dll - GUID: ddfeb989d0186174d8cda00d6448c2c8...
+ done. [Time: 84.913918 ms] 
+Refreshing native plugins compatible for Editor in 11.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.584992s, AssetImport time: 0.336487s, Asset hashing: 0.052785s [1.5 MB, 28.896135 mb/s]
+
+
+Hashing assets ... 0.070 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.035 seconds (0.078 MB)
   hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkStereoDelay.bundle - GUID: 99bc39b9747d9994f93d3f84f250d922...
+ done. [Time: 410.232788 ms] 
+Refreshing native plugins compatible for Editor in 4.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.166067s, AssetImport time: 0.910546s, Asset hashing: 0.072807s [80.1 KB, 1.074380 mb/s]
+
+
+Hashing assets ... 0.030 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.018 seconds (0.076 MB)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkPitchShifter.bundle - GUID: 00ffb86a8bb9bd945b4d9452eabdba3e...
+ done. [Time: 194.275879 ms] 
+Refreshing native plugins compatible for Editor in 4.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.945198s, AssetImport time: 0.604863s, Asset hashing: 0.032965s [77.7 KB, 2.302871 mb/s]
+
+
+Hashing assets ... 0.040 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.019 seconds (0.204 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkMotion.dll - GUID: 13549abad5c6127458503dbaffaddb63...
+ done. [Time: 250.346359 ms] 
+Refreshing native plugins compatible for Editor in 5.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.946781s, AssetImport time: 0.582103s, Asset hashing: 0.042359s [209.4 KB, 4.827722 mb/s]
+
+
+Hashing assets ... 0.040 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.026 seconds (0.144 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkHarmonizer.bundle - GUID: 60a57bcaa8b3a344686e12f41a39c706...
+ done. [Time: 179.357346 ms] 
+Refreshing native plugins compatible for Editor in 5.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.942370s, AssetImport time: 0.602073s, Asset hashing: 0.042675s [147.0 KB, 3.363351 mb/s]
+
+
+Hashing assets ... 0.035 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.021 seconds (0.066 MB)
+  hash: 0.001 seconds
+Updating Assets/Plugins/XInputInterface.dll - GUID: b142feca97139e540ae6ccb4cba37374...
+----- Compute hash for Assets/Plugins/XInputInterface.dll.
+ done. [Time: 361.906433 ms] 
+Refreshing native plugins compatible for Editor in 21.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.589952s, AssetImport time: 1.188840s, Asset hashing: 0.045609s [134.8 KB, 2.885596 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll - GUID: 97decbdab0634cdd991f8d23ddf0dead...
+ done. [Time: 172.107239 ms] 
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
+Refreshing native plugins compatible for Editor in 5.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.593747s, AssetImport time: 1.334235s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.111 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.086 seconds (2.725 MB)
+  hash: 0.020 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.dll - GUID: 5c4a43fa7194a25438e6a201b217a533...
+ done. [Time: 61.743523 ms] 
+Refreshing native plugins compatible for Editor in 5.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.02 ms.
+
+----- Total AssetImport time: 0.678782s, AssetImport time: 0.261161s, Asset hashing: 0.113655s [2.7 MB, 23.971861 mb/s]
+
+
+Hashing assets ... 0.036 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.034 seconds (0.231 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTremolo.dll - GUID: 3115db1b20826364cbceae5017c06bbc...
+ done. [Time: 61.860722 ms] 
+Refreshing native plugins compatible for Editor in 29.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.02 ms.
+
+----- Total AssetImport time: 0.521541s, AssetImport time: 0.296567s, Asset hashing: 0.038045s [236.9 KB, 6.080932 mb/s]
+
+
+Hashing assets ... 0.040 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.023 seconds (0.040 MB)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkMotion.bundle - GUID: 69e3b92bf2535ba45a46ed6c3a4a361b...
+ done. [Time: 192.639359 ms] 
+Refreshing native plugins compatible for Editor in 5.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.044563s, AssetImport time: 0.723748s, Asset hashing: 0.041593s [41.0 KB, 0.962503 mb/s]
+
+
+Hashing assets ... 0.042 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.019 seconds (0.264 MB)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkHarmonizer.dll - GUID: 65f79d1cb9cb5374b801cf1a723fa305...
+ done. [Time: 168.726852 ms] 
+Refreshing native plugins compatible for Editor in 4.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.365573s, AssetImport time: 0.887455s, Asset hashing: 0.044203s [269.9 KB, 5.962890 mb/s]
+
+
+Hashing assets ... 0.027 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.022 seconds (0.214 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll - GUID: 5e5f563c634aecc4b971e3c1cb9bcf9b...
+ done. [Time: 210.579422 ms] 
+Refreshing native plugins compatible for Editor in 47.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.084328s, AssetImport time: 0.553582s, Asset hashing: 0.029452s [219.4 KB, 7.274897 mb/s]
+
+
+Hashing assets ... 0.031 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.021 seconds (0.214 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkStereoDelay.dll - GUID: c7e14f3cc66dc8a4791db07a62a4c10d...
+ done. [Time: 142.258194 ms] 
+Refreshing native plugins compatible for Editor in 41.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.933216s, AssetImport time: 0.570984s, Asset hashing: 0.033057s [218.9 KB, 6.466781 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll - GUID: 80a3616ca19596e4da0f10f14d241e9f...
+ done. [Time: 519.231628 ms] 
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
+Refreshing native plugins compatible for Editor in 2.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.694117s, AssetImport time: 1.412795s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.058 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.045 seconds (0.242 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/SynthOne.dll - GUID: bc2d11cc048267d41994241e3a5a7166...
+ done. [Time: 278.750946 ms] 
+Refreshing native plugins compatible for Editor in 44.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.149135s, AssetImport time: 0.649452s, Asset hashing: 0.060652s [247.9 KB, 3.991542 mb/s]
+
+
+Hashing assets ... 0.030 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.028 seconds (0.224 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRoomVerb.bundle - GUID: 7ba11d1d31a956643b45ad51d4ba51d2...
+ done. [Time: 63.760296 ms] 
+Refreshing native plugins compatible for Editor in 11.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.516231s, AssetImport time: 0.296867s, Asset hashing: 0.032028s [229.5 KB, 6.997523 mb/s]
+
+
+Hashing assets ... 0.040 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.022 seconds (0.214 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkGuitarDistortion.dll - GUID: 66634edd3e7b22240b2c6f19a5d67b76...
+ done. [Time: 270.313904 ms] 
+Refreshing native plugins compatible for Editor in 30.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.877218s, AssetImport time: 0.624122s, Asset hashing: 0.042157s [219.4 KB, 5.082441 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll - GUID: 8e0cd8ed44d4412cbe0642067abc9e44...
+ done. [Time: 434.153442 ms] 
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
+Refreshing native plugins compatible for Editor in 35.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 2.087987s, AssetImport time: 1.619970s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.040 seconds
+  file open: 0.003 seconds (2 files)
+  file read: 0.002 seconds (0.175 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkRecorder.dll - GUID: 9a71935ed5822a340a596d1a9e745961...
+ done. [Time: 132.475891 ms] 
+Refreshing native plugins compatible for Editor in 17.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.955248s, AssetImport time: 0.527633s, Asset hashing: 0.042517s [179.4 KB, 4.120686 mb/s]
+
+
+Hashing assets ... 0.042 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.025 seconds (0.208 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkMotion.dll - GUID: 0890bf8e130a930488686e72d2ac5aa9...
+ done. [Time: 187.904343 ms] 
+Refreshing native plugins compatible for Editor in 5.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.923973s, AssetImport time: 0.589842s, Asset hashing: 0.044339s [212.9 KB, 4.689132 mb/s]
+
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll - GUID: 7cbab2be89b54486bbd23a6fe637d30e...
+ done. [Time: 607.308228 ms] 
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
+Ignoring 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll' because we're compiling for Editor
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
+Refreshing native plugins compatible for Editor in 4.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 1.992249s, AssetImport time: 1.670740s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets ... 0.063 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.021 seconds (0.227 MB)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkPitchShifter.dll - GUID: ae5caaee2c0d5c841ae5f68570bf964e...
+ done. [Time: 110.623779 ms] 
+Refreshing native plugins compatible for Editor in 4.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.967034s, AssetImport time: 0.491782s, Asset hashing: 0.076787s [232.4 KB, 2.955679 mb/s]
+
+
+Hashing assets ... 0.066 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.059 seconds (3.392 MB)
+  hash: 0.017 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/Auro.dll - GUID: bd4811fe70b5b904284a1d158e293cd4...
+ done. [Time: 222.780991 ms] 
+Refreshing native plugins compatible for Editor in 7.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+----- Total AssetImport time: 0.866114s, AssetImport time: 0.589938s, Asset hashing: 0.068104s [3.4 MB, 49.805840 mb/s]
+
+
+Hashing assets ... 0.057 seconds
+  file open: 0.002 seconds (2 files)
+  file read: 0.027 seconds (0.134 MB)
+  hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkConvolutionReverb.bundle - GUID: 4355844f1d2d5da44981e71857d34af9...
- done. [Time: 18.769424 ms] 
-Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+ done. [Time: 109.035599 ms] 
+Refreshing native plugins compatible for Editor in 5.01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.146435s, AssetImport time: 0.072404s, Asset hashing: 0.029065s [136.8 KB, 4.596996 mb/s]
+----- Total AssetImport time: 1.038652s, AssetImport time: 0.623087s, Asset hashing: 0.059739s [136.8 KB, 2.236601 mb/s]
 
 
-Hashing assets ... 0.072 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.071 seconds (1.764 MB)
-  hash: 0.004 seconds
+Hashing assets ... 0.074 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.043 seconds (1.764 MB)
+  hash: 0.010 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll - GUID: f6fce07ffe4853944a1df5ce6eef40b4...
- done. [Time: 20.730587 ms] 
-Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+ done. [Time: 206.604919 ms] 
+Refreshing native plugins compatible for Editor in 6.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.193806s, AssetImport time: 0.074423s, Asset hashing: 0.073013s [1.8 MB, 24.161930 mb/s]
+----- Total AssetImport time: 1.271202s, AssetImport time: 0.755483s, Asset hashing: 0.076362s [1.8 MB, 23.102341 mb/s]
 
 Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll - GUID: 739bbd9f364b4268874f9fd86ab3beef...
- done. [Time: 41.144650 ms] 
+ done. [Time: 397.310913 ms] 
 Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 Ignoring 'Assets/Plugins/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86/XInputDotNetPure.dll' because we're compiling for Editor
-Ignoring 'Assets/Plugins/x86_64/XInputDotNetPure.dll' because we're compiling for Editor
 - starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 19
-Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.245716s, AssetImport time: 0.181794s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 1.552912s, AssetImport time: 1.219414s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
 
-Hashing assets ... 0.003 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.238 MB)
+Hashing assets ... 0.041 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.024 seconds (0.238 MB)
   hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTimeStretch.dll - GUID: 9d2629bf6824c6743a806b0e4aa6d273...
- done. [Time: 17.022127 ms] 
-Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
+ done. [Time: 222.425125 ms] 
+Refreshing native plugins compatible for Editor in 10.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.119206s, AssetImport time: 0.071072s, Asset hashing: 0.004505s [243.4 KB, 52.759422 mb/s]
+----- Total AssetImport time: 1.004561s, AssetImport time: 0.656151s, Asset hashing: 0.042825s [243.4 KB, 5.550431 mb/s]
 
 
-Hashing assets ... 0.018 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.017 seconds (0.428 MB)
-  hash: 0.001 seconds
+Hashing assets ... 0.051 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.027 seconds (0.428 MB)
+  hash: 0.002 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/McDSP.dll - GUID: 443ff5dfc9ffe1a4e924ee138f8b1d8f...
- done. [Time: 21.122393 ms] 
-Refreshing native plugins compatible for Editor in 2.58 ms, found 1 plugins.
+ done. [Time: 150.696976 ms] 
+Refreshing native plugins compatible for Editor in 29.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.135537s, AssetImport time: 0.071964s, Asset hashing: 0.019029s [438.4 KB, 22.498150 mb/s]
+----- Total AssetImport time: 0.931290s, AssetImport time: 0.559493s, Asset hashing: 0.053817s [438.4 KB, 7.955235 mb/s]
 
 
-Hashing assets ... 0.002 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.235 MB)
+Hashing assets ... 0.025 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.017 seconds (0.235 MB)
   hash: 0.001 seconds
 Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkFlanger.dll - GUID: 4bed6cff7cd4f0a4099ff13f7e20559c...
- done. [Time: 20.266068 ms] 
-Refreshing native plugins compatible for Editor in 2.36 ms, found 1 plugins.
+ done. [Time: 193.431534 ms] 
+Refreshing native plugins compatible for Editor in 5.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.134598s, AssetImport time: 0.077773s, Asset hashing: 0.003243s [240.4 KB, 72.390617 mb/s]
+----- Total AssetImport time: 1.046816s, AssetImport time: 0.662984s, Asset hashing: 0.027073s [240.4 KB, 8.671545 mb/s]
 
 WwiseUnity: Refreshing asset database.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -1611,7 +1224,7 @@ UnityEditor.EditorApplication:Internal_CallDelayFunctions() (at C:\buildslave\un
  
 (Filename: Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 43)
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.010713 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.116552 seconds (Nothing changed)
 WwiseUnity: End of modify setup, exiting Unity.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -1622,26 +1235,25 @@ UnityEditor.EditorApplication:Internal_CallDelayFunctions() (at C:\buildslave\un
  
 (Filename: Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 46)
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.009219 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.098861 seconds (Nothing changed)
 
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
+Hashing assets ... 0.008 seconds
+  file open: 0.001 seconds (2 files)
   file read: 0.000 seconds (0.003 MB)
   hash: 0.000 seconds
 Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 16.605087 ms] 
+ done. [Time: 111.965157 ms] 
 Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
- done. [Time: 15.758172 ms] 
+ done. [Time: 156.249817 ms] 
 Updating Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset - GUID: db75042b8e4b3694495c50f31bc58d6a...
- done. [Time: 15.321027 ms] 
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+ done. [Time: 92.332123 ms] 
+Refreshing native plugins compatible for Editor in 4.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
------ Total AssetImport time: 0.153726s, AssetImport time: 0.089929s, Asset hashing: 0.001522s [2.6 KB, 1.668123 mb/s]
+----- Total AssetImport time: 1.534247s, AssetImport time: 0.896638s, Asset hashing: 0.010326s [3.4 KB, 0.319833 mb/s]
 
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.009869 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.087234 seconds (Nothing changed)
 Cleanup mono
 Checking for leaked weakptr:
   Found no leaked weakptrs.
-##unity-automation:{"messageType":"MemoryLeaks","allocatedMemory":76364,"memoryLabels":[{"Default":192},{"NewDelete":36562},{"Manager":216},{"GfxDevice":6888},{"Physics":8},{"Renderer":9440},{"STL":1024},{"String":15138},{"DynamicArray":48},{"ScriptManager":1792},{"VR":2784},{"EditorUtility":280},{"AssetImporter":32},{"RestService":72},{"License":624},{"UnityConnect":1264}]}
-debugger-agent: Unable to listen on 1004
+##unity-automation:{"messageType":"MemoryLeaks","allocatedMemory":73900,"memoryLabels":[{"Default":192},{"NewDelete":33938},{"Manager":216},{"GfxDevice":6888},{"Physics":8},{"Renderer":9440},{"STL":1024},{"String":15298},{"DynamicArray":48},{"ScriptManager":1792},{"VR":2784},{"EditorUtility":280},{"AssetImporter":32},{"RestService":72},{"License":624},{"UnityConnect":1264}]}

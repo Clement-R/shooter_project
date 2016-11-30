@@ -21,10 +21,12 @@ GameObject:
   - 4: {fileID: 4000012290623828}
   - 212: {fileID: 212000010006904940}
   - 114: {fileID: 114000011718818548}
-  - 114: {fileID: 114000011991871874}
   - 50: {fileID: 50000014264570478}
   - 61: {fileID: 61000011354909626}
   - 114: {fileID: 114000012861791064}
+  - 114: {fileID: 114000010915555314}
+  - 114: {fileID: 114000014052652002}
+  - 114: {fileID: 114000013062452608}
   m_Layer: 0
   m_Name: Shuttle
   m_TagString: Untagged
@@ -76,6 +78,20 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3.9999998, y: 3.9999998}
+--- !u!114 &114000010915555314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012277715578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ebc3870b6581a4e9918b65f0d2454a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnOnLeftClick: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
+  minRange: 2
+  fireRate: 0.2
 --- !u!114 &114000011718818548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -90,20 +106,6 @@ MonoBehaviour:
   speed: 7
   hMaxSpeed: 10
   vMaxSpeed: 10
---- !u!114 &114000011991871874
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012277715578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8d0530ea95a2da4e937bb884b339da5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnOnLeftClick: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
-  minRange: 2
-  fireRate: 0.2
 --- !u!114 &114000012861791064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,9 +117,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d06f7a05f46801c419fb512fd1d29356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHitSound: {fileID: 1000010986009646, guid: 7a3725a0c2ed9e34baefbec2e76cd93e, type: 2}
   isStuned: 0
-  stundCooldown: 0
+  stunCooldown: 1
+--- !u!114 &114000013062452608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012277715578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7406e952b38ccc644b4bef8d6f716f27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114000014052652002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012277715578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1f70790811aaa46a78b8c618ecbaed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  durationInSeconds: 0.5
 --- !u!212 &212000010006904940
 SpriteRenderer:
   m_ObjectHideFlags: 1

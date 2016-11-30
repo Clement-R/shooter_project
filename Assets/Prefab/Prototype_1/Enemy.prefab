@@ -89,6 +89,9 @@ MonoBehaviour:
   deathSound: {fileID: 1000013318471560, guid: 32d4df1bc86396f4782cb977643b5b3d, type: 2}
   indicatorSound: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
   isTargeted: 0
+  isFocused: 0
+  normalVolume: 0.2
+  focusedVolume: 0.4
 --- !u!114 &114000013413395250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -100,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5adc6916be91349bad22100f48f98c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.7
+  speed: 0.5
 --- !u!212 &212000012808757508
 SpriteRenderer:
   m_ObjectHideFlags: 1

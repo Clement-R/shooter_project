@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BankMemory>
+	<Timestamp>131249326250000000</Timestamp>
+	<DataSize>5496040</DataSize>
+	<FileSize>5498415</FileSize>
+	<DecodedSize>5496008</DecodedSize>
+	<SFXPreFetchSize>211904</SFXPreFetchSize>
+	<SFXInMemorySize>5284104</SFXInMemorySize>
+	<SFXMissingFiles>0</SFXMissingFiles>
+	<MusicPreFetchSize>0</MusicPreFetchSize>
+	<MusicInMemorySize>0</MusicInMemorySize>
+	<MusicMissingFiles>0</MusicMissingFiles>
+	<VoicePreFetchSize>0</VoicePreFetchSize>
+	<VoiceInMemorySize>0</VoiceInMemorySize>
+	<VoiceMissingFiles>0</VoiceMissingFiles>
+	<MotionPreFetchSize>0</MotionPreFetchSize>
+	<MotionInMemorySize>0</MotionInMemorySize>
+	<MotionMissingFiles>0</MotionMissingFiles>
+	<ReplacedFiles>0</ReplacedFiles>
+</BankMemory>
