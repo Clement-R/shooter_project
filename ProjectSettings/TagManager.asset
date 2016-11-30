@@ -53,3 +53,6 @@ TagManager:
   - name: Projectiles
     uniqueID: 1092270989
     locked: 0
+  - name: Foregound
+    uniqueID: 1683325399
+    locked: 0

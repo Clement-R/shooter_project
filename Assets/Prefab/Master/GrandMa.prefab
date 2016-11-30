@@ -74,8 +74,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010676009694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -14.55, z: -5}
-  m_LocalScale: {x: 0.07, y: 0.07, z: 1}
+  m_LocalPosition: {x: 0, y: -14.31, z: -5}
+  m_LocalScale: {x: 0.09, y: 0.09, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000011228297590}
@@ -102,8 +102,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012047688606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 26.099997, z: 5}
-  m_LocalScale: {x: 0.15, y: 60, z: 1}
+  m_LocalPosition: {x: 0, y: 45, z: 5}
+  m_LocalScale: {x: 0.15, y: 90, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000011228297590}
@@ -210,6 +210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b42393540eefb43b25246dfe62376c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  middleSprite: {fileID: 21300002, guid: 7ec46fe4e960e444c9a7b2f720b47ee6, type: 3}
+  leftSprite: {fileID: 21300000, guid: 7ec46fe4e960e444c9a7b2f720b47ee6, type: 3}
+  rightSprite: {fileID: 21300004, guid: 7ec46fe4e960e444c9a7b2f720b47ee6, type: 3}
 --- !u!114 &114000013914326508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -283,7 +286,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e85522cd85394224eb28c6e52435d4cb, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 7ec46fe4e960e444c9a7b2f720b47ee6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

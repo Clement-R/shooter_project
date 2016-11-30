@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnOnLeftClick: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
-  minRange: 2
+  minRange: 4
   fireRate: 0.2
 --- !u!114 &114000011718818548
 MonoBehaviour:
