@@ -19,10 +19,11 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012895184474}
-  - 212: {fileID: 212000010379157954}
   - 50: {fileID: 50000012042647618}
   - 58: {fileID: 58000013041730534}
-  - 114: {fileID: 114000012005487120}
+  - 114: {fileID: 114000013285851510}
+  - 95: {fileID: 95000011827795270}
+  - 212: {fileID: 212000012796533804}
   m_Layer: 0
   m_Name: Projectile_master
   m_TagString: Untagged
@@ -37,8 +38,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013554719490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.119344756, y: 0.69, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalPosition: {x: 0.1741445, y: -12.465757, z: 0}
+  m_LocalScale: {x: 0.075, y: 0.075, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +75,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.49999997
---- !u!114 &114000012005487120
+--- !u!95 &95000011827795270
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013554719490}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2e8306a5de08d4248b2627078be597fb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000013285851510
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -82,13 +100,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013554719490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d937165debf7f0340932dbbd20ef722d, type: 3}
+  m_Script: {fileID: 11500000, guid: 36ffadb646656ad4d938a1398abb3498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
   onWallHitSound: {fileID: 1000010548099654, guid: cdb5666b8f5886b4e82337557aa90bc7,
     type: 2}
---- !u!212 &212000010379157954
+--- !u!212 &212000012796533804
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -115,9 +133,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1092270989
+  m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 239e655af1940794ab89f79f69b72752, type: 3}
-  m_Color: {r: 0.5302709, g: 0.7941176, b: 0.110942915, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 20f03f08fe21c314dac78f4fda9e7efd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
