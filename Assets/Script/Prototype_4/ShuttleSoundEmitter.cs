@@ -3,10 +3,15 @@ using System.Collections;
 
 namespace proto4 {
     public class ShuttleSoundEmitter : MonoBehaviour {
-        public GameObject spawnOnLeftClick;
-        public float minRange;
-        public float fireRate = 0.2F;
+        // Public
+        public float minimumDetectionRange;
+        public float cooldownBeforeNextTargeting = 0.2F;
 
+        // Public but not visible
+        [HideInInspector]
+        public GameObject spawnOnLeftClick;
+
+        // Private
         private GameObject targetedEnemy = null;
         private ShuttleBehavior behavior;
         private float closestDistance = 1000.0f;
@@ -19,7 +24,7 @@ namespace proto4 {
         void Update() {
             if (Input.GetButton("Fire_2") && !behavior.isStuned && Time.time > nextFire) {
 
-                nextFire = Time.time + fireRate;
+                nextFire = Time.time + cooldownBeforeNextTargeting;
 
                 // Unmark last enemy if needed
                 if (targetedEnemy != null) {
@@ -35,7 +40,7 @@ namespace proto4 {
                     float distance = Vector2.Distance(this.transform.position, enemy.transform.position);
 
                     // Keep the enemy if the distance is inferior than the saved distance
-                    if (distance < closestDistance && distance < minRange) {
+                    if (distance < closestDistance && distance < minimumDetectionRange) {
                         closestDistance = distance;
                         targetedEnemy = enemy;
                     }

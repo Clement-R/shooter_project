@@ -2,12 +2,12 @@
 using System.Collections;
 
 public class GameManager_TrashSpawn_master : MonoBehaviour {
-
-    public GameObject trashGameObject;
     public int timeBetweenSpawn = 1;
     public float yRespawn;
 
-    // Update is called once per frame
+    [HideInInspector]
+    public GameObject trashGameObject;
+
     void Start()
     {
         StartCoroutine("spawnTrash");

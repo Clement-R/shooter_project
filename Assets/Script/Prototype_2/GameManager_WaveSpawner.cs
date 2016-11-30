@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class GameManager_WaveSpawner : MonoBehaviour
 {
+    [HideInInspector]
     public int numberOfEnemiesKilled = 0;
 
     private int numberOfEnemiesInWave = 0;

@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class ShuttleBehavior_master : MonoBehaviour {
-    public bool isStuned = false;
     public float stunCooldown;
+
+    [HideInInspector]
+    public bool isStuned = false;
 
     void OnCollisionEnter2D(Collision2D coll)
     {

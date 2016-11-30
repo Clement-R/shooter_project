@@ -2,10 +2,7 @@
 using System.Collections;
 
 public class ProjectileBehavior_master : MonoBehaviour {
-
     public int speed;
-    public GameObject onWallHitSound;
-    
 
     private Rigidbody2D rb2d;
 
@@ -31,15 +28,7 @@ public class ProjectileBehavior_master : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D coll)
     {
         
-        if (coll.gameObject.tag == "wall")
-        {
-            // Play sound
-            GameObject onWallHitSoundEmitter = Instantiate(onWallHitSound);
-            onWallHitSoundEmitter.transform.position = gameObject.transform.position;
-            Destroy(gameObject, .5f);
-
-        }
-        else if (coll.gameObject.tag == "enemy")
+        if (coll.gameObject.tag == "enemy")
         {
             GetComponent<Animator>().SetBool("isDead", true);
             coll.GetComponent<EnemyBehavior>().Die();

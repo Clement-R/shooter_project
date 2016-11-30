@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class shuttle_movement_master : MonoBehaviour {
-    public int speed;
     public float hMaxSpeed = 175f;
     public float vMaxSpeed = 150f;
 
