@@ -49,21 +49,45 @@ public class PartManager : MonoBehaviour {
             // While the condition is not met, we ask the players to do one thing
             // TODO : Change with a coroutine
             while(exitEventEvent.isFinished != true) {
-                // If the player fail the test
-                    // if(failText != null)
-                        // Instantiate(failText)
-                    // if(failSound != null)
-                        // Instantiate(failSound)
-                
-                    // if(failText != null && failSound !=null)
-                        // while(failText.isFinished && failSound.isFinished)
-                    // else if (failSound != null)
-                        // while(soundInfo.isFinished)
-                    // else if (textInfo !=null)
-                        // while(failText.isFinished)
-                // Else
+                if(exitEventEvent.fail) {
+                    if (failText != null) {
+                        Instantiate(failText);
+                    }
+
+                    if (failSound != null) {
+                        Instantiate(failSound);
+                    }
+
+                    if(failText != null && failSound !=null) {
+                        /*
+                        while (failText.isFinished && failSound.isFinished) {
+
+                        }
+                        */
+                    } else if (failSound != null) {
+                        /*
+                        while(soundInfo.isFinished)
+                        */
+                    } else if (textInfo !=null) {
+                        /*
+                        while (failText.isFinished)
+                        */
+                    }
+
+                    exitEventEvent.fail = false;
+
+                } else if (exitEventEvent.success) {
                     // Play successEvent
-                    // Change isFinished to true
+                    if (successText != null) {
+                        Instantiate(successText);
+                    }
+
+                    if (successSound != null) {
+                        Instantiate(successSound);
+                    }
+
+                    isFinished = true;
+                }
             }
 
 	        if(isFinished) {
