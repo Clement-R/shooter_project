@@ -197,6 +197,11 @@ Prefab:
       propertyPath: minRange
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010915555314, guid: a1541e791f5020a45b5fb795672460cc,
+        type: 2}
+      propertyPath: minimumDetectionRange
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1541e791f5020a45b5fb795672460cc, type: 2}
   m_IsPrefabParent: 0
@@ -364,7 +369,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1000013383446342, guid: a607fddf48d78c4469578af7baa6218f,
     type: 2}
   m_PrefabInternal: {fileID: 1301224835}
---- !u!114 &835825546
+--- !u!114 &835825545
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -492,3 +497,50 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a607fddf48d78c4469578af7baa6218f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1956428385 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012277715578, guid: a1541e791f5020a45b5fb795672460cc,
+    type: 2}
+  m_PrefabInternal: {fileID: 106609039}
+--- !u!114 &1956428395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1956428385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c29b2bc8087234db68dc71d49d6cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: cd3ee699f11d50408197e29fee336ea7
+  eventID: 1635194252
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+  multiPositionTypeLabel: 0
+  multiPositionArray: []
+--- !u!114 &1956428396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1956428385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55d6ebb7c31f54645a19f56f8a25b3f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  listenerMask: 1
+  isStaticObject: 0
+  m_posOffsetData: {fileID: 0}

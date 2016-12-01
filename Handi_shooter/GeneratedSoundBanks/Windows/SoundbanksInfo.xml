@@ -67,6 +67,78 @@
 				<Event Id="3062523241" Name="miss" ObjectPath="\Events\Default Work Unit\miss"/>
 				<Event Id="1176010168" Name="miss_down" ObjectPath="\Events\Default Work Unit\miss_down"/>
 				<Event Id="742465371" Name="miss_up" ObjectPath="\Events\Default Work Unit\miss_up"/>
+				<Event Id="1635194252" Name="P1" ObjectPath="\Events\Default Work Unit\P1"/>
+				<Event Id="4202097492" Name="P10" ObjectPath="\Events\Default Work Unit\P10"/>
+				<Event Id="4202097493" Name="P11" ObjectPath="\Events\Default Work Unit\P11"/>
+				<Event Id="4202097494" Name="P12" ObjectPath="\Events\Default Work Unit\P12"/>
+				<Event Id="4202097495" Name="P13" ObjectPath="\Events\Default Work Unit\P13"/>
+				<Event Id="4202097488" Name="P14" ObjectPath="\Events\Default Work Unit\P14"/>
+				<Event Id="4202097490" Name="P16" ObjectPath="\Events\Default Work Unit\P16"/>
+				<Event Id="4202097491" Name="P17" ObjectPath="\Events\Default Work Unit\P17"/>
+				<Event Id="4202097500" Name="P18" ObjectPath="\Events\Default Work Unit\P18"/>
+				<Event Id="4202097501" Name="P19" ObjectPath="\Events\Default Work Unit\P19"/>
+				<Event Id="1635194255" Name="P2" ObjectPath="\Events\Default Work Unit\P2"/>
+				<Event Id="4252430381" Name="P20" ObjectPath="\Events\Default Work Unit\P20"/>
+				<Event Id="4252430380" Name="P21" ObjectPath="\Events\Default Work Unit\P21"/>
+				<Event Id="4252430383" Name="P22" ObjectPath="\Events\Default Work Unit\P22"/>
+				<Event Id="4252430382" Name="P23" ObjectPath="\Events\Default Work Unit\P23"/>
+				<Event Id="4252430376" Name="P25" ObjectPath="\Events\Default Work Unit\P25"/>
+				<Event Id="4252430379" Name="P26" ObjectPath="\Events\Default Work Unit\P26"/>
+				<Event Id="4252430378" Name="P27" ObjectPath="\Events\Default Work Unit\P27"/>
+				<Event Id="4252430373" Name="P28" ObjectPath="\Events\Default Work Unit\P28"/>
+				<Event Id="4252430372" Name="P29" ObjectPath="\Events\Default Work Unit\P29"/>
+				<Event Id="1635194254" Name="P3" ObjectPath="\Events\Default Work Unit\P3"/>
+				<Event Id="4235652795" Name="P31" ObjectPath="\Events\Default Work Unit\P31"/>
+				<Event Id="4235652792" Name="P32" ObjectPath="\Events\Default Work Unit\P32"/>
+				<Event Id="4235652793" Name="P33" ObjectPath="\Events\Default Work Unit\P33"/>
+				<Event Id="4235652798" Name="P34" ObjectPath="\Events\Default Work Unit\P34"/>
+				<Event Id="4235652799" Name="P35" ObjectPath="\Events\Default Work Unit\P35"/>
+				<Event Id="4235652796" Name="P36" ObjectPath="\Events\Default Work Unit\P36"/>
+				<Event Id="4235652797" Name="P37" ObjectPath="\Events\Default Work Unit\P37"/>
+				<Event Id="4235652786" Name="P38" ObjectPath="\Events\Default Work Unit\P38"/>
+				<Event Id="4235652787" Name="P39" ObjectPath="\Events\Default Work Unit\P39"/>
+				<Event Id="3569116024" Name="P39_bis" ObjectPath="\Events\Default Work Unit\P39_bis"/>
+				<Event Id="1635194249" Name="P4" ObjectPath="\Events\Default Work Unit\P4"/>
+				<Event Id="4151764635" Name="P40" ObjectPath="\Events\Default Work Unit\P40"/>
+				<Event Id="3928325504" Name="P40_bis" ObjectPath="\Events\Default Work Unit\P40_bis"/>
+				<Event Id="3530468925" Name="P41_bis" ObjectPath="\Events\Default Work Unit\P41_bis"/>
+				<Event Id="4151764632" Name="P43" ObjectPath="\Events\Default Work Unit\P43"/>
+				<Event Id="4151764639" Name="P44" ObjectPath="\Events\Default Work Unit\P44"/>
+				<Event Id="4151764638" Name="P45" ObjectPath="\Events\Default Work Unit\P45"/>
+				<Event Id="4151764637" Name="P46" ObjectPath="\Events\Default Work Unit\P46"/>
+				<Event Id="4151764636" Name="P47" ObjectPath="\Events\Default Work Unit\P47"/>
+				<Event Id="4151764627" Name="P48" ObjectPath="\Events\Default Work Unit\P48"/>
+				<Event Id="4151764626" Name="P49" ObjectPath="\Events\Default Work Unit\P49"/>
+				<Event Id="1635194248" Name="P5" ObjectPath="\Events\Default Work Unit\P5"/>
+				<Event Id="4134987048" Name="P50" ObjectPath="\Events\Default Work Unit\P50"/>
+				<Event Id="4134987049" Name="P51" ObjectPath="\Events\Default Work Unit\P51"/>
+				<Event Id="4134987050" Name="P52" ObjectPath="\Events\Default Work Unit\P52"/>
+				<Event Id="4134987051" Name="P53" ObjectPath="\Events\Default Work Unit\P53"/>
+				<Event Id="4134987052" Name="P54" ObjectPath="\Events\Default Work Unit\P54"/>
+				<Event Id="3914659113" Name="P55_1" ObjectPath="\Events\Default Work Unit\P55_1"/>
+				<Event Id="3914659114" Name="P55_2" ObjectPath="\Events\Default Work Unit\P55_2"/>
+				<Event Id="4134987054" Name="P56" ObjectPath="\Events\Default Work Unit\P56"/>
+				<Event Id="4134987055" Name="P57" ObjectPath="\Events\Default Work Unit\P57"/>
+				<Event Id="4134987040" Name="P58" ObjectPath="\Events\Default Work Unit\P58"/>
+				<Event Id="4134987041" Name="P59" ObjectPath="\Events\Default Work Unit\P59"/>
+				<Event Id="4185319905" Name="P60" ObjectPath="\Events\Default Work Unit\P60"/>
+				<Event Id="4185319904" Name="P61" ObjectPath="\Events\Default Work Unit\P61"/>
+				<Event Id="4185319907" Name="P62" ObjectPath="\Events\Default Work Unit\P62"/>
+				<Event Id="4185319906" Name="P63" ObjectPath="\Events\Default Work Unit\P63"/>
+				<Event Id="4185319909" Name="P64" ObjectPath="\Events\Default Work Unit\P64"/>
+				<Event Id="4185319908" Name="P65" ObjectPath="\Events\Default Work Unit\P65"/>
+				<Event Id="4185319911" Name="P66" ObjectPath="\Events\Default Work Unit\P66"/>
+				<Event Id="4185319910" Name="P67" ObjectPath="\Events\Default Work Unit\P67"/>
+				<Event Id="4185319913" Name="P68" ObjectPath="\Events\Default Work Unit\P68"/>
+				<Event Id="4185319912" Name="P69" ObjectPath="\Events\Default Work Unit\P69"/>
+				<Event Id="1635194250" Name="P7" ObjectPath="\Events\Default Work Unit\P7"/>
+				<Event Id="4168542222" Name="P70" ObjectPath="\Events\Default Work Unit\P70"/>
+				<Event Id="4168542223" Name="P71" ObjectPath="\Events\Default Work Unit\P71"/>
+				<Event Id="4168542220" Name="P72" ObjectPath="\Events\Default Work Unit\P72"/>
+				<Event Id="4168542221" Name="P73" ObjectPath="\Events\Default Work Unit\P73"/>
+				<Event Id="4168542218" Name="P74" ObjectPath="\Events\Default Work Unit\P74"/>
+				<Event Id="1635194245" Name="P8" ObjectPath="\Events\Default Work Unit\P8"/>
+				<Event Id="1635194244" Name="P9" ObjectPath="\Events\Default Work Unit\P9"/>
 				<Event Id="3092587493" Name="pause" ObjectPath="\Events\Default Work Unit\pause"/>
 				<Event Id="3038207054" Name="shoot" ObjectPath="\Events\Default Work Unit\shoot"/>
 			</IncludedEvents>
@@ -84,6 +156,18 @@
 				<File Id="758885357"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="24732367" Language="SFX">
+					<ShortName>Tutorial\P39_bis.wav</ShortName>
+					<Path>SFX\Tutorial\P39_bis_9E69E797.wem</Path>
+				</File>
+				<File Id="38348969" Language="SFX">
+					<ShortName>Tutorial\P49.wav</ShortName>
+					<Path>SFX\Tutorial\P49_9E69E797.wem</Path>
+				</File>
+				<File Id="42029356" Language="SFX">
+					<ShortName>Tutorial\P41_bis.wav</ShortName>
+					<Path>SFX\Tutorial\P41_bis_9E69E797.wem</Path>
+				</File>
 				<File Id="58932175" Language="SFX">
 					<ShortName>chord_2.wav</ShortName>
 					<Path>SFX\chord_2_24BBA429.wem</Path>
@@ -92,6 +176,10 @@
 				<File Id="73627726" Language="SFX">
 					<ShortName>proj_move.wav</ShortName>
 					<Path>SFX\proj_move_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="110705416" Language="SFX">
+					<ShortName>Tutorial\P48.wav</ShortName>
+					<Path>SFX\Tutorial\P48_9E69E797.wem</Path>
 				</File>
 				<File Id="120704400" Language="SFX">
 					<ShortName>proj_indic.wav</ShortName>
@@ -107,37 +195,201 @@
 					<Path>SFX\clochette_4B8CC0C5.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="128668769" Language="SFX">
+					<ShortName>Tutorial\P18.wav</ShortName>
+					<Path>SFX\Tutorial\P18_9E69E797.wem</Path>
+				</File>
+				<File Id="150445665" Language="SFX">
+					<ShortName>Tutorial\P65.wav</ShortName>
+					<Path>SFX\Tutorial\P65_9E69E797.wem</Path>
+				</File>
+				<File Id="161706709" Language="SFX">
+					<ShortName>Tutorial\P32.wav</ShortName>
+					<Path>SFX\Tutorial\P32_9E69E797.wem</Path>
+				</File>
+				<File Id="162190112" Language="SFX">
+					<ShortName>Tutorial\P2.wav</ShortName>
+					<Path>SFX\Tutorial\P2_9E69E797.wem</Path>
+				</File>
 				<File Id="179911967" Language="SFX">
 					<ShortName>proj_indic.wav</ShortName>
 					<Path>SFX\proj_indic_70EDCAC5.wem</Path>
+				</File>
+				<File Id="184113140" Language="SFX">
+					<ShortName>Tutorial\P45.wav</ShortName>
+					<Path>SFX\Tutorial\P45_9E69E797.wem</Path>
+				</File>
+				<File Id="200674803" Language="SFX">
+					<ShortName>Tutorial\P55_2.wav</ShortName>
+					<Path>SFX\Tutorial\P55_2_9E69E797.wem</Path>
+				</File>
+				<File Id="202512968" Language="SFX">
+					<ShortName>Tutorial\P10.wav</ShortName>
+					<Path>SFX\Tutorial\P10_9E69E797.wem</Path>
+				</File>
+				<File Id="210538372" Language="SFX">
+					<ShortName>Tutorial\P54.wav</ShortName>
+					<Path>SFX\Tutorial\P54_9E69E797.wem</Path>
+				</File>
+				<File Id="227509678" Language="SFX">
+					<ShortName>Tutorial\P66.wav</ShortName>
+					<Path>SFX\Tutorial\P66_9E69E797.wem</Path>
+				</File>
+				<File Id="238700526" Language="SFX">
+					<ShortName>Tutorial\P47.wav</ShortName>
+					<Path>SFX\Tutorial\P47_9E69E797.wem</Path>
 				</File>
 				<File Id="251319979" Language="SFX">
 					<ShortName>clochette_4.wav</ShortName>
 					<Path>SFX\clochette_4_4B8CC0C5.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="260407919" Language="SFX">
+					<ShortName>Tutorial\P33.wav</ShortName>
+					<Path>SFX\Tutorial\P33_9E69E797.wem</Path>
+				</File>
 				<File Id="260920937" Language="SFX">
 					<ShortName>hit_3.wav</ShortName>
 					<Path>SFX\hit_3_9E69E797.wem</Path>
+				</File>
+				<File Id="263899933" Language="SFX">
+					<ShortName>Tutorial\P28.wav</ShortName>
+					<Path>SFX\Tutorial\P28_9E69E797.wem</Path>
+				</File>
+				<File Id="277115314" Language="SFX">
+					<ShortName>Tutorial\P1.wav</ShortName>
+					<Path>SFX\Tutorial\P1_9E69E797.wem</Path>
+				</File>
+				<File Id="279880503" Language="SFX">
+					<ShortName>Tutorial\P13.wav</ShortName>
+					<Path>SFX\Tutorial\P13_9E69E797.wem</Path>
+				</File>
+				<File Id="282478764" Language="SFX">
+					<ShortName>Tutorial\P59.wav</ShortName>
+					<Path>SFX\Tutorial\P59_9E69E797.wem</Path>
+				</File>
+				<File Id="299083052" Language="SFX">
+					<ShortName>Tutorial\P55_1.wav</ShortName>
+					<Path>SFX\Tutorial\P55_1_9E69E797.wem</Path>
 				</File>
 				<File Id="303711300" Language="SFX">
 					<ShortName>chord_1.wav</ShortName>
 					<Path>SFX\chord_1_E2EAFCAD.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="306527966" Language="SFX">
+					<ShortName>Tutorial\P51.wav</ShortName>
+					<Path>SFX\Tutorial\P51_9E69E797.wem</Path>
+				</File>
+				<File Id="307981477" Language="SFX">
+					<ShortName>Tutorial\P4.wav</ShortName>
+					<Path>SFX\Tutorial\P4_9E69E797.wem</Path>
+				</File>
+				<File Id="316421742" Language="SFX">
+					<ShortName>Tutorial\P9.wav</ShortName>
+					<Path>SFX\Tutorial\P9_9E69E797.wem</Path>
+				</File>
+				<File Id="319207120" Language="SFX">
+					<ShortName>Tutorial\P5.wav</ShortName>
+					<Path>SFX\Tutorial\P5_9E69E797.wem</Path>
+				</File>
+				<File Id="319264589" Language="SFX">
+					<ShortName>Tutorial\P61.wav</ShortName>
+					<Path>SFX\Tutorial\P61_9E69E797.wem</Path>
+				</File>
+				<File Id="320844266" Language="SFX">
+					<ShortName>Tutorial\P40_bis.wav</ShortName>
+					<Path>SFX\Tutorial\P40_bis_9E69E797.wem</Path>
+				</File>
+				<File Id="323420462" Language="SFX">
+					<ShortName>Tutorial\P68.wav</ShortName>
+					<Path>SFX\Tutorial\P68_9E69E797.wem</Path>
+				</File>
 				<File Id="342155983" Language="SFX">
 					<ShortName>clochette_2.wav</ShortName>
 					<Path>SFX\clochette_2_4B8CC0C5.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="399531414" Language="SFX">
+					<ShortName>Tutorial\P70.wav</ShortName>
+					<Path>SFX\Tutorial\P70_9E69E797.wem</Path>
+				</File>
+				<File Id="404339214" Language="SFX">
+					<ShortName>Tutorial\P20.wav</ShortName>
+					<Path>SFX\Tutorial\P20_9E69E797.wem</Path>
+				</File>
+				<File Id="406773666" Language="SFX">
+					<ShortName>Tutorial\P14.wav</ShortName>
+					<Path>SFX\Tutorial\P14_9E69E797.wem</Path>
+				</File>
 				<File Id="415368753" Language="SFX">
 					<ShortName>hit_2.wav</ShortName>
 					<Path>SFX\hit_2_9E69E797.wem</Path>
+				</File>
+				<File Id="420351094" Language="SFX">
+					<ShortName>Tutorial\P73.wav</ShortName>
+					<Path>SFX\Tutorial\P73_9E69E797.wem</Path>
+				</File>
+				<File Id="422438026" Language="SFX">
+					<ShortName>Tutorial\P64.wav</ShortName>
+					<Path>SFX\Tutorial\P64_9E69E797.wem</Path>
+				</File>
+				<File Id="427095491" Language="SFX">
+					<ShortName>Tutorial\P22.wav</ShortName>
+					<Path>SFX\Tutorial\P22_9E69E797.wem</Path>
+				</File>
+				<File Id="467819116" Language="SFX">
+					<ShortName>Tutorial\P31.wav</ShortName>
+					<Path>SFX\Tutorial\P31_9E69E797.wem</Path>
+				</File>
+				<File Id="485816086" Language="SFX">
+					<ShortName>Tutorial\P46.wav</ShortName>
+					<Path>SFX\Tutorial\P46_9E69E797.wem</Path>
+				</File>
+				<File Id="494055776" Language="SFX">
+					<ShortName>Tutorial\P43.wav</ShortName>
+					<Path>SFX\Tutorial\P43_9E69E797.wem</Path>
+				</File>
+				<File Id="495028563" Language="SFX">
+					<ShortName>Tutorial\P63.wav</ShortName>
+					<Path>SFX\Tutorial\P63_9E69E797.wem</Path>
+				</File>
+				<File Id="506067097" Language="SFX">
+					<ShortName>Tutorial\P19.wav</ShortName>
+					<Path>SFX\Tutorial\P19_9E69E797.wem</Path>
+				</File>
+				<File Id="522074090" Language="SFX">
+					<ShortName>Tutorial\P25.wav</ShortName>
+					<Path>SFX\Tutorial\P25_9E69E797.wem</Path>
+				</File>
+				<File Id="528820340" Language="SFX">
+					<ShortName>Tutorial\P21.wav</ShortName>
+					<Path>SFX\Tutorial\P21_9E69E797.wem</Path>
 				</File>
 				<File Id="540786218" Language="SFX">
 					<ShortName>clochette_3.wav</ShortName>
 					<Path>SFX\clochette_3_4B8CC0C5.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
+				</File>
+				<File Id="589837882" Language="SFX">
+					<ShortName>Tutorial\P69.wav</ShortName>
+					<Path>SFX\Tutorial\P69_9E69E797.wem</Path>
+				</File>
+				<File Id="596187662" Language="SFX">
+					<ShortName>Tutorial\P58.wav</ShortName>
+					<Path>SFX\Tutorial\P58_9E69E797.wem</Path>
+				</File>
+				<File Id="628389266" Language="SFX">
+					<ShortName>Tutorial\P62.wav</ShortName>
+					<Path>SFX\Tutorial\P62_9E69E797.wem</Path>
+				</File>
+				<File Id="633484536" Language="SFX">
+					<ShortName>Tutorial\P27.wav</ShortName>
+					<Path>SFX\Tutorial\P27_9E69E797.wem</Path>
+				</File>
+				<File Id="637133831" Language="SFX">
+					<ShortName>Tutorial\P50.wav</ShortName>
+					<Path>SFX\Tutorial\P50_9E69E797.wem</Path>
 				</File>
 				<File Id="646363793" Language="SFX">
 					<ShortName>chord_5.wav</ShortName>
@@ -154,22 +406,130 @@
 					<Path>SFX\chord_4_1E27FF91.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="665311054" Language="SFX">
+					<ShortName>Tutorial\P23.wav</ShortName>
+					<Path>SFX\Tutorial\P23_9E69E797.wem</Path>
+				</File>
+				<File Id="672543677" Language="SFX">
+					<ShortName>Tutorial\P17.wav</ShortName>
+					<Path>SFX\Tutorial\P17_9E69E797.wem</Path>
+				</File>
+				<File Id="678808758" Language="SFX">
+					<ShortName>Tutorial\P40.wav</ShortName>
+					<Path>SFX\Tutorial\P40_9E69E797.wem</Path>
+				</File>
+				<File Id="689782528" Language="SFX">
+					<ShortName>Tutorial\P36.wav</ShortName>
+					<Path>SFX\Tutorial\P36_9E69E797.wem</Path>
+				</File>
+				<File Id="694739001" Language="SFX">
+					<ShortName>Tutorial\P53.wav</ShortName>
+					<Path>SFX\Tutorial\P53_9E69E797.wem</Path>
+				</File>
 				<File Id="705410793" Language="SFX">
 					<ShortName>proj_indic.wav</ShortName>
 					<Path>SFX\proj_indic_353915F6.wem</Path>
+				</File>
+				<File Id="723887787" Language="SFX">
+					<ShortName>Tutorial\P56.wav</ShortName>
+					<Path>SFX\Tutorial\P56_9E69E797.wem</Path>
+				</File>
+				<File Id="729060129" Language="SFX">
+					<ShortName>Tutorial\P7.wav</ShortName>
+					<Path>SFX\Tutorial\P7_9E69E797.wem</Path>
+				</File>
+				<File Id="729400385" Language="SFX">
+					<ShortName>Tutorial\P39.wav</ShortName>
+					<Path>SFX\Tutorial\P39_9E69E797.wem</Path>
+				</File>
+				<File Id="739235063" Language="SFX">
+					<ShortName>Tutorial\P71.wav</ShortName>
+					<Path>SFX\Tutorial\P71_9E69E797.wem</Path>
+				</File>
+				<File Id="743737532" Language="SFX">
+					<ShortName>Tutorial\P52.wav</ShortName>
+					<Path>SFX\Tutorial\P52_9E69E797.wem</Path>
+				</File>
+				<File Id="751524235" Language="SFX">
+					<ShortName>Tutorial\P29.wav</ShortName>
+					<Path>SFX\Tutorial\P29_9E69E797.wem</Path>
+				</File>
+				<File Id="753513644" Language="SFX">
+					<ShortName>Tutorial\P44.wav</ShortName>
+					<Path>SFX\Tutorial\P44_9E69E797.wem</Path>
 				</File>
 				<File Id="758885357" Language="SFX">
 					<ShortName>chord_3.wav</ShortName>
 					<Path>SFX\chord_3_7D8FFA1F.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="806914411" Language="SFX">
+					<ShortName>Tutorial\P57.wav</ShortName>
+					<Path>SFX\Tutorial\P57_9E69E797.wem</Path>
+				</File>
+				<File Id="817263976" Language="SFX">
+					<ShortName>Tutorial\P12.wav</ShortName>
+					<Path>SFX\Tutorial\P12_9E69E797.wem</Path>
+				</File>
 				<File Id="843767764" Language="SFX">
 					<ShortName>hit_1.wav</ShortName>
 					<Path>SFX\hit_1_9E69E797.wem</Path>
 				</File>
+				<File Id="852377692" Language="SFX">
+					<ShortName>Tutorial\P11.wav</ShortName>
+					<Path>SFX\Tutorial\P11_9E69E797.wem</Path>
+				</File>
+				<File Id="855334708" Language="SFX">
+					<ShortName>Tutorial\P26.wav</ShortName>
+					<Path>SFX\Tutorial\P26_9E69E797.wem</Path>
+				</File>
 				<File Id="857759710" Language="SFX">
 					<ShortName>miss.wav</ShortName>
 					<Path>SFX\miss_9E69E797.wem</Path>
+				</File>
+				<File Id="877793694" Language="SFX">
+					<ShortName>Tutorial\P8.wav</ShortName>
+					<Path>SFX\Tutorial\P8_9E69E797.wem</Path>
+				</File>
+				<File Id="934960482" Language="SFX">
+					<ShortName>Tutorial\P67.wav</ShortName>
+					<Path>SFX\Tutorial\P67_9E69E797.wem</Path>
+				</File>
+				<File Id="942473547" Language="SFX">
+					<ShortName>Tutorial\P72.wav</ShortName>
+					<Path>SFX\Tutorial\P72_9E69E797.wem</Path>
+				</File>
+				<File Id="949367338" Language="SFX">
+					<ShortName>Tutorial\P37.wav</ShortName>
+					<Path>SFX\Tutorial\P37_9E69E797.wem</Path>
+				</File>
+				<File Id="955048762" Language="SFX">
+					<ShortName>Tutorial\P3.wav</ShortName>
+					<Path>SFX\Tutorial\P3_9E69E797.wem</Path>
+				</File>
+				<File Id="962515228" Language="SFX">
+					<ShortName>Tutorial\P34.wav</ShortName>
+					<Path>SFX\Tutorial\P34_9E69E797.wem</Path>
+				</File>
+				<File Id="989542848" Language="SFX">
+					<ShortName>Tutorial\P38.wav</ShortName>
+					<Path>SFX\Tutorial\P38_9E69E797.wem</Path>
+				</File>
+				<File Id="990600849" Language="SFX">
+					<ShortName>Tutorial\P74.wav</ShortName>
+					<Path>SFX\Tutorial\P74_9E69E797.wem</Path>
+				</File>
+				<File Id="1010151209" Language="SFX">
+					<ShortName>Tutorial\P35.wav</ShortName>
+					<Path>SFX\Tutorial\P35_9E69E797.wem</Path>
+				</File>
+				<File Id="1052668030" Language="SFX">
+					<ShortName>Tutorial\P16.wav</ShortName>
+					<Path>SFX\Tutorial\P16_9E69E797.wem</Path>
+				</File>
+				<File Id="1065628052" Language="SFX">
+					<ShortName>Tutorial\P60.wav</ShortName>
+					<Path>SFX\Tutorial\P60_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -860,6 +860,1614 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Folder Name="Menu" ID="{B14EB338-5893-4653-82D7-42710577437E}" ShortID="521865979">
+					<ChildrenList>
+						<Sound Name="tutoriel" ID="{37BB734B-89B5-4705-9E7F-3FD7CA7F40FC}" ShortID="655369983" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tutoriel" ID="{CE0D08A0-A5AF-4303-B8CC-AEDEF52FC8E0}" ShortID="698044958">
+									<Language>SFX</Language>
+									<AudioFile>Menu\tutoriel.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tutoriel" ID="{CE0D08A0-A5AF-4303-B8CC-AEDEF52FC8E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="liste crédits" ID="{BC3BA0E8-AD35-4F97-A291-8B8BE85F3133}" ShortID="384910631" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="liste crédits" ID="{41C9A8F9-C854-489F-B067-0F12F73278AC}" ShortID="187144490">
+									<Language>SFX</Language>
+									<AudioFile>Menu\liste crédits.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="liste crédits" ID="{41C9A8F9-C854-489F-B067-0F12F73278AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="start" ID="{EBEFFEB6-5FB2-4AE1-8128-2E51176923A9}" ShortID="34209855" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="start" ID="{715A0475-A16D-4721-BA71-642188609371}" ShortID="468992517">
+									<Language>SFX</Language>
+									<AudioFile>Menu\start.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="start" ID="{715A0475-A16D-4721-BA71-642188609371}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crédit" ID="{B96B1EE8-749A-4F75-9238-5CE5F056ED5A}" ShortID="126239039" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crédit" ID="{84F6CBB9-0221-4FAF-BB38-1EA534CADDD7}" ShortID="415393416">
+									<Language>SFX</Language>
+									<AudioFile>Menu\crédit.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crédit" ID="{84F6CBB9-0221-4FAF-BB38-1EA534CADDD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crédits" ID="{40D8E811-BF93-4839-A70D-6375F428F7E4}" ShortID="480271567" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crédits" ID="{DBEBD240-BF65-4ADF-A13C-BE6F78001B1B}" ShortID="412766697">
+									<Language>SFX</Language>
+									<AudioFile>Menu\crédits.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crédits" ID="{DBEBD240-BF65-4ADF-A13C-BE6F78001B1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="partie rapide" ID="{DE3552B4-3967-4921-A197-B5DD53ECE82B}" ShortID="853335569" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="partie rapide" ID="{4CFB216A-D844-43DE-A01A-3C946A227F1B}" ShortID="231038572">
+									<Language>SFX</Language>
+									<AudioFile>Menu\partie rapide.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="partie rapide" ID="{4CFB216A-D844-43DE-A01A-3C946A227F1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="super" ID="{C0F3C049-C4B0-4D88-B343-A0EF7A3011F8}" ShortID="266132761">
+					<ChildrenList>
+						<Sound Name="super-003" ID="{45E972B0-4222-4489-B6D5-9CACD6EBA3C0}" ShortID="828985753" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="super-003" ID="{96C58B11-D39A-4E56-A91B-C1F182AD5ABE}" ShortID="395642365">
+									<Language>SFX</Language>
+									<AudioFile>super\super-003.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="super-003" ID="{96C58B11-D39A-4E56-A91B-C1F182AD5ABE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="super_01" ID="{1E637D67-1185-49C8-BE86-3417E4D12C45}" ShortID="905301869" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="super" ID="{E33F42D8-609E-4C17-A426-6396F7645080}" ShortID="1062661294">
+									<Language>SFX</Language>
+									<AudioFile>super\super.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="super" ID="{E33F42D8-609E-4C17-A426-6396F7645080}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="super-002" ID="{BE7F7B2C-3E65-4BE9-803A-5E327307162D}" ShortID="829675332" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="super-002" ID="{DC0D9FA9-CA0B-4FBB-9A19-B7FF4F95F0EF}" ShortID="363393825">
+									<Language>SFX</Language>
+									<AudioFile>super\super-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="super-002" ID="{DC0D9FA9-CA0B-4FBB-9A19-B7FF4F95F0EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="super-005" ID="{A831375D-3D41-4950-9F4B-B0D8DE590B00}" ShortID="622512037" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="super-005" ID="{E1962BEE-E0A8-4F4D-B2B5-9AAFE3627180}" ShortID="873959514">
+									<Language>SFX</Language>
+									<AudioFile>super\super-005.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="super-005" ID="{E1962BEE-E0A8-4F4D-B2B5-9AAFE3627180}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="super-001" ID="{A194251F-76B7-41CF-B296-756D7C05B8BE}" ShortID="519139952" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="super-001" ID="{3BA27D4E-109C-43D5-ABCA-0B00AC5FDA93}" ShortID="1005112474">
+									<Language>SFX</Language>
+									<AudioFile>super\super-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="super-001" ID="{3BA27D4E-109C-43D5-ABCA-0B00AC5FDA93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="super-004" ID="{39E4B88B-BB7A-4BB9-85E4-C087A5C7E22F}" ShortID="61567438" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="super-004" ID="{191A8FE8-D04D-4CC6-AC1B-AC59E32FAF19}" ShortID="615934300">
+									<Language>SFX</Language>
+									<AudioFile>super\super-004.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="super-004" ID="{191A8FE8-D04D-4CC6-AC1B-AC59E32FAF19}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tutorial" ID="{E43FE420-C126-445F-B48C-9F0F8AB8DB92}" ShortID="736820435">
+					<ChildrenList>
+						<Sound Name="P1" ID="{DCAA1E2F-C48B-4830-AF99-D80F5052FC55}" ShortID="892826745" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P1" ID="{6704AAD1-A11B-476F-84F6-4340BB5DE93A}" ShortID="277115314">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P1" ID="{6704AAD1-A11B-476F-84F6-4340BB5DE93A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P10" ID="{597CB9E6-F21F-4C12-8716-2BEF4EC14DB4}" ShortID="844151379" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P10" ID="{1B8BFBD1-CA2F-42B1-9FE6-2EB9D0594CB4}" ShortID="202512968">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P10" ID="{1B8BFBD1-CA2F-42B1-9FE6-2EB9D0594CB4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P11" ID="{4CFDBE03-4DD3-41EE-8FAB-B45705D332E4}" ShortID="866733166" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P11" ID="{AC950DB3-4957-4187-9E6E-60CC7F9410DC}" ShortID="852377692">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P11.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P11" ID="{AC950DB3-4957-4187-9E6E-60CC7F9410DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P12" ID="{110A00DC-FF93-4A95-83ED-7DB9F4656F1D}" ShortID="299477519" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P12" ID="{CF1C3E20-0ACE-4561-8141-ED43608C7E40}" ShortID="817263976">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P12.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P12" ID="{CF1C3E20-0ACE-4561-8141-ED43608C7E40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P13" ID="{4863569D-6C7B-4059-8303-975F04972582}" ShortID="470768982" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P13" ID="{4C514C3E-A32B-4716-A86D-878A6C97A7E4}" ShortID="279880503">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P13.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P13" ID="{4C514C3E-A32B-4716-A86D-878A6C97A7E4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P14" ID="{AD78C32B-942F-430D-82EF-B91B7A047686}" ShortID="1019572388" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P14" ID="{D1ABB649-AF3A-4C75-90BA-04EB37300F75}" ShortID="406773666">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P14.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P14" ID="{D1ABB649-AF3A-4C75-90BA-04EB37300F75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P16" ID="{098D8F58-970C-4F4D-AB27-AE337770EB22}" ShortID="1009110936" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P16" ID="{134BD94B-D88B-4646-9A75-AE54E836E652}" ShortID="1052668030">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P16.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P16" ID="{134BD94B-D88B-4646-9A75-AE54E836E652}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P17" ID="{24812D38-C281-40BB-AB29-A517AF9FE8CC}" ShortID="906144575" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P17" ID="{A211221E-A1A1-498F-9D06-C4850F1256D8}" ShortID="672543677">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P17.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P17" ID="{A211221E-A1A1-498F-9D06-C4850F1256D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P18" ID="{F5B54CDC-407F-4C43-A49F-B3B760C34FE0}" ShortID="175172266" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P18" ID="{9FDF7C5C-85ED-40B8-8E36-489AA14DABC1}" ShortID="128668769">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P18.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P18" ID="{9FDF7C5C-85ED-40B8-8E36-489AA14DABC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P19" ID="{1C425D1C-ED6A-4E35-A59C-541BFF799E97}" ShortID="665178102" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P19" ID="{E5A056AD-795A-45DD-ADC5-4F578B0D17A4}" ShortID="506067097">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P19.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P19" ID="{E5A056AD-795A-45DD-ADC5-4F578B0D17A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P2" ID="{C2D7E872-DAAD-47E8-A946-AAE9D8CFE92D}" ShortID="73970988" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P2" ID="{1387A245-95AF-486C-BC87-3213BA714C99}" ShortID="162190112">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P2" ID="{1387A245-95AF-486C-BC87-3213BA714C99}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P20" ID="{0E4ADD38-5D32-4543-A312-688E34DF3DA0}" ShortID="481541633" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P20" ID="{AC3B5342-B947-43C0-84B7-3FC32A18088F}" ShortID="404339214">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P20.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P20" ID="{AC3B5342-B947-43C0-84B7-3FC32A18088F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P21" ID="{E3AE9EDF-5933-496B-8BAB-35E454F5A377}" ShortID="679198639" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P21" ID="{856988C9-A832-4D43-8E59-7EC656A41F89}" ShortID="528820340">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P21.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P21" ID="{856988C9-A832-4D43-8E59-7EC656A41F89}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P22" ID="{5FF252E6-A245-444C-A809-F38DDBBCC4B7}" ShortID="77230625" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P22" ID="{A0CE17AB-D78D-4AF4-AC7C-85C059A9E477}" ShortID="427095491">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P22.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P22" ID="{A0CE17AB-D78D-4AF4-AC7C-85C059A9E477}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P23" ID="{E105F032-21D7-4538-9C93-24FF7A5D2FE3}" ShortID="932626662" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P23" ID="{F4BAE785-3FEE-4E87-A178-895637CF14E1}" ShortID="665311054">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P23.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P23" ID="{F4BAE785-3FEE-4E87-A178-895637CF14E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P25" ID="{B2D39085-1A4F-4F4B-91DB-49F6752509D5}" ShortID="201797857" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P25" ID="{C8038A8D-E108-4907-AFE5-5869B3F1A78E}" ShortID="522074090">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P25.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P25" ID="{C8038A8D-E108-4907-AFE5-5869B3F1A78E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P26" ID="{30198915-38CA-433C-BE38-6740A6421061}" ShortID="612256819" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P26" ID="{01AD6B71-8A50-4DEE-906B-3630B7C8EA45}" ShortID="855334708">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P26.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P26" ID="{01AD6B71-8A50-4DEE-906B-3630B7C8EA45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P27" ID="{7B7272AC-5FBF-45E8-B3C1-725B8F300AF8}" ShortID="302650542" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P27" ID="{023E720F-9790-4365-9935-E984547BE2DC}" ShortID="633484536">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P27.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P27" ID="{023E720F-9790-4365-9935-E984547BE2DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P28" ID="{87AB125A-3838-4D9D-AB7B-EE59C4E2B761}" ShortID="434404456" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P28" ID="{52000D8E-4BAE-4491-8042-B9649B59E68C}" ShortID="263899933">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P28.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P28" ID="{52000D8E-4BAE-4491-8042-B9649B59E68C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P29" ID="{2C790A7D-8D3A-4BC6-91AA-475DDAD6B112}" ShortID="638165913" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P29" ID="{E90D6D18-8718-4167-98FD-58992FBFBFBA}" ShortID="751524235">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P29.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P29" ID="{E90D6D18-8718-4167-98FD-58992FBFBFBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P3" ID="{6C1A9FD7-FAE1-4A04-B8F9-F4E3390FDF71}" ShortID="553527302" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P3" ID="{6C64F2AD-C1ED-4EAE-A4AE-361E22D698F8}" ShortID="955048762">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P3" ID="{6C64F2AD-C1ED-4EAE-A4AE-361E22D698F8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P31" ID="{8E531680-046D-4E28-A29C-BFAA84A40448}" ShortID="917049935" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P31" ID="{05C6C441-C732-485F-8776-33D10349DCE8}" ShortID="467819116">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P31.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P31" ID="{05C6C441-C732-485F-8776-33D10349DCE8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P32" ID="{B68F5740-56F5-41A8-8710-9B68DAF6ED36}" ShortID="19230774" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P32" ID="{AB4EB569-6BB9-428C-8B6F-93FCAB51B015}" ShortID="161706709">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P32.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P32" ID="{AB4EB569-6BB9-428C-8B6F-93FCAB51B015}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P33" ID="{68FCA599-B5BB-4DEB-945D-89312E68DFDF}" ShortID="25496315" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P33" ID="{786C5D4F-CD08-4648-A5F1-9D8D34F52581}" ShortID="260407919">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P33.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P33" ID="{786C5D4F-CD08-4648-A5F1-9D8D34F52581}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P34" ID="{F1C60BEE-73B3-4EF2-86AC-32A1E7052818}" ShortID="729246250" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P34" ID="{FE43064B-EC1E-4964-B6D9-7952ED51412F}" ShortID="962515228">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P34.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P34" ID="{FE43064B-EC1E-4964-B6D9-7952ED51412F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P35" ID="{38ABDA3C-D79F-4768-802D-F290A6DF71FD}" ShortID="938754224" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P35" ID="{0D465C8B-E8A9-4DCF-B9C9-CA7BFD0F7334}" ShortID="1010151209">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P35.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P35" ID="{0D465C8B-E8A9-4DCF-B9C9-CA7BFD0F7334}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P36" ID="{F347D5DE-B06C-4F06-B719-3CE9ACD5E1BA}" ShortID="114422242" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P36" ID="{3BE43572-DD69-4C8B-9481-075F220C698B}" ShortID="689782528">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P36.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P36" ID="{3BE43572-DD69-4C8B-9481-075F220C698B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P37" ID="{8BF0D67C-8A87-41AD-8681-F10D26B1B287}" ShortID="725785343" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P37" ID="{31A75B89-CFFB-41A2-9578-7C6EF0ACAE1F}" ShortID="949367338">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P37.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P37" ID="{31A75B89-CFFB-41A2-9578-7C6EF0ACAE1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P38" ID="{66658023-ECFB-4219-843B-6187025B05EA}" ShortID="506469318" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P38" ID="{8503D7B5-F5A3-4AF3-B9A1-FEF1AE6E3914}" ShortID="989542848">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P38.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P38" ID="{8503D7B5-F5A3-4AF3-B9A1-FEF1AE6E3914}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P39" ID="{49E7976F-09C5-4BE3-BB5E-82F0B9C6F579}" ShortID="440759416" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P39" ID="{C14D602C-2C88-4E6A-B97E-6B53658C13A6}" ShortID="729400385">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P39.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P39" ID="{C14D602C-2C88-4E6A-B97E-6B53658C13A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P39_bis" ID="{334AF38C-4BDF-4509-8D90-7D57387ED3FD}" ShortID="290911469" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P39_bis" ID="{B7F3B629-702F-49E2-AD31-8A5AA86D9527}" ShortID="24732367">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P39_bis.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P39_bis" ID="{B7F3B629-702F-49E2-AD31-8A5AA86D9527}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P4" ID="{451F5A49-45A1-4107-9CBD-D75B077C792F}" ShortID="177130787" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P4" ID="{DD997F60-9118-4E95-98A8-8FE7E22F55E5}" ShortID="307981477">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P4" ID="{DD997F60-9118-4E95-98A8-8FE7E22F55E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P40" ID="{0DB02EF8-23B9-408A-967F-6207D7AC948F}" ShortID="174004060" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P40" ID="{0AD6C56D-5077-4DD0-B366-7394C2410174}" ShortID="678808758">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P40.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P40" ID="{0AD6C56D-5077-4DD0-B366-7394C2410174}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P40_bis" ID="{71D983A3-016D-41C2-9032-0D7D8B18BAC9}" ShortID="735915451" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P40_bis" ID="{445BC129-DDA7-4F73-8729-DC79C5491C41}" ShortID="320844266">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P40_bis.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P40_bis" ID="{445BC129-DDA7-4F73-8729-DC79C5491C41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P41_bis" ID="{BC5AB657-2911-4538-B6C2-EC62E8770944}" ShortID="736464719" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P41_bis" ID="{04FFE1EB-4581-40A3-96BB-3E283A3F2BD5}" ShortID="42029356">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P41_bis.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P41_bis" ID="{04FFE1EB-4581-40A3-96BB-3E283A3F2BD5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P43" ID="{352A720E-D62F-4E7C-9B8A-F4054211902D}" ShortID="803580832" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P43" ID="{13F2DCE8-47AC-4D2E-96D9-EF383120FE40}" ShortID="494055776">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P43.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P43" ID="{13F2DCE8-47AC-4D2E-96D9-EF383120FE40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P44" ID="{6C2E63B4-B562-42FE-A7ED-E067F426F9B4}" ShortID="764476514" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P44" ID="{BEFDC859-2708-4C49-99A6-00AF9377866B}" ShortID="753513644">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P44.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P44" ID="{BEFDC859-2708-4C49-99A6-00AF9377866B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P45" ID="{58FE547E-258F-4832-86A8-701489C9D1AE}" ShortID="92466281" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P45" ID="{1D177F06-710E-41B9-BA7F-6A6E60994ABD}" ShortID="184113140">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P45.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P45" ID="{1D177F06-710E-41B9-BA7F-6A6E60994ABD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P46" ID="{52DAAD23-509F-4241-9388-8E35E421C3DA}" ShortID="470266576" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P46" ID="{6BD125CA-3E43-47DE-A601-39165CA4B14B}" ShortID="485816086">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P46.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P46" ID="{6BD125CA-3E43-47DE-A601-39165CA4B14B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P47" ID="{0C89E5F1-C5CB-48AE-8DB6-FBCDFF421C53}" ShortID="868110093" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P47" ID="{6DD05B27-0BF5-4168-9F78-59B524EB76C1}" ShortID="238700526">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P47.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P47" ID="{6DD05B27-0BF5-4168-9F78-59B524EB76C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P48" ID="{C9E770B3-9AF6-4176-A14C-3E9554E98111}" ShortID="901857379" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P48" ID="{C28BB54B-90BD-492C-81DD-8305D25909FA}" ShortID="110705416">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P48.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P48" ID="{C28BB54B-90BD-492C-81DD-8305D25909FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P49" ID="{5350185B-1933-4C91-A7A7-D5A7B932E2C9}" ShortID="59603533" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P49" ID="{AF46B105-0EAD-4437-A1E0-161F0BA4E58F}" ShortID="38348969">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P49.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P49" ID="{AF46B105-0EAD-4437-A1E0-161F0BA4E58F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P5" ID="{BF640D03-4048-4A7E-8E0F-66CEA84C14F5}" ShortID="777950400" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P5" ID="{4F7F990C-7C93-4349-9268-F2ED1651BDCF}" ShortID="319207120">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P5" ID="{4F7F990C-7C93-4349-9268-F2ED1651BDCF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P50" ID="{8CFC53CE-8BD8-40AC-988E-E0C53651EB2E}" ShortID="598880975" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P50" ID="{F9DA511C-B040-4ED4-91EE-267709937BB2}" ShortID="637133831">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P50.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P50" ID="{F9DA511C-B040-4ED4-91EE-267709937BB2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P51" ID="{637E22E1-3FEF-4866-AB20-81F5260C1A6A}" ShortID="1059359283" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P51" ID="{4749724C-60FA-4628-8860-D67701DF4331}" ShortID="306527966">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P51.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P51" ID="{4749724C-60FA-4628-8860-D67701DF4331}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P52" ID="{E03EE2CA-5835-4907-B1CB-D18B325E8951}" ShortID="80044761" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P52" ID="{A7891050-43A4-45BA-BDFA-7BA2365DE8CD}" ShortID="743737532">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P52.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P52" ID="{A7891050-43A4-45BA-BDFA-7BA2365DE8CD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P53" ID="{C802D2ED-1890-4580-B46F-6D0B72070344}" ShortID="202558333" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P53" ID="{21113176-8DD5-4E54-B7F7-297D85F887C9}" ShortID="694739001">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P53.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P53" ID="{21113176-8DD5-4E54-B7F7-297D85F887C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P54" ID="{C37388CD-E8C2-4E09-BC24-6670D23ED885}" ShortID="490582512" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P54" ID="{F6F8AE0F-E9DE-4C5C-90AD-6DCAD68A509C}" ShortID="210538372">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P54.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P54" ID="{F6F8AE0F-E9DE-4C5C-90AD-6DCAD68A509C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P55_1" ID="{30ED28F0-BA26-467D-8104-FCE5824245AE}" ShortID="873877345" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P55_1" ID="{534372DC-BC09-409E-AB40-9E0A82C7C516}" ShortID="299083052">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P55_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P55_1" ID="{534372DC-BC09-409E-AB40-9E0A82C7C516}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P55_2" ID="{29CE963F-9400-419C-84F7-7A099AC4EAFA}" ShortID="657430576" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P55_2" ID="{BF78B169-F298-41FB-84B7-E7E19466A285}" ShortID="200674803">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P55_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P55_2" ID="{BF78B169-F298-41FB-84B7-E7E19466A285}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P56" ID="{BC2812F0-CFBB-464E-AFA9-4712405E25DF}" ShortID="808702055" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P56" ID="{2BAEDC6C-187C-4EA9-8964-8221D5594D92}" ShortID="723887787">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P56.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P56" ID="{2BAEDC6C-187C-4EA9-8964-8221D5594D92}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P57" ID="{15185B0C-F45D-45B3-A902-AB9D6E061077}" ShortID="330039514" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P57" ID="{4F88EB24-C554-409E-94FF-85528F1BC84A}" ShortID="806914411">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P57.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P57" ID="{4F88EB24-C554-409E-94FF-85528F1BC84A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P58" ID="{114DC741-B211-423A-84E1-51CA485F2A84}" ShortID="680568933" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P58" ID="{F53296D8-4BF8-43F1-B39B-260571985278}" ShortID="596187662">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P58.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P58" ID="{F53296D8-4BF8-43F1-B39B-260571985278}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P59" ID="{B6D789F5-36E9-4E0E-B31C-1C08351F162C}" ShortID="702999392" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P59" ID="{B3903971-B4EB-47DB-8956-AB5652CC798C}" ShortID="282478764">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P59.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P59" ID="{B3903971-B4EB-47DB-8956-AB5652CC798C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P60" ID="{1553C855-C178-4542-86DE-607C3CAB449E}" ShortID="319963836" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P60" ID="{F16B8C93-1ECB-434E-834C-6C38DB1222A9}" ShortID="1065628052">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P60.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P60" ID="{F16B8C93-1ECB-434E-834C-6C38DB1222A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P61" ID="{9AD032A8-4F54-4DFB-8837-D9F916884779}" ShortID="100695668" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P61" ID="{3648C9E9-2F4C-46A2-A9CF-59CE07516BAE}" ShortID="319264589">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P61.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P61" ID="{3648C9E9-2F4C-46A2-A9CF-59CE07516BAE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P62" ID="{116528FE-1447-4699-9859-3D53B8CDC1D3}" ShortID="827641861" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P62" ID="{1461D42E-C7BA-470A-B873-999E133628E1}" ShortID="628389266">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P62.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P62" ID="{1461D42E-C7BA-470A-B873-999E133628E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P63" ID="{9A615815-0476-4FC0-AD83-B2B47D661B3E}" ShortID="897204658" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P63" ID="{68A3422E-BDF8-486D-8128-F229FE794FDE}" ShortID="495028563">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P63.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P63" ID="{68A3422E-BDF8-486D-8128-F229FE794FDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P64" ID="{A1C83FC3-C57D-4844-83BE-090D4EEEEB2F}" ShortID="898129165" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P64" ID="{F1186086-2EF8-499A-BE19-62BC14477304}" ShortID="422438026">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P64.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P64" ID="{F1186086-2EF8-499A-BE19-62BC14477304}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P65" ID="{1D5CECCF-6239-4FA0-922B-0A720B7586BE}" ShortID="1003317303" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P65" ID="{DC05F7CE-EFE6-430C-8584-1B05593A39FA}" ShortID="150445665">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P65.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P65" ID="{DC05F7CE-EFE6-430C-8584-1B05593A39FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P66" ID="{D52E9972-D0A7-4D64-88C0-696D689E3130}" ShortID="106434599" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P66" ID="{C496F7F9-B680-41ED-9D9B-08F07F409C26}" ShortID="227509678">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P66.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P66" ID="{C496F7F9-B680-41ED-9D9B-08F07F409C26}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P67" ID="{E2C17F8F-583D-4FDA-BFB7-E0BEDD421556}" ShortID="579610006" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P67" ID="{DD2BF0E9-EF0B-4336-B877-4ECCE1688ABA}" ShortID="934960482">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P67.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P67" ID="{DD2BF0E9-EF0B-4336-B877-4ECCE1688ABA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P68" ID="{559B108D-8E4B-4C57-BE57-3321452DA2D5}" ShortID="912923395" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P68" ID="{4C3B9713-C4EF-45EF-8DFA-278CF803AFCB}" ShortID="323420462">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P68.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P68" ID="{4C3B9713-C4EF-45EF-8DFA-278CF803AFCB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P69" ID="{FC484303-64D3-4DAF-8FEF-6A56DDF4DB36}" ShortID="637055443" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P69" ID="{A46FB43D-F9BA-4639-ACBA-EE4BAA650A98}" ShortID="589837882">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P69.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P69" ID="{A46FB43D-F9BA-4639-ACBA-EE4BAA650A98}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P7" ID="{EBC93EF4-C793-42AD-AF54-B0FF8A8D7251}" ShortID="220661537" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P7" ID="{6999CB15-1DE7-4109-9ECF-5B2955DC5DC1}" ShortID="729060129">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P7" ID="{6999CB15-1DE7-4109-9ECF-5B2955DC5DC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P70" ID="{1AA4992C-3D20-4023-916E-DF95508A0976}" ShortID="129986067" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P70" ID="{E450B046-9940-4ED7-9064-CDAFDF3C2F40}" ShortID="399531414">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P70.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P70" ID="{E450B046-9940-4ED7-9064-CDAFDF3C2F40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P71" ID="{545D624A-E33B-4533-AA6F-F48E61A0F303}" ShortID="386518024" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P71" ID="{49C8C660-7771-4CBB-9D3F-1A9758B0305A}" ShortID="739235063">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P71.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P71" ID="{49C8C660-7771-4CBB-9D3F-1A9758B0305A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P72" ID="{F1F02EFC-FE3A-4A3D-87E3-67556FB08AA4}" ShortID="739464138" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P72" ID="{B9F7D5DB-E6FA-45CE-B8BC-C4A47AF5B74A}" ShortID="942473547">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P72.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P72" ID="{B9F7D5DB-E6FA-45CE-B8BC-C4A47AF5B74A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P73" ID="{13D31987-2256-4636-850F-FFB8D4189F16}" ShortID="696638524" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P73" ID="{9BA29F13-3D42-4662-80C2-28B5E2335336}" ShortID="420351094">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P73.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P73" ID="{9BA29F13-3D42-4662-80C2-28B5E2335336}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P74" ID="{DC4AE135-2E58-45EA-AF34-D22F63620429}" ShortID="358340747" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P74" ID="{685E57DD-ED85-4B1D-9F2C-23395176CD8A}" ShortID="990600849">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P74.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P74" ID="{685E57DD-ED85-4B1D-9F2C-23395176CD8A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P8" ID="{C795D8F8-BFB0-4FB5-B744-38EDA9060CC9}" ShortID="740212030" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P8" ID="{021F2A79-5BE6-46A3-A9EB-3C3BF48D7EA8}" ShortID="877793694">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P8" ID="{021F2A79-5BE6-46A3-A9EB-3C3BF48D7EA8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="P9" ID="{4E18EDFC-3C66-43B7-9C09-06F0E9742059}" ShortID="437302992" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B1D4E72-D96A-4FDC-9DBF-CD3189E1E1C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9D0A1162-C375-49AF-AFB2-FD294E34C8AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="P9" ID="{D9A7B4BE-C1FB-44A5-8939-2C183B725544}" ShortID="316421742">
+									<Language>SFX</Language>
+									<AudioFile>Tutorial\P9.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="P9" ID="{D9A7B4BE-C1FB-44A5-8939-2C183B725544}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
