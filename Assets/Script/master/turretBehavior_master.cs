@@ -7,37 +7,17 @@ public class turretBehavior_master : MonoBehaviour {
     public Sprite leftSprite;
     public Sprite rightSprite;
 
-    private Rigidbody2D rb2D;
-
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>();
         GetComponent<SpriteRenderer>().sprite = middleSprite;
     }
 
     void FixedUpdate()
     {
-        
-        var angle = Mathf.Atan2(Input.GetAxisRaw("Horizontal_2"), -Input.GetAxisRaw("Vertical_2")) * Mathf.Rad2Deg;
-
-        // QUICKFIX - Angle = 180 if there is no input
-        if (angle == 180)
-        {
-            angle = 0;
-        }
-        if(angle > 90)
-        {
-            angle = 90;
-        }
-        if(angle < -90)
-        {
-            angle = -90;
-        }
-        
         //A supprimer, permet de faire les tests au clavier
-        transform.FindChild("pivotScope").transform.eulerAngles += Vector3.back * Input.GetAxisRaw("Horizontal");
+        // transform.FindChild("pivotScope").transform.eulerAngles += Vector3.back * Input.GetAxisRaw("Horizontal");
 
-        if(Input.GetAxisRaw("Horizontal_2") < 0)
+        if (Input.GetAxisRaw("Horizontal_2") < 0)
         {
             GetComponent<SpriteRenderer>().sprite = leftSprite;
         } else if (Input.GetAxisRaw("Horizontal_2") > 0)
