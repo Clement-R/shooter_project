@@ -21,6 +21,8 @@ GameObject:
   - 4: {fileID: 4000010817343270}
   - 114: {fileID: 114000012736492410}
   - 114: {fileID: 114000014224915950}
+  - 114: {fileID: 114000010684727374}
+  - 114: {fileID: 114000012918360036}
   m_Layer: 0
   m_Name: GameManager_master
   m_TagString: Untagged
@@ -41,6 +43,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &114000010684727374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014226127612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62c30897f946694aaf3cc1c9ef8b58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfEnemiesKilled: 0
 --- !u!114 &114000012736492410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,6 +68,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeInit: 2
   levelLife: 4
+--- !u!114 &114000012918360036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014226127612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576b56bf3a3912245b486550facc91e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 1000010330552228, guid: 8980df681e3444e48b840b6f4d67a357, type: 2}
+  ySpawn: -7
 --- !u!114 &114000014224915950
 MonoBehaviour:
   m_ObjectHideFlags: 1

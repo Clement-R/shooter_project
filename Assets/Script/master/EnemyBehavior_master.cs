@@ -80,7 +80,7 @@ public class EnemyBehavior_master : MonoBehaviour {
         deathSoundEmitter.transform.position = gameObject.transform.position;
 
         // Push information to the game manager
-        GameObject.Find("GameManager").GetComponent<GameManager_WaveSpawner>().numberOfEnemiesKilled++;
+        GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilled++;
         god.ennemyShot();
 
         // Destroy game object
