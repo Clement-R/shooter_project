@@ -20,9 +20,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010817343270}
   - 114: {fileID: 114000012736492410}
-  - 114: {fileID: 114000012707682730}
-  - 114: {fileID: 114000010979998416}
-  - 114: {fileID: 114000010708106686}
   - 114: {fileID: 114000014224915950}
   m_Layer: 0
   m_Name: GameManager_master
@@ -44,44 +41,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000010708106686
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014226127612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5ed985a57c065749823af958107c8bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy: {fileID: 1000012134331182, guid: 4acdbd82fa1350043a0488c10f23dfed, type: 2}
---- !u!114 &114000010979998416
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014226127612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7e5e57ae23461c4898d92f9d6af8e07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeInit: 0
-  pointPerHit: 0
-  malus: 0
---- !u!114 &114000012707682730
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014226127612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a6cefdfe001c1b4b8e3eea00753c8f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfEnemiesKilled: 0
 --- !u!114 &114000012736492410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d56be6e3c3e1260469f79a7402603586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trashGameObject: {fileID: 1000012044313888, guid: a0f10aef55dd5fd46b959ca8e92a931e,
-    type: 2}
   timeBetweenSpawn: 1
   yRespawn: -7.5
+  trashGameObject: {fileID: 1000012044313888, guid: a0f10aef55dd5fd46b959ca8e92a931e,
+    type: 2}
