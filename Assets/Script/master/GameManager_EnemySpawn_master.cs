@@ -14,7 +14,7 @@ public class GameManager_EnemySpawn_master : MonoBehaviour {
 
     public GameObject spawnEnemy(float x)
     {
-        if(x == 0)
+        if(x > -0.5f || x < 0.5f)
         {
             return Instantiate(Enemy1, new Vector3(x, ySpawn, 0), Quaternion.identity) as GameObject;
         } else
