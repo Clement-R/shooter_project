@@ -75,6 +75,12 @@ public class EnemyBehavior_master : MonoBehaviour {
 
     public void Die()
     {
+        //changeforme
+        GetComponent<Animator>().SetBool("isDead", true);
+        GetComponent<CircleCollider2D>().enabled = false;
+        transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
+        transform.eulerAngles = Vector3.zero;
+
         // Play sound
         GameObject deathSoundEmitter = Instantiate(deathSound);
         deathSoundEmitter.transform.position = gameObject.transform.position;
@@ -84,7 +90,7 @@ public class EnemyBehavior_master : MonoBehaviour {
         god.ennemyShot();
 
         // Destroy game object
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
 
         // Stop sound
         AkSoundEngine.StopPlayingID(eventIdIndic);
