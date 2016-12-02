@@ -109,11 +109,13 @@ public class EnemyBehavior_master : MonoBehaviour {
         if (coll.gameObject.tag == "southWall")
         {
             god.ennemyPassed();
+            GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilled++;
             Destroy(this.gameObject);
         }
         else if (coll.gameObject.tag == "Player")
         {
             god.playerTouched();
+            GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilled++;
             Destroy(this.gameObject);
         }
     }
