@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F0CB76AC-3149-4F62-BFB5-554C81412ADC}'
-    m_lastTimePsrt1: -952611241
-    m_lastTimePart2: -1999365612
+    m_lastTimePsrt1: -1111993594
+    m_lastTimePart2: -1999365455
     List:
     - Name: chord
       Path: Default Work Unit\chord
@@ -229,6 +229,16 @@ MonoBehaviour:
       ID: -42536914
       Guid: 4df768544cad784b8de951d08bc23ebb
       maxAttenuation: 0
+    - Name: P24
+      Path: Default Work Unit\P24
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P24
+        ObjectType: 3
+      ID: -42536919
+      Guid: de8d4394b4e7ff488ca28a077ba2c4d0
+      maxAttenuation: 0
     - Name: P25
       Path: Default Work Unit\P25
       PathAndIcons:
@@ -288,6 +298,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1635194254
       Guid: ae05f09a77790b46995fb1d560971f41
+      maxAttenuation: 0
+    - Name: P30
+      Path: Default Work Unit\P30
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P30
+        ObjectType: 3
+      ID: -59314502
+      Guid: ed6228a40274fa4681d2d3e0fa7b3653
       maxAttenuation: 0
     - Name: P31
       Path: Default Work Unit\P31
@@ -869,8 +889,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{35064881-6812-452C-BC96-FE88AC430106}'
-    m_lastTimePsrt1: 2037209953
-    m_lastTimePart2: -1999365610
+    m_lastTimePsrt1: -1112188611
+    m_lastTimePart2: -1999365455
     List:
     - Name: player
       Path: Default Work Unit\player

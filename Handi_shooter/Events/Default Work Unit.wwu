@@ -959,6 +959,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="P24" ID="{94438DDE-E7B4-48FF-8CA2-8A077BA2C4D0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{80FA69DF-491F-4B7C-8DDF-5DE01921BBAD}" ShortID="228425798" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8C648330-FF5C-48C7-A8F9-7A1A23298CA2}" Global="false">
+									<ObjectRef Name="P24" ID="{01F74C02-8956-46BA-9D92-E3F88C3630CE}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P30" ID="{A42862ED-7402-46FA-81D2-D3E0FA7B3653}">
+					<ChildrenList>
+						<Action Name="Play" ID="{23176187-7CB2-46BE-A025-F87101C549D1}" ShortID="300940599" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B4F40FCD-1B8C-4E7D-978E-0B35EA7ED3C4}" Global="false">
+									<ObjectRef Name="P30" ID="{8F7F353B-F92C-4D17-8817-A718F4E47BEA}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
