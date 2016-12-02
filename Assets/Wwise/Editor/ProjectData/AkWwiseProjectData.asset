@@ -905,6 +905,8 @@ MonoBehaviour:
   - /Handi_shooter
   - /Handi_shooter/Events
   - /Handi_shooter/Events/Default Work Unit
+  - /Handi_shooter/SoundBanks
+  - /Handi_shooter/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

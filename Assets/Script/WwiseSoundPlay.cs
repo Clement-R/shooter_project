@@ -4,17 +4,19 @@ using System.Collections;
 public class WwiseSoundPlay : MonoBehaviour {
     public string soundIndex = "";
 
-    private uint eventId = 0;
+    private EventBehavior eventBehavior;
 
-	void Start () {
+    void Start () {
         if(soundIndex != "") {
-            eventId = AkSoundEngine.PostEvent(soundIndex, gameObject, (uint)AkCallbackType.AK_EndOfEvent, OnSoundEnd, null);
+            AkSoundEngine.PostEvent(soundIndex, gameObject, (uint)AkCallbackType.AK_EndOfEvent, OnSoundEnd, null);
         }
+
+        eventBehavior = GetComponent<EventBehavior>();
     }
 
 	void OnSoundEnd(object in_cookie, AkCallbackType in_type, object in_info) {
         if (in_type == AkCallbackType.AK_EndOfEvent) {
-            eventId = 0;
+            eventBehavior.isFinished = true;
         }
     }
 }

@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013866351878}
   - 114: {fileID: 114000010816747404}
-  - 114: {fileID: 114000012069944266}
   m_Layer: 0
   m_Name: Part(Sound blank)
   m_TagString: Untagged
@@ -54,7 +53,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textInfo: {fileID: 0}
   text: 
-  soundInfo: {fileID: 0}
+  remainTime: 1
+  soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: 
   exitEvent: {fileID: 0}
   successText: {fileID: 0}
@@ -62,32 +62,3 @@ MonoBehaviour:
   failText: {fileID: 0}
   failSound: {fileID: 0}
   isFinished: 0
---- !u!114 &114000012069944266
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010541457544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 711d67ab567f31f4fb5410ebd334a789, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textInfo: {fileID: 0}
-  soundInfo: {fileID: 0}
-  exitEvent: {fileID: 0}
-  successText: {fileID: 0}
-  successSound: {fileID: 0}
-  failText: {fileID: 0}
-  failSound: {fileID: 0}
-  isFinished: 0
-  textInfoEvent: {fileID: 0}
-  soundInfoEvent: {fileID: 0}
-  exitEventEvent: {fileID: 0}
-  successTextEvent: {fileID: 0}
-  successSoundEvent: {fileID: 0}
-  failTextEvent: {fileID: 0}
-  failSoundEvent: {fileID: 0}
-  infosCoroutineLaunched: 0
-  infosFinished: 0
-  conditionCoroutineLaunched: 0

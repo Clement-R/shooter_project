@@ -82,12 +82,14 @@
 				<Event Id="4252430380" Name="P21" ObjectPath="\Events\Default Work Unit\P21"/>
 				<Event Id="4252430383" Name="P22" ObjectPath="\Events\Default Work Unit\P22"/>
 				<Event Id="4252430382" Name="P23" ObjectPath="\Events\Default Work Unit\P23"/>
+				<Event Id="4252430377" Name="P24" ObjectPath="\Events\Default Work Unit\P24"/>
 				<Event Id="4252430376" Name="P25" ObjectPath="\Events\Default Work Unit\P25"/>
 				<Event Id="4252430379" Name="P26" ObjectPath="\Events\Default Work Unit\P26"/>
 				<Event Id="4252430378" Name="P27" ObjectPath="\Events\Default Work Unit\P27"/>
 				<Event Id="4252430373" Name="P28" ObjectPath="\Events\Default Work Unit\P28"/>
 				<Event Id="4252430372" Name="P29" ObjectPath="\Events\Default Work Unit\P29"/>
 				<Event Id="1635194254" Name="P3" ObjectPath="\Events\Default Work Unit\P3"/>
+				<Event Id="4235652794" Name="P30" ObjectPath="\Events\Default Work Unit\P30"/>
 				<Event Id="4235652795" Name="P31" ObjectPath="\Events\Default Work Unit\P31"/>
 				<Event Id="4235652792" Name="P32" ObjectPath="\Events\Default Work Unit\P32"/>
 				<Event Id="4235652793" Name="P33" ObjectPath="\Events\Default Work Unit\P33"/>
@@ -362,6 +364,10 @@
 					<ShortName>Tutorial\P25.wav</ShortName>
 					<Path>SFX\Tutorial\P25_9E69E797.wem</Path>
 				</File>
+				<File Id="522601960" Language="SFX">
+					<ShortName>P30.wav</ShortName>
+					<Path>SFX\P30_9E69E797.wem</Path>
+				</File>
 				<File Id="528820340" Language="SFX">
 					<ShortName>Tutorial\P21.wav</ShortName>
 					<Path>SFX\Tutorial\P21_9E69E797.wem</Path>
@@ -490,6 +496,10 @@
 				<File Id="877793694" Language="SFX">
 					<ShortName>Tutorial\P8.wav</ShortName>
 					<Path>SFX\Tutorial\P8_9E69E797.wem</Path>
+				</File>
+				<File Id="909237499" Language="SFX">
+					<ShortName>P24.wav</ShortName>
+					<Path>SFX\P24_9E69E797.wem</Path>
 				</File>
 				<File Id="934960482" Language="SFX">
 					<ShortName>Tutorial\P67.wav</ShortName>

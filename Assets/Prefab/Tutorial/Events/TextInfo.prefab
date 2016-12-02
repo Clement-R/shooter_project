@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011714190668}
   - 114: {fileID: 114000013970963112}
+  - 114: {fileID: 114000012455121408}
   m_Layer: 0
   m_Name: TextInfo
   m_TagString: Untagged
@@ -92,6 +93,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114000012455121408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013192908898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ea61cb0abc17a4a973c3cc0a2f44c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remainTime: 1
 --- !u!114 &114000012717688870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -145,10 +158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra
-    ornare eros. Nunc convallis congue odio, sed condimentum leo varius vel. Maecenas
-    neque turpis, efficitur ut ligula in, pulvinar accumsan libero. Suspendisse lacinia
-    enim a molestie sollicitudin. Sed consectetur dictum massa.
+  m_Text: Bienvenue dans ce monde
 --- !u!114 &114000013970963112
 MonoBehaviour:
   m_ObjectHideFlags: 1

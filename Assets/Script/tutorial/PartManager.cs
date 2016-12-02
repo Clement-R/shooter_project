@@ -3,20 +3,36 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class PartManager : MonoBehaviour {
-    public GameObject textInfo;
-    public string text;
-    public GameObject soundInfo;
-    public string soundIndex;
-    public GameObject exitEvent;
-    public GameObject successText;
-    public GameObject successSound;
-    public GameObject failText;
-    public GameObject failSound;
-
     public bool isFinished = false;
 
+    public GameObject textInfo;
+    public string text;
+    public float remainTime = 1.0f;
+
+    public GameObject soundInfo;
+    public string soundIndex;
+
+    // Exit event related
+    public GameObject exitEvent;
+
+    public GameObject successText;
+    public string successTextContent;
+    public float successTextRemainTime = 1.0f;
+    public GameObject failText;
+    public string failTextContent;
+    public float failTextRemainTime = 1.0f;
+
+    public GameObject successSound;
+    public GameObject failSound;
+
+    // Start informations related
+    private GameObject textInfoInstance;
     private EventBehavior textInfoEvent = null;
+    private GameObject soundInfoInstance;
     private EventBehavior soundInfoEvent = null;
+
+    // Exit condition related
+    private GameObject exitEventInstance = null;
     private EventBehavior exitEventEvent = null;
     private EventBehavior successTextEvent = null;
     private EventBehavior successSoundEvent = null;
@@ -26,20 +42,10 @@ public class PartManager : MonoBehaviour {
     private bool infosCoroutineLaunched = false;
     private bool infosFinished = false;
     private bool conditionCoroutineLaunched = false;
-
-	void Start () {
-        textInfoEvent = textInfo.GetComponent<EventBehavior>();
-        soundInfoEvent = soundInfo.GetComponent<EventBehavior>();
-        exitEventEvent = exitEvent.GetComponent<EventBehavior>();
-        successTextEvent = successText.GetComponent<EventBehavior>();
-        successSoundEvent = successSound.GetComponent<EventBehavior>();
-        failTextEvent = failText.GetComponent<EventBehavior>();
-        failSoundEvent = failSound.GetComponent<EventBehavior>();
-    }
-
+    
     IEnumerator waitInfosToEnd() {
         if (soundInfoEvent != null && textInfoEvent != null) {
-            if(textInfoEvent.isFinished && soundInfoEvent.isFinished) {
+            if (textInfoEvent.isFinished && soundInfoEvent.isFinished) {
                 infosFinished = true;
             }
         } else if (soundInfoEvent != null) {
@@ -52,18 +58,23 @@ public class PartManager : MonoBehaviour {
             }
         }
         yield return new WaitForEndOfFrame();
+        if(!infosFinished) {
+            StartCoroutine("waitInfosToEnd");
+        }
     }
 
     IEnumerator waitConditionToEnd() {
         if (exitEventEvent.fail) {
             // Play fail text
             if (failText != null) {
-                Instantiate(failText);
+                failTextEvent = Instantiate(failText).GetComponent<EventBehavior>();
+                TextDisplay textManager = failTextEvent.GetComponentInChildren<TextDisplay>();
+                textManager.remainTime = this.failTextRemainTime;
             }
 
             // Play fail sound
             if (failSound != null) {
-                Instantiate(failSound);
+                failSoundEvent = Instantiate(failSound).GetComponent<EventBehavior>();
             }
 
             if (failText != null && failSound != null) {
@@ -83,41 +94,59 @@ public class PartManager : MonoBehaviour {
             }
         }
         else if (exitEventEvent.success) {
-            // Play successEvent
+            // Play success text
             if (successText != null) {
-                Instantiate(successText);
+                successTextEvent = Instantiate(successText).GetComponent<EventBehavior>();
+                TextDisplay textManager = successTextEvent.GetComponentInChildren<TextDisplay>();
+                textManager.remainTime = this.successTextRemainTime;
             }
 
+            // Play success sound
             if (successSound != null) {
-                Instantiate(successSound);
+                successSoundEvent = Instantiate(successSound).GetComponent<EventBehavior>();
             }
 
             isFinished = true;
         }
         yield return new WaitForEndOfFrame();
+        StartCoroutine("waitConditionToEnd");
     }
 	
 	void Update () {
         // If we didn't played the infos part
         if(!infosFinished) {
-            // If the event 
+            // If the event
             if(!infosCoroutineLaunched) {
                 // Play textInfo and/or soundInfo
-                if (soundInfoEvent != null && textInfoEvent != null) {
-                    if (!textInfoEvent.isFinished && !soundInfoEvent.isFinished) {
-                        Instantiate(textInfoEvent);
-                        Instantiate(soundInfoEvent);
-                    }
+                if (soundInfo != null && textInfo != null) {
+                    textInfoInstance = Instantiate(textInfo, transform) as GameObject;
+                    soundInfoInstance = Instantiate(soundInfo, transform) as GameObject;
+                    
+                    textInfoEvent = textInfoInstance.GetComponent<EventBehavior>();
+                    Text widgetText = textInfoInstance.GetComponentInChildren<Text>();
+                    widgetText.text = this.text;
+                    TextDisplay textManager = textInfoInstance.GetComponentInChildren<TextDisplay>();
+                    textManager.remainTime = this.remainTime;
+
+                    soundInfoEvent = soundInfoInstance.GetComponent<EventBehavior>();
+                    WwiseSoundPlay soundPlayer = soundInfoInstance.GetComponent<WwiseSoundPlay>();
+                    soundPlayer.soundIndex = this.soundIndex;
                 }
-                else if (soundInfoEvent != null) {
-                    if (!soundInfoEvent.isFinished) {
-                        Instantiate(soundInfoEvent);
-                    }
+                else if (soundInfo != null) {
+                    soundInfoInstance = Instantiate(soundInfo, transform) as GameObject;
+
+                    soundInfoEvent = soundInfoInstance.GetComponent<EventBehavior>();
+                    WwiseSoundPlay soundPlayer = soundInfoInstance.GetComponent<WwiseSoundPlay>();
+                    soundPlayer.soundIndex = this.soundIndex;
                 }
                 else if (textInfo != null) {
-                    if (!textInfoEvent.isFinished) {
-                        Instantiate(textInfoEvent);
-                    }
+                    textInfoInstance = Instantiate(textInfo, transform) as GameObject;
+
+                    textInfoEvent = textInfoInstance.GetComponent<EventBehavior>();
+                    Text widgetText = textInfoInstance.GetComponentInChildren<Text>();
+                    widgetText.text = this.text;
+                    TextDisplay textManager = textInfoInstance.GetComponentInChildren<TextDisplay>();
+                    textManager.remainTime = this.remainTime;
                 }
 
                 // Wait for it / them to end
@@ -125,13 +154,36 @@ public class PartManager : MonoBehaviour {
                 infosCoroutineLaunched = true;
             }
         } else {
-            // If the event doesn't exist
-            if(!conditionCoroutineLaunched) {
-                // Instantiate the event
-                Instantiate(exitEventEvent);
-                // Launch coroutine that wait for it to end
-                StartCoroutine("waitConditionToEnd");
-                conditionCoroutineLaunched = true;
+            if (exitEvent != null) {
+                // If an exit event exist and is not already running
+                if (!conditionCoroutineLaunched) {
+                    // Instantiate the event
+                    exitEventInstance = Instantiate(exitEvent) as GameObject;
+
+                    // Get all necessary informations
+                    exitEventEvent = exitEventInstance.GetComponent<EventBehavior>();
+
+                    /*
+                    if (successText != null) {
+                        successTextEvent = successText.GetComponent<EventBehavior>();
+                    }
+                    if (successSound != null) {
+                        successSoundEvent = successSound.GetComponent<EventBehavior>();
+                    }
+                    if (failText != null) {
+                        failTextEvent = failText.GetComponent<EventBehavior>();
+                    }
+                    if (failSound != null) {
+                        failSoundEvent = failSound.GetComponent<EventBehavior>();
+                    }
+                    */
+
+                    // Launch coroutine that wait for it to end
+                    StartCoroutine("waitConditionToEnd");
+                    conditionCoroutineLaunched = true;
+                }
+            } else {
+                isFinished = true;
             }
         }
 	}

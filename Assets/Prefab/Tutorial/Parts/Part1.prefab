@@ -51,9 +51,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4092553e1f6b1428e5bd52d2f58199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textInfo: {fileID: 0}
+  textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   text: Bienvenue dans ce monde
-  soundInfo: {fileID: 0}
+  soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: P1
   exitEvent: {fileID: 0}
   successText: {fileID: 0}
