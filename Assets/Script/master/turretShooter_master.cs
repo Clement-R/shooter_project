@@ -14,7 +14,7 @@ public class turretShooter_master : MonoBehaviour {
 
     void Update()
     {
-        if ( (Input.GetButton("Fire_2") || Input.GetButton("Fire3")) && Time.time > nextFire)
+        if ( (Input.GetButton("Fire_2")) && Time.time > nextFire)
         {
             transform.FindChild("pivotEventail").FindChild("eventail").GetComponent<Animator>().SetBool("playAnimation", true);
             nextFire = Time.time + fireRate;
