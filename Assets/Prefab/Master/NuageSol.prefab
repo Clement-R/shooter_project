@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82929e7f37d40ca4a815c777cba78563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.01
+  scrollSpeed: 0.007
   yDisappear: -18.5
   yRespawn: -5
 --- !u!212 &212000013387300356

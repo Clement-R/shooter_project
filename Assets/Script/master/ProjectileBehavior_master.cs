@@ -31,7 +31,7 @@ public class ProjectileBehavior_master : MonoBehaviour {
         if (coll.gameObject.tag == "enemy")
         {
             GetComponent<Animator>().SetBool("isDead", true);
-            coll.GetComponent<EnemyBehavior>().Die();
+            coll.GetComponent<EnemyBehavior_master>().Die();
             Destroy(gameObject, .5f);
         }
         else if (coll.gameObject.tag == "trash")
