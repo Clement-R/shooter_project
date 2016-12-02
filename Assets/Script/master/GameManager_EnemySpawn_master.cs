@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class GameManager_EnemySpawn_master : MonoBehaviour {
-    public GameObject Enemy;
+    public GameObject Enemy1;
+    public GameObject Enemy2;
     public float ySpawn;
     private GameManager_WaveSpawner_master spawner;
 
@@ -13,8 +14,13 @@ public class GameManager_EnemySpawn_master : MonoBehaviour {
 
     public GameObject spawnEnemy(float x)
     {
-        // TODO : Manage enemy type
-        return Instantiate(Enemy, new Vector3(x, ySpawn, 0), Quaternion.identity) as GameObject;
+        if(x == 0)
+        {
+            return Instantiate(Enemy1, new Vector3(x, ySpawn, 0), Quaternion.identity) as GameObject;
+        } else
+        {
+            return Instantiate(Enemy2, new Vector3(x, ySpawn, 0), Quaternion.identity) as GameObject;
+        }
     }
 
     void Update()

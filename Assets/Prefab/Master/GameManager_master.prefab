@@ -79,7 +79,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 576b56bf3a3912245b486550facc91e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 1000010330552228, guid: 8980df681e3444e48b840b6f4d67a357, type: 2}
+  Enemy1: {fileID: 1000010330552228, guid: 8980df681e3444e48b840b6f4d67a357, type: 2}
+  Enemy2: {fileID: 1000010325781710, guid: ae186e9d7ffcc074eb0ae05443774967, type: 2}
   ySpawn: -7
 --- !u!114 &114000014224915950
 MonoBehaviour:
