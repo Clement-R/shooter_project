@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EnemyBehavior_master : MonoBehaviour {
     public GameObject deathSound;
+    public Transform balise;
 
     public bool isTargeted = false;
     public bool isFocused = false;
@@ -28,12 +29,18 @@ public class EnemyBehavior_master : MonoBehaviour {
         {
             if (!effectLaunched)
             {
+                GameObject baliseInstance = (GameObject)Instantiate(balise, transform);
+                baliseInstance.transform.localPosition = new Vector3(0, 20f, 0);
                 effectLaunched = true;
                 StartCoroutine("effect");
             }
         }
         else
         {
+            if (transform.childCount > 0)
+            {
+                Destroy(transform.GetChild(0).gameObject);
+            }
             effectLaunched = false;
             StopCoroutine("effect");
         }

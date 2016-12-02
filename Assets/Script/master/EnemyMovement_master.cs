@@ -3,7 +3,6 @@ using System.Collections;
 
 public class EnemyMovement_master : MonoBehaviour {
     public float speed;
-    public float rotateSpeed;
 
     private Animator anim;
     private float localTime;
@@ -33,7 +32,6 @@ public class EnemyMovement_master : MonoBehaviour {
         } else
         {
             transform.position += Vector3.down * speed;
-            transform.eulerAngles += Vector3.back * rotateSpeed;
         }
         
     }

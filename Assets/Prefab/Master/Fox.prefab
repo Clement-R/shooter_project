@@ -22,12 +22,12 @@ GameObject:
   - 212: {fileID: 212000013611273172}
   - 50: {fileID: 50000010146275340}
   - 61: {fileID: 61000013859709456}
-  - 114: {fileID: 114000012781071906}
   - 114: {fileID: 114000011146524298}
   - 114: {fileID: 114000014288353650}
   - 114: {fileID: 114000011742708770}
   - 95: {fileID: 95000011949104270}
   - 114: {fileID: 114000010829761646}
+  - 114: {fileID: 114000012739095882}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1129feeb62417f449dcb1f12ce1f93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isStuned: 0
   stunCooldown: 1
+  isStuned: 0
 --- !u!114 &114000011146524298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -132,10 +132,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6024c59e50d703d41987d44d1a93b394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
   hMaxSpeed: 5
   vMaxSpeed: 5
---- !u!114 &114000012781071906
+--- !u!114 &114000012739095882
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -143,12 +142,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012243501218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ebc3870b6581a4e9918b65f0d2454a, type: 3}
+  m_Script: {fileID: 11500000, guid: 464d892a292c95e429aaa47049725f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnOnLeftClick: {fileID: 103412, guid: ca8cb346f7c139b449fb43c6b02af2bb, type: 2}
-  minRange: 2
-  fireRate: 0.2
+  minimumDetectionRange: 0
+  cooldownBeforeNextTargeting: 0.2
+  spawnOnLeftClick: {fileID: 0}
 --- !u!114 &114000014288353650
 MonoBehaviour:
   m_ObjectHideFlags: 1
