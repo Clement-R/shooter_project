@@ -3,19 +3,19 @@ using System.Collections;
 
 public class eventailBehavior : MonoBehaviour {
 
+    private Animator anim;    
 	// Use this for initialization
 	void Start () {
-	
-	}
+        anim = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
-
-    void resetAnimation()
+    void animationFinished()
     {
-        GetComponent<Animator>().SetBool("playAnimation", false);
+        anim.SetBool("playAnimation", false);
     }
 }

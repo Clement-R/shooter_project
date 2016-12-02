@@ -15,8 +15,9 @@ public class turretBehavior_master : MonoBehaviour {
     void FixedUpdate()
     {
         //A supprimer, permet de faire les tests au clavier
-        // transform.FindChild("pivotScope").transform.eulerAngles += Vector3.back * Input.GetAxisRaw("Horizontal");
+         //transform.FindChild("pivotEventail").transform.eulerAngles += Vector3.back * Input.GetAxisRaw("Horizontal");
 
+        
         if (Input.GetAxisRaw("Horizontal_2") < 0)
         {
             GetComponent<SpriteRenderer>().sprite = leftSprite;
@@ -27,6 +28,6 @@ public class turretBehavior_master : MonoBehaviour {
         {
             GetComponent<SpriteRenderer>().sprite = middleSprite;
         }
-        
+
     }
 }

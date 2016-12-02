@@ -81,7 +81,7 @@ MonoBehaviour:
   yRespawn: -6
   scaleMin: 0.15
   scaleMax: 0.45
-  scrollSpeed: 0.01
+  scrollSpeed: 0.007
 --- !u!212 &212000014060894580
 SpriteRenderer:
   m_ObjectHideFlags: 1

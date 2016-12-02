@@ -100,7 +100,6 @@ public class EnemyBehavior_master : MonoBehaviour {
         }
         else if (coll.gameObject.tag == "Player")
         {
-            Debug.Log("Touche le joueur");
             god.playerTouched();
             Destroy(this.gameObject);
         }
