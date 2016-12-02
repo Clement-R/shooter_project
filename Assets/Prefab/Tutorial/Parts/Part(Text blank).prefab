@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013866351878}
   - 114: {fileID: 114000010816747404}
+  - 114: {fileID: 114000013517233476}
   m_Layer: 0
   m_Name: Part(Text blank)
   m_TagString: Untagged
@@ -52,6 +53,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textInfo: {fileID: 0}
+  soundInfo: {fileID: 0}
   exitEvent: {fileID: 0}
+  successText: {fileID: 0}
   successSound: {fileID: 0}
+  failText: {fileID: 0}
+  failSound: {fileID: 0}
+--- !u!114 &114000013517233476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010541457544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb321cefc48ec54ead34ecaa6950221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textInfo: {fileID: 0}
+  soundInfo: {fileID: 0}
+  exitEvent: {fileID: 0}
+  successText: {fileID: 0}
+  successSound: {fileID: 0}
+  failText: {fileID: 0}
   failSound: {fileID: 0}

@@ -52,6 +52,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textInfo: {fileID: 0}
+  text: Bienvenue dans ce monde
+  soundInfo: {fileID: 0}
+  soundIndex: P1
   exitEvent: {fileID: 0}
+  successText: {fileID: 0}
   successSound: {fileID: 0}
+  failText: {fileID: 0}
   failSound: {fileID: 0}
+  isFinished: 0

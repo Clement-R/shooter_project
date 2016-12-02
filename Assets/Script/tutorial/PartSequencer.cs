@@ -4,13 +4,18 @@ using System.Collections;
 public class PartSequencer : MonoBehaviour {
     public GameObject[] parts;
 
-	// Use this for initialization
+    private int partIndex = 0;
+    private PartManager actualPart = null;
+
 	void Start () {
-	
+        actualPart = parts[partIndex].GetComponent<PartManager>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
-	
+	    if(actualPart.isFinished) {
+            partIndex++;
+            Destroy(actualPart.gameObject);
+            actualPart = parts[partIndex].GetComponent<PartManager>();
+        }
 	}
 }

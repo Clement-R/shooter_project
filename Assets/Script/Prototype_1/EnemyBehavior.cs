@@ -64,9 +64,7 @@ public class EnemyBehavior : MonoBehaviour {
     }
 
     void MyCallbackFunction(object in_cookie, AkCallbackType in_type, object in_info) {
-        Debug.Log("SoundEnd");
         if (in_type == AkCallbackType.AK_EndOfEvent) {
-            Debug.Log("SoundEnd");
             eventIdOn = 0;
         }
     }
