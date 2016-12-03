@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013866351878}
   - 114: {fileID: 114000010816747404}
   m_Layer: 0
-  m_Name: Part(Text & Sound blank)
+  m_Name: Part11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
   text: 
   remainTime: 1
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
-  soundIndex: 
+  soundIndex: P19
   exitEvent: {fileID: 0}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}

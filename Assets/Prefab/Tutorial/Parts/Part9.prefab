@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013866351878}
   - 114: {fileID: 114000010816747404}
   m_Layer: 0
-  m_Name: Part(Text & Sound blank)
+  m_Name: Part9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,18 +53,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFinished: 0
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
-  text: 
+  text: "Place une balise les bambous avec A pour aider ton alli\xE9e \xE0 "
   remainTime: 1
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
-  soundIndex: 
+  soundIndex: P15
   exitEvent: {fileID: 0}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
-  successTextContent: 
-  successTextRemainTime: 1
+  successTextContent: "Bien ! Mamy sait maintenant o\xF9 se trouvent les bambous"
+  successTextRemainTime: 5
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
-  failTextContent: 
-  failTextRemainTime: 1
+  failTextContent: Essaie de placer une balise sur les bambous avec A
+  failTextRemainTime: 5
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
   successSoundIndex: 
