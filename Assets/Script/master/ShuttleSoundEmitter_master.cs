@@ -31,13 +31,24 @@ public class ShuttleSoundEmitter_master : MonoBehaviour {
             // Unmark last enemy if needed
             if (targetedEnemy != null)
             {
-                targetedEnemy.GetComponent<EnemyBehavior_master>().isTargeted = false;
+                if (targetedEnemy.GetComponent<EnemyBehavior_master>() != null)
+                {
+                    targetedEnemy.GetComponent<EnemyBehavior_master>().isTargeted = false;
+                } else
+                {
+                    //Sinon, c'est une balise
+                    targetedEnemy.GetComponent<TrashBehavior_master>().isTargeted = false;
+                }
                 targetedEnemy = null;
                 closestDistance = 1000.0f;
             }
 
-            // Find all enemies
-            GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy");
+            // Find all enemies and trash
+            ArrayList enemies = new ArrayList();
+            enemies.AddRange(GameObject.FindGameObjectsWithTag("enemy"));
+            enemies.AddRange(GameObject.FindGameObjectsWithTag("trash"));
+            //GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy") ;
+            
             foreach (GameObject enemy in enemies)
             {
                 // Calculate distance between Fennec and the enemy
@@ -54,7 +65,13 @@ public class ShuttleSoundEmitter_master : MonoBehaviour {
             // Mark closest enemy
             if (targetedEnemy != null)
             {
-                targetedEnemy.GetComponent<EnemyBehavior_master>().isTargeted = true;
+                if (targetedEnemy.GetComponent<EnemyBehavior_master>() != null)
+                {
+                    targetedEnemy.GetComponent<EnemyBehavior_master>().isTargeted = true;
+                } else if (targetedEnemy.GetComponent<TrashBehavior_master>() != null)
+                {
+                    targetedEnemy.GetComponent<TrashBehavior_master>().isTargeted = true;
+                }
             }
 
             // Play sound effect

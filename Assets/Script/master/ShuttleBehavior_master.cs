@@ -3,21 +3,41 @@ using System.Collections;
 
 public class ShuttleBehavior_master : MonoBehaviour {
     public float stunCooldown;
+    public float stunMovement;
 
     [HideInInspector]
     public bool isStuned = false;
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "trash")
         {
             if (!isStuned)
             {
+                //Bounce
+                float h = Input.GetAxisRaw("Horizontal_1");
+                float v = -Input.GetAxisRaw("Vertical_1");
+                transform.position += new Vector3(h * stunMovement * -1, v * stunMovement * -1, 0);
+
                 isStuned = true;
                 StartCoroutine("stunEffect");
                 coll.gameObject.GetComponent<TrashBehavior_master>().Die();
             }
         }
+        else if (coll.gameObject.tag == "enemy")
+        {
+            if (!isStuned)
+            {
+                //Bounce
+                float h = Input.GetAxisRaw("Horizontal_1");
+                float v = -Input.GetAxisRaw("Vertical_1");
+                transform.position += new Vector3(h * stunMovement * -1, v * stunMovement * -1, 0);
+
+                isStuned = true;
+                StartCoroutine("stunEffect");
+            }
+        }
+
     }
 
     void Update()

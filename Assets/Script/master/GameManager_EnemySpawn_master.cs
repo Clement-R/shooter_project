@@ -4,7 +4,7 @@ using System.Collections;
 public class GameManager_EnemySpawn_master : MonoBehaviour {
     public GameObject Enemy1;
     public GameObject Enemy2;
-    public float ySpawn;
+    public GameObject Obstacle;
     private GameManager_WaveSpawner_master spawner;
 
     void Start()
@@ -12,14 +12,24 @@ public class GameManager_EnemySpawn_master : MonoBehaviour {
         spawner = GetComponent<GameManager_WaveSpawner_master>();
     }
 
-    public GameObject spawnEnemy(float x)
+    public GameObject spawnEnemy(int enemyType, float x, float y)
     {
-        if(x > -0.5f || x < 0.5f)
+        //Ennemi
+        if (enemyType == 1)
         {
-            return Instantiate(Enemy1, new Vector3(x, ySpawn, 0), Quaternion.identity) as GameObject;
+            if (x > -0.5f && x < 0.5f)
+            {
+                return Instantiate(Enemy1, new Vector3(x, y, 0), Quaternion.identity) as GameObject;
+            }
+            else
+            {
+                return Instantiate(Enemy2, new Vector3(x, y, 0), Quaternion.identity) as GameObject;
+            }
         } else
         {
-            return Instantiate(Enemy2, new Vector3(x, ySpawn, 0), Quaternion.identity) as GameObject;
+            //Obstacle
+            return Instantiate(Obstacle, new Vector3(x, y, 0), Quaternion.identity) as GameObject;
+
         }
     }
 
