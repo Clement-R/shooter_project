@@ -12,7 +12,7 @@ public class baliseBehavior : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //transform.localPosition = Vector3.up * Mathf.Cos( 5 * Time.time - 5) * 0.1f;
-        transform.position = new Vector3(transform.parent.position.x, Mathf.Cos(5 * Time.time - 5) * 0.1f + transform.parent.position.y + 1f, 0);
+        transform.position = new Vector3(transform.parent.position.x, Mathf.Cos(5 * Time.time - 5) * 0.1f + transform.parent.position.y, 0);
         transform.eulerAngles = Vector3.zero;
 	
 	}
