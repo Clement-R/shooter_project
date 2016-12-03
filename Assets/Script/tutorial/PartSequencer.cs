@@ -19,7 +19,7 @@ public class PartSequencer : MonoBehaviour {
                 actualPartInstantiated = true;
             } else {
                 // TODO : Go to Main Menu
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                Debug.Log("THE END");
             }
         }
 
