@@ -99,7 +99,7 @@ public class PartManager : MonoBehaviour {
             // Play fail sound
             if (failSoundIndex != "") {
                 if(failSoundInstance == null) {
-                    failSoundInstance = Instantiate(failText);
+                    failSoundInstance = Instantiate(failSound);
                     failSoundEvent = failSoundInstance.GetComponent<EventBehavior>();
                     WwiseSoundPlay soundPlayer = failSoundInstance.GetComponent<WwiseSoundPlay>();
                     soundPlayer.soundIndex = this.failSoundIndex;
