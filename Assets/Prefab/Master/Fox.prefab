@@ -42,7 +42,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012243501218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.05, y: -13.81, z: -5}
+  m_LocalPosition: {x: -0.98, y: -13.81, z: -5}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stunCooldown: 1
+  stunMovement: 1.5
   isStuned: 0
 --- !u!114 &114000011146524298
 MonoBehaviour:
@@ -134,6 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hMaxSpeed: 5
   vMaxSpeed: 5
+  speedStunnedPercent: 0.5
 --- !u!114 &114000012739095882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -145,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 464d892a292c95e429aaa47049725f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumDetectionRange: 0
+  minimumDetectionRange: 1
   cooldownBeforeNextTargeting: 0.2
   spawnOnLeftClick: {fileID: 0}
 --- !u!114 &114000014288353650

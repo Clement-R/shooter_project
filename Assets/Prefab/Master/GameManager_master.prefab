@@ -81,14 +81,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy1: {fileID: 1000010330552228, guid: 8980df681e3444e48b840b6f4d67a357, type: 2}
   Enemy2: {fileID: 1000010325781710, guid: ae186e9d7ffcc074eb0ae05443774967, type: 2}
-  ySpawn: -7
+  Obstacle: {fileID: 1000012044313888, guid: a0f10aef55dd5fd46b959ca8e92a931e, type: 2}
 --- !u!114 &114000014224915950
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014226127612}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d56be6e3c3e1260469f79a7402603586, type: 3}
   m_Name: 

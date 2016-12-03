@@ -19,7 +19,6 @@ public class EnemyBehavior_master : MonoBehaviour {
 
     void Start()
     {
-        Destroy(this.gameObject, 24.0f);
         god = GameObject.Find("GameManager_master").GetComponent<GameManager_GameRules_master>();
     }
 
@@ -97,7 +96,7 @@ public class EnemyBehavior_master : MonoBehaviour {
         god.ennemyShot();
 
         // Destroy game object
-        //Destroy(this.gameObject);
+        Destroy(this.gameObject, 10f);
 
         // Stop sound
         AkSoundEngine.StopPlayingID(eventIdIndic);
