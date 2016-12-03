@@ -5,7 +5,11 @@ public class shuttle_movement_master : MonoBehaviour {
     public float hMaxSpeed = 175f;
     public float vMaxSpeed = 150f;
 
+    public float speedStunnedPercent = 0.5f;
+
     private Rigidbody2D rb2d;
+    private float h;
+    private float v;
 
     // Use this for initialization
     void Start()
@@ -16,10 +20,16 @@ public class shuttle_movement_master : MonoBehaviour {
     void FixedUpdate()
     {
         
-        float h = Input.GetAxisRaw("Horizontal_1");
-        float v = -Input.GetAxisRaw("Vertical_1");
-
-        rb2d.velocity = new Vector2(h * hMaxSpeed, v * vMaxSpeed);
+        h = Input.GetAxisRaw("Horizontal_1");
+        v = -Input.GetAxisRaw("Vertical_1");
+        Debug.Log(h + ", " + v);
+        if (GetComponent<ShuttleBehavior_master>().isStuned)
+        {
+            rb2d.velocity = new Vector2(h * hMaxSpeed * speedStunnedPercent, v * vMaxSpeed * speedStunnedPercent);
+        } else
+        {
+            rb2d.velocity = new Vector2(h * hMaxSpeed, v * vMaxSpeed);
+        }
         if (h != 0 || v != 0)
         {
             transform.localEulerAngles = new Vector3(0, 0, (Mathf.Atan2(-h, v) * 180) / Mathf.PI);
@@ -29,4 +39,6 @@ public class shuttle_movement_master : MonoBehaviour {
             GetComponent<Animator>().speed = 0;
         }
     }
+
+    
 }
