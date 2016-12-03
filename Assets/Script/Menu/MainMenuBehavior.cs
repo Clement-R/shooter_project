@@ -74,7 +74,7 @@ public class MainMenuBehavior : MonoBehaviour {
             {
                 transition = false;
             }
-            if (Input.GetButton("Fire_1"))
+            if ((Input.GetButton("Fire_1_1") || Input.GetButton("Fire_1_2") ||Input.GetButton("Fire_1_3") ||Input.GetButton("Fire_1_4")))
             {
                 state = "lancementTuto";
             }
@@ -97,7 +97,7 @@ public class MainMenuBehavior : MonoBehaviour {
             {
                 transition = false;
             }
-            if (Input.GetButton("Fire_1"))
+            if ((Input.GetButton("Fire_1_1") || Input.GetButton("Fire_1_2") ||Input.GetButton("Fire_1_3") ||Input.GetButton("Fire_1_4")))
             {
                 state = "lancementPartieRapide";
                 
@@ -115,7 +115,7 @@ public class MainMenuBehavior : MonoBehaviour {
             {
                 transition = false;
             }
-            if (Input.GetButton("Fire_1"))
+            if ((Input.GetButton("Fire_1_1") || Input.GetButton("Fire_1_2") ||Input.GetButton("Fire_1_3") ||Input.GetButton("Fire_1_4")))
             {
                 state = "lancementCredits";
             }
@@ -158,7 +158,7 @@ public class MainMenuBehavior : MonoBehaviour {
             fondCredit.GetComponent<SpriteRenderer>().color = fadeIn(0.05f, fondCredit.GetComponent<SpriteRenderer>().color);
         } else
         {
-            if (Input.GetButton("Fire_1"))
+            if ((Input.GetButton("Fire_1_1") || Input.GetButton("Fire_1_2") ||Input.GetButton("Fire_1_3") ||Input.GetButton("Fire_1_4")))
             {
                 state = "afficherMenu";
             }
@@ -180,7 +180,7 @@ public class MainMenuBehavior : MonoBehaviour {
 
         if(cadreCarton.GetComponent<SpriteRenderer>().color.a > 1)
         {
-            if (Input.GetButton("Fire_1"))
+            if ((Input.GetButton("Fire_1_1") || Input.GetButton("Fire_1_2") ||Input.GetButton("Fire_1_3") ||Input.GetButton("Fire_1_4") ))
             {
 
                 Destroy(texteCarton.gameObject, 1.0f);
@@ -203,7 +203,7 @@ public class MainMenuBehavior : MonoBehaviour {
 
         if(cadreCarton.GetComponent<SpriteRenderer>().color.a > 1)
         {
-            if (Input.GetButton("Fire_1"))
+            if ((Input.GetButton("Fire_1_1") || Input.GetButton("Fire_1_2") ||Input.GetButton("Fire_1_3") ||Input.GetButton("Fire_1_4")))
             {
                 Destroy(texteCarton.gameObject, 1.0f);
                 Destroy(cadreCarton.gameObject, 1.0f);
