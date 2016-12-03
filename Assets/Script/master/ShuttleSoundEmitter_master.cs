@@ -23,7 +23,7 @@ public class ShuttleSoundEmitter_master : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetButton("Fire_1") && !behavior.isStuned && Time.time > nextFire)
+        if ((Input.GetButton("Fire_1_1") || Input.GetButton("Fire_1_2") || Input.GetButton("Fire_1_3") || Input.GetButton("Fire_1_4")) && !behavior.isStuned && Time.time > nextFire)
         {
             
             nextFire = Time.time + cooldownBeforeNextTargeting;
