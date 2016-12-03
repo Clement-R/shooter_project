@@ -116,6 +116,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13cd72d7c6f240b47960b9cee6fda083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSound: {fileID: 1000013318471560, guid: 32d4df1bc86396f4782cb977643b5b3d, type: 2}
+  balise: {fileID: 4000012214563970, guid: de7eb91a3e0d85940a7a6c7a952a0977, type: 2}
+  isTargeted: 0
+  isFocused: 0
+  normalVolume: 0.2
+  focusedVolume: 0.4
 --- !u!212 &212000013417409348
 SpriteRenderer:
   m_ObjectHideFlags: 1

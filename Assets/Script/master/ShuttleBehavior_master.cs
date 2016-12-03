@@ -7,7 +7,7 @@ public class ShuttleBehavior_master : MonoBehaviour {
     [HideInInspector]
     public bool isStuned = false;
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "trash")
         {
