@@ -87,6 +87,7 @@ public class TrashBehavior_master : MonoBehaviour {
         GetComponent<BoxCollider2D>().enabled = false;
         GetComponent<Animator>().speed = 5;
         GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilled++;
+        isTargeted = false;
 
         // Play sound
         GameObject deathSoundEmitter = Instantiate(deathSound);

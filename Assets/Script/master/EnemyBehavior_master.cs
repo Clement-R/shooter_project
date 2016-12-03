@@ -86,6 +86,7 @@ public class EnemyBehavior_master : MonoBehaviour {
         GetComponent<CircleCollider2D>().enabled = false;
         transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
         transform.eulerAngles = Vector3.zero;
+        isTargeted = false;
 
         // Play sound
         GameObject deathSoundEmitter = Instantiate(deathSound);
