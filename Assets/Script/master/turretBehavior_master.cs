@@ -18,7 +18,7 @@ public class turretBehavior_master : MonoBehaviour {
     void FixedUpdate()
     {
         var angle = Mathf.Atan2(Input.GetAxisRaw("Horizontal_2"), -Input.GetAxisRaw("Vertical_2")) * Mathf.Rad2Deg;
-        transform.eulerAngles = Vector3.back * angle;
+        transform.parent.eulerAngles = Vector3.back * angle;
         if (angle < 0)
         {
             GetComponent<SpriteRenderer>().sprite = leftSprite;
@@ -32,15 +32,15 @@ public class turretBehavior_master : MonoBehaviour {
 
         if(angle > 90)
         {
-            transform.eulerAngles = Vector3.back * 90;
+            transform.parent.eulerAngles = Vector3.back * 90;
         }
         if (angle < -90)
         {
-            transform.eulerAngles = Vector3.back * -90;
+            transform.parent.eulerAngles = Vector3.back * -90;
         }
         if(angle == 180)
         {
-            transform.eulerAngles = Vector3.zero;
+            transform.parent.eulerAngles = Vector3.zero;
             GetComponent<SpriteRenderer>().sprite = middleSprite;
         }
 
