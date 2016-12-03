@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013866351878}
   - 114: {fileID: 114000010816747404}
   m_Layer: 0
-  m_Name: Part14
+  m_Name: Part18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,18 +53,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFinished: 0
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
-  text: Place une nouvelle balise avec A
-  remainTime: 10
+  text: Place une balise sur la boule de papier qui arrive
+  remainTime: 8
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
-  soundIndex: P24
+  soundIndex: P31
   exitEvent: {fileID: 0}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
-  successTextContent: "Bien ! La balise est plac\xE9e"
+  successTextContent: "Bien, Mamy va pouvoir le d\xE9plier maintenant"
   successTextRemainTime: 5
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
-  failTextContent: "Place une balise sur les bambous en te pla\xE7ant \xE0 proximit\xE9
-    et en appuyant sur A"
+  failTextContent: Place la balise sur l'ennemi avec A
   failTextRemainTime: 8
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
