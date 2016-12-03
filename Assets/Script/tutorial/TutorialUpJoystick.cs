@@ -17,10 +17,10 @@ public class TutorialUpJoystick : MonoBehaviour {
     }
 
     void Update() {
-        if (grandMa.transform.rotation.eulerAngles.z <= 20 && grandMa.transform.rotation.eulerAngles.z <= 340 && grandMa.transform.rotation.eulerAngles.z != 0) {
+        if (-Input.GetAxisRaw("Vertical_2") == 1) {
             eventManager.success = true;
         }
-
+        
         if (Time.time > nextFail) {
             nextFail = Time.time + timeBeforeFail;
             eventManager.fail = true;
