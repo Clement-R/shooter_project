@@ -6,11 +6,11 @@ public class PartManager : MonoBehaviour {
     public bool isFinished = false;
 
     public GameObject textInfo;
-    public string text;
+    public string text = "";
     public float remainTime = 1.0f;
 
     public GameObject soundInfo;
-    public string soundIndex;
+    public string soundIndex = "";
 
     // Exit event related
     public GameObject exitEvent;
@@ -20,11 +20,13 @@ public class PartManager : MonoBehaviour {
     public float successTextRemainTime = 1.0f;
 
     public GameObject failText;
-    public string failTextContent;
+    public string failTextContent = "";
     public float failTextRemainTime = 1.0f;
 
     public GameObject successSound;
+    public string successSoundIndex = "";
     public GameObject failSound;
+    public string failSoundIndex = "";
 
     // Start informations related
     private GameObject textInfoInstance;
@@ -83,33 +85,37 @@ public class PartManager : MonoBehaviour {
     IEnumerator waitConditionToEnd() {
         if (exitEventEvent.fail) {
             // Play fail text
-            if (failText != null) {
-                failTextInstance = Instantiate(failText);
-                failTextEvent = failTextInstance.GetComponent<EventBehavior>();
-                TextDisplay textManager = failTextEvent.GetComponentInChildren<TextDisplay>();
-                textManager.remainTime = this.failTextRemainTime;
+            if (failTextContent != "") {
+                if (failTextInstance == null) {
+                    failTextInstance = Instantiate(failText);
+                    Text widgetText = failTextInstance.GetComponentInChildren<Text>();
+                    widgetText.text = this.failTextContent;
+                    failTextEvent = failTextInstance.GetComponent<EventBehavior>();
+                    TextDisplay textManager = failTextEvent.GetComponentInChildren<TextDisplay>();
+                    textManager.remainTime = this.failTextRemainTime;
+                }
             }
-
+            
             // Play fail sound
-            if (failSound != null) {
-                failSoundInstance = Instantiate(failText);
-                failSoundEvent = failSoundInstance.GetComponent<EventBehavior>();
+            if (failSoundIndex != "") {
+                if(failSoundInstance == null) {
+                    failSoundInstance = Instantiate(failText);
+                    failSoundEvent = failSoundInstance.GetComponent<EventBehavior>();
+                }
             }
 
-            if (failText != null && failSound != null) {
+            if (failTextContent != "" && failSoundIndex != "") {
                 if (failTextEvent.isFinished && failSoundEvent.isFinished) {
                     Destroy(failTextInstance);
                     Destroy(failSoundInstance);
                     exitEventEvent.fail = false;
                 }
-            }
-            else if (failSound != null) {
+            } else if (failSoundIndex != "") {
                 if (soundInfoEvent.isFinished) {
                     Destroy(failSoundInstance);
                     exitEventEvent.fail = false;
                 }
-            }
-            else if (failText != null) {
+            } else if (failTextContent != "") {
                 if (failTextEvent.isFinished) {
                     Destroy(failTextInstance);
                     exitEventEvent.fail = false;
@@ -118,42 +124,50 @@ public class PartManager : MonoBehaviour {
         }
         else if (exitEventEvent.success) {
             // Play success text
-            if (successText != null) {
-                successTextInstance = Instantiate(successText, transform) as GameObject;
-                successTextEvent = successTextInstance.GetComponent<EventBehavior>();
-                TextDisplay textManager = successTextEvent.GetComponentInChildren<TextDisplay>();
-                textManager.remainTime = this.successTextRemainTime;
+            if (successTextContent != "") {
+                if(successTextInstance == null) {
+                    successTextInstance = Instantiate(successText, transform) as GameObject;
+                    Text widgetText = successTextInstance.GetComponentInChildren<Text>();
+                    widgetText.text = this.successTextContent;
+                    successTextEvent = successTextInstance.GetComponent<EventBehavior>();
+                    TextDisplay textManager = successTextEvent.GetComponentInChildren<TextDisplay>();
+                    textManager.remainTime = this.successTextRemainTime;
+                }
             }
 
             // Play success sound
-            if (successSound != null) {
-                successSoundInstance = Instantiate(successSound, transform) as GameObject;
-                successSoundEvent = successSoundInstance.GetComponent<EventBehavior>();
+            if (successSoundIndex != "") {
+                if(successSoundInstance == null) {
+                    successSoundInstance = Instantiate(successSound, transform) as GameObject;
+                    successSoundEvent = successSoundInstance.GetComponent<EventBehavior>();
+                }
             }
-
-            if (successText != null && successSound != null) {
+            
+            if (successTextContent != "" && successSoundIndex != "") {
                 if (successTextEvent.isFinished && successSoundEvent.isFinished) {
                     Destroy(successTextInstance);
                     Destroy(successSoundInstance);
                     isFinished = true;
                 }
-            }
-            else if (successSound != null) {
+            } else if (successSoundIndex != "") {
                 if (successSoundEvent.isFinished) {
                     Destroy(successSoundInstance);
                     isFinished = true;
                 }
-            }
-            else if (successText != null) {
+            } else if (successTextContent != "") {
                 if (successTextEvent.isFinished) {
                     Destroy(successTextInstance);
                     isFinished = true;
                 }
             }
         }
-
-        yield return new WaitForEndOfFrame();
-        StartCoroutine("waitConditionToEnd");
+        
+        if(!isFinished) {
+            yield return new WaitForEndOfFrame();
+            StartCoroutine("waitConditionToEnd");
+        } else {
+            yield break;
+        }
     }
 	
 	void Update () {
@@ -162,7 +176,7 @@ public class PartManager : MonoBehaviour {
             // If the event
             if(!infosCoroutineLaunched) {
                 // Play textInfo and/or soundInfo
-                if (soundInfo != null && textInfo != null) {
+                if (soundIndex != "" && text != "") {
                     textInfoInstance = Instantiate(textInfo, transform) as GameObject;
                     soundInfoInstance = Instantiate(soundInfo, transform) as GameObject;
                     
@@ -176,14 +190,14 @@ public class PartManager : MonoBehaviour {
                     WwiseSoundPlay soundPlayer = soundInfoInstance.GetComponent<WwiseSoundPlay>();
                     soundPlayer.soundIndex = this.soundIndex;
                 }
-                else if (soundInfo != null) {
+                else if (soundIndex != "") {
                     soundInfoInstance = Instantiate(soundInfo, transform) as GameObject;
 
                     soundInfoEvent = soundInfoInstance.GetComponent<EventBehavior>();
                     WwiseSoundPlay soundPlayer = soundInfoInstance.GetComponent<WwiseSoundPlay>();
                     soundPlayer.soundIndex = this.soundIndex;
                 }
-                else if (textInfo != null) {
+                else if (text != "") {
                     textInfoInstance = Instantiate(textInfo, transform) as GameObject;
 
                     textInfoEvent = textInfoInstance.GetComponent<EventBehavior>();

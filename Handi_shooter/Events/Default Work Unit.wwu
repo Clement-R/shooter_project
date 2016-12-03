@@ -981,6 +981,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="wind" ID="{C6F4ADB7-F9C8-457A-AC1D-72D38AC583F8}">
+					<ChildrenList>
+						<Action Name="Play" ID="{53CA749D-E7AB-4460-A8E6-8013F26E036B}" ShortID="568327612" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CA866CE5-A99B-4ED9-A97F-698FACDD0BCC}" Global="false">
+									<ObjectRef Name="wind" ID="{FC0C2978-7DF1-46A8-80B8-D4E5A39DB43A}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="whoosh_mamie" ID="{6C877A2A-D9C5-4F33-B618-F6B9CCBE662A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2B0A38B8-7C9B-4807-AF98-E974DFC20C9D}" ShortID="677998658" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{52C4F86F-338A-42E5-AD27-AC53B56019DD}" Global="false">
+									<ObjectRef Name="whoosh_mamie" ID="{6D2B9198-DEE8-4AD3-84B9-0AC2DCBD2A49}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="super" ID="{8EF818BD-4780-41EB-8759-25F1A19F82D4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A99713D4-8D2C-4F07-B7DC-D3029B7615C8}" ShortID="533264473" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5963EEA2-132F-4327-B794-E3701B80C8AC}" Global="false">
+									<ObjectRef Name="super" ID="{DC418F3C-980E-4D75-9FC1-9DE174DB1B73}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

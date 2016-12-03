@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1738150842" DateHigh="30559386"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="339026453" DateHigh="30559575"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="2801297553" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="2800421808" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Attenuations\Default Work Unit.wwu" DateLow="2796112991" DateHigh="30558782"/>
@@ -22,11 +22,11 @@
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="2798775247" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="2798414923" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Effects\Factory McDSP Effects.wwu" DateLow="2796868696" DateHigh="30558782"/>
-	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Events\Default Work Unit.wwu" DateLow="2604749574" DateHigh="30559386"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Events\Default Work Unit.wwu" DateLow="440297912" DateHigh="30559575"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Game Parameters\Default Work Unit.wwu" DateLow="2801372671" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2798489995" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Handi_shooter.wproj" DateLow="2795707507" DateHigh="30558782"/>
-	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Handi_shooter.wrath.wsettings" DateLow="871593992" DateHigh="30559264"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Handi_shooter.wrath.wsettings" DateLow="1041899937" DateHigh="30559390"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2797148850" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2801587771" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Mixing Sessions\Default Work Unit.wwu" DateLow="2795897657" DateHigh="30558782"/>
@@ -34,7 +34,7 @@
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Presets\Default Work Unit.wwu" DateLow="2798855319" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Queries\Default Work Unit.wwu" DateLow="2796953606" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Queries\Factory Queries.wwu" DateLow="2797078718" DateHigh="30558782"/>
-	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\SoundBanks\Default Work Unit.wwu" DateLow="2604554557" DateHigh="30559386"/>
+	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\SoundBanks\Default Work Unit.wwu" DateLow="959902577" DateHigh="30559575"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2798930382" DateHigh="30558782"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\States\Default Work Unit.wwu" DateLow="1759257969" DateHigh="30558860"/>
 	<ValidationCacheItem File="F:\_Dev\Gamedev\projet_shooter\Handi_shooter\Switches\Default Work Unit.wwu" DateLow="2798995522" DateHigh="30558782"/>

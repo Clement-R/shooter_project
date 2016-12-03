@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	971839176	indic			\Default Work Unit\indic	
 	1116398592	hit			\Default Work Unit\hit	
 	1176010168	miss_down			\Default Work Unit\miss_down	
+	1537061107	wind			\Default Work Unit\wind	
 	1635194244	P9			\Default Work Unit\P9	
 	1635194245	P8			\Default Work Unit\P8	
 	1635194248	P5			\Default Work Unit\P5	
@@ -94,11 +95,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	42029356	P41_bis	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P41_bis_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P41_bis		278592
 	58932175	chord_2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_2_24BBA429.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_2		19264
 	73627726	proj_move	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\proj_move_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\proj_move		1632064
+	103266992	wind_5	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_5		3072064
 	110705416	P48	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P48_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P48		756600
+	119286283	wind_1	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_1		2688064
 	120704400	proj_indic	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\proj_indic_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\proj_indic		2592064
 	124523946	clochette_6	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_6_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_6		19264
 	125352965	clochette	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette		19264
 	128668769	P18	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P18_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P18		770112
+	144402753	wind_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_3		3072064
 	150445665	P65	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P65_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P65		294976
 	161706709	P32	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P32_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P32		622656
 	162190112	P2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P2		2580544
@@ -133,6 +137,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	420351094	P73	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P73_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P73		409664
 	422438026	P64	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P64_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P64		409664
 	427095491	P22	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P22_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P22		475200
+	438547369	wind_4	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_4		3072064
 	467819116	P31	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P31_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P31		770112
 	485816086	P46	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P46_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P46		794688
 	494055776	P43	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P43_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P43		1892416
@@ -144,10 +149,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	540786218	clochette_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_3_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_3		19264
 	589837882	P69	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P69_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P69		454760
 	596187662	P58	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P58_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P58		286784
+	617159957	wind_6	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_6		3072064
 	628389266	P62	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P62_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P62		204864
 	633484536	P27	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P27_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P27		442432
 	637133831	P50	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P50_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P50		771956
 	646363793	chord_5	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_5_19268CB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_5		19264
+	653390292	wind_2	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_2		3072064
 	659652459	clochette_5	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\clochette_5_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic\clochette_5		19264
 	660461652	chord_4	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_4_1E27FF91.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_4		19264
 	665311054	P23	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P23_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P23		319552
@@ -164,6 +171,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	751524235	P29	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P29_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P29		417856
 	753513644	P44	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P44_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P44		524352
 	758885357	chord_3	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\chord_3_7D8FFA1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\indic_chord\chord_3		19264
+	776934376	wind_7	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_7		3072064
 	806914411	P57	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P57_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P57		360512
 	817263976	P12	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P12_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P12		1982528
 	843767764	hit_1	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\hit_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit\hit_1		45504
@@ -180,6 +188,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	989542848	P38	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P38_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P38		1769536
 	990600849	P74	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P74_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P74		1171520
 	1010151209	P35	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P35_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P35		516160
+	1010837535	wind_8	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\wind\wind_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\wind\wind_8		1536064
 	1052668030	P16	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P16_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P16		977564
 	1065628052	P60	F:\_Dev\Gamedev\projet_shooter\Handi_shooter\.cache\Windows\SFX\Tutorial\P60_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tutorial\P60		245824
 
