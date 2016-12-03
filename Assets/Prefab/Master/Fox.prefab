@@ -107,8 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1129feeb62417f449dcb1f12ce1f93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stunCooldown: 1
-  stunMovement: 1.5
+  stunCooldown: 0.5
+  stunMovement: 0.5
   isStuned: 0
 --- !u!114 &114000011146524298
 MonoBehaviour:
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hMaxSpeed: 5
   vMaxSpeed: 5
-  speedStunnedPercent: 0.5
+  speedStunnedPercent: 0
 --- !u!114 &114000012739095882
 MonoBehaviour:
   m_ObjectHideFlags: 1
