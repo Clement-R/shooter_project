@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F0CB76AC-3149-4F62-BFB5-554C81412ADC}'
-    m_lastTimePsrt1: -1111993594
-    m_lastTimePart2: -1999365455
+    m_lastTimePsrt1: 1018522040
+    m_lastTimePart2: -1999365266
     List:
     - Name: chord
       Path: Default Work Unit\chord
@@ -839,6 +839,36 @@ MonoBehaviour:
       ID: -1256760242
       Guid: 25d09f91340b6040aab3c41c51075b23
       maxAttenuation: 0
+    - Name: super
+      Path: Default Work Unit\super
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: super
+        ObjectType: 3
+      ID: -1177334890
+      Guid: bd18f88e8047eb41875925f1a19f82d4
+      maxAttenuation: 0
+    - Name: whoosh_mamie
+      Path: Default Work Unit\whoosh_mamie
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: whoosh_mamie
+        ObjectType: 3
+      ID: -1134833337
+      Guid: 2a7a876cc5d9334fb618f6b9ccbe662a
+      maxAttenuation: 0
+    - Name: wind
+      Path: Default Work Unit\wind
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: wind
+        ObjectType: 3
+      ID: 1537061107
+      Guid: b7adf4c6c8f97a45ac1d72d38ac583f8
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -889,8 +919,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{35064881-6812-452C-BC96-FE88AC430106}'
-    m_lastTimePsrt1: -1112188611
-    m_lastTimePart2: -1999365455
+    m_lastTimePsrt1: 1538126705
+    m_lastTimePart2: -1999365266
     List:
     - Name: player
       Path: Default Work Unit\player

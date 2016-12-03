@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{F4C8B109-3C7D-40BF-9739-BEAE13E2F853}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="G:\son manquants"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\Musique"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>

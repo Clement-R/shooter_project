@@ -143,6 +143,8 @@
 				<Event Id="1635194244" Name="P9" ObjectPath="\Events\Default Work Unit\P9"/>
 				<Event Id="3092587493" Name="pause" ObjectPath="\Events\Default Work Unit\pause"/>
 				<Event Id="3038207054" Name="shoot" ObjectPath="\Events\Default Work Unit\shoot"/>
+				<Event Id="3117632406" Name="super" ObjectPath="\Events\Default Work Unit\super"/>
+				<Event Id="1537061107" Name="wind" ObjectPath="\Events\Default Work Unit\wind"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="58932175"/>
@@ -179,9 +181,17 @@
 					<ShortName>proj_move.wav</ShortName>
 					<Path>SFX\proj_move_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="103266992" Language="SFX">
+					<ShortName>wind\wind_5.wav</ShortName>
+					<Path>SFX\wind\wind_5_9E69E797.wem</Path>
+				</File>
 				<File Id="110705416" Language="SFX">
 					<ShortName>Tutorial\P48.wav</ShortName>
 					<Path>SFX\Tutorial\P48_9E69E797.wem</Path>
+				</File>
+				<File Id="119286283" Language="SFX">
+					<ShortName>wind\wind_1.wav</ShortName>
+					<Path>SFX\wind\wind_1_9E69E797.wem</Path>
 				</File>
 				<File Id="120704400" Language="SFX">
 					<ShortName>proj_indic.wav</ShortName>
@@ -200,6 +210,10 @@
 				<File Id="128668769" Language="SFX">
 					<ShortName>Tutorial\P18.wav</ShortName>
 					<Path>SFX\Tutorial\P18_9E69E797.wem</Path>
+				</File>
+				<File Id="144402753" Language="SFX">
+					<ShortName>wind\wind_3.wav</ShortName>
+					<Path>SFX\wind\wind_3_9E69E797.wem</Path>
 				</File>
 				<File Id="150445665" Language="SFX">
 					<ShortName>Tutorial\P65.wav</ShortName>
@@ -312,6 +326,14 @@
 					<Path>SFX\clochette_2_4B8CC0C5.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="363393825" Language="SFX">
+					<ShortName>super\super-002.wav</ShortName>
+					<Path>SFX\super\super-002_9E69E797.wem</Path>
+				</File>
+				<File Id="395642365" Language="SFX">
+					<ShortName>super\super-003.wav</ShortName>
+					<Path>SFX\super\super-003_9E69E797.wem</Path>
+				</File>
 				<File Id="399531414" Language="SFX">
 					<ShortName>Tutorial\P70.wav</ShortName>
 					<Path>SFX\Tutorial\P70_9E69E797.wem</Path>
@@ -339,6 +361,10 @@
 				<File Id="427095491" Language="SFX">
 					<ShortName>Tutorial\P22.wav</ShortName>
 					<Path>SFX\Tutorial\P22_9E69E797.wem</Path>
+				</File>
+				<File Id="438547369" Language="SFX">
+					<ShortName>wind\wind_4.wav</ShortName>
+					<Path>SFX\wind\wind_4_9E69E797.wem</Path>
 				</File>
 				<File Id="467819116" Language="SFX">
 					<ShortName>Tutorial\P31.wav</ShortName>
@@ -385,6 +411,14 @@
 					<ShortName>Tutorial\P58.wav</ShortName>
 					<Path>SFX\Tutorial\P58_9E69E797.wem</Path>
 				</File>
+				<File Id="615934300" Language="SFX">
+					<ShortName>super\super-004.wav</ShortName>
+					<Path>SFX\super\super-004_9E69E797.wem</Path>
+				</File>
+				<File Id="617159957" Language="SFX">
+					<ShortName>wind\wind_6.wav</ShortName>
+					<Path>SFX\wind\wind_6_9E69E797.wem</Path>
+				</File>
 				<File Id="628389266" Language="SFX">
 					<ShortName>Tutorial\P62.wav</ShortName>
 					<Path>SFX\Tutorial\P62_9E69E797.wem</Path>
@@ -401,6 +435,10 @@
 					<ShortName>chord_5.wav</ShortName>
 					<Path>SFX\chord_5_19268CB4.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
+				</File>
+				<File Id="653390292" Language="SFX">
+					<ShortName>wind\wind_2.wav</ShortName>
+					<Path>SFX\wind\wind_2_9E69E797.wem</Path>
 				</File>
 				<File Id="659652459" Language="SFX">
 					<ShortName>clochette_5.wav</ShortName>
@@ -469,6 +507,10 @@
 					<Path>SFX\chord_3_7D8FFA1F.wem</Path>
 					<PrefetchSize>19264</PrefetchSize>
 				</File>
+				<File Id="776934376" Language="SFX">
+					<ShortName>wind\wind_7.wav</ShortName>
+					<Path>SFX\wind\wind_7_9E69E797.wem</Path>
+				</File>
 				<File Id="806914411" Language="SFX">
 					<ShortName>Tutorial\P57.wav</ShortName>
 					<Path>SFX\Tutorial\P57_9E69E797.wem</Path>
@@ -529,13 +571,25 @@
 					<ShortName>Tutorial\P74.wav</ShortName>
 					<Path>SFX\Tutorial\P74_9E69E797.wem</Path>
 				</File>
+				<File Id="1005112474" Language="SFX">
+					<ShortName>super\super-001.wav</ShortName>
+					<Path>SFX\super\super-001_9E69E797.wem</Path>
+				</File>
 				<File Id="1010151209" Language="SFX">
 					<ShortName>Tutorial\P35.wav</ShortName>
 					<Path>SFX\Tutorial\P35_9E69E797.wem</Path>
 				</File>
+				<File Id="1010837535" Language="SFX">
+					<ShortName>wind\wind_8.wav</ShortName>
+					<Path>SFX\wind\wind_8_9E69E797.wem</Path>
+				</File>
 				<File Id="1052668030" Language="SFX">
 					<ShortName>Tutorial\P16.wav</ShortName>
 					<Path>SFX\Tutorial\P16_9E69E797.wem</Path>
+				</File>
+				<File Id="1062661294" Language="SFX">
+					<ShortName>super\super.wav</ShortName>
+					<Path>SFX\super\super_9E69E797.wem</Path>
 				</File>
 				<File Id="1065628052" Language="SFX">
 					<ShortName>Tutorial\P60.wav</ShortName>
