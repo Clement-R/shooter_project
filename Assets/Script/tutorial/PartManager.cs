@@ -101,6 +101,8 @@ public class PartManager : MonoBehaviour {
                 if(failSoundInstance == null) {
                     failSoundInstance = Instantiate(failText);
                     failSoundEvent = failSoundInstance.GetComponent<EventBehavior>();
+                    WwiseSoundPlay soundPlayer = failSoundInstance.GetComponent<WwiseSoundPlay>();
+                    soundPlayer.soundIndex = this.failSoundIndex;
                 }
             }
 
@@ -140,6 +142,8 @@ public class PartManager : MonoBehaviour {
                 if(successSoundInstance == null) {
                     successSoundInstance = Instantiate(successSound, transform) as GameObject;
                     successSoundEvent = successSoundInstance.GetComponent<EventBehavior>();
+                    WwiseSoundPlay soundPlayer = successSoundInstance.GetComponent<WwiseSoundPlay>();
+                    soundPlayer.soundIndex = this.successSoundIndex;
                 }
             }
             
