@@ -8,6 +8,16 @@ public class ShuttleBehavior_master : MonoBehaviour {
     [HideInInspector]
     public bool isStuned = false;
 
+    private Animator anim;
+    private float localTimer;
+    private Vector3 scaleStun = new Vector3(.3f, .3f, 1);
+    private Vector3 scaleNorm = new Vector3(.1f, .1f, 1);
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "trash")
@@ -20,7 +30,7 @@ public class ShuttleBehavior_master : MonoBehaviour {
                 transform.position += new Vector3(h * stunMovement * -1, v * stunMovement * -1, 0);
 
                 isStuned = true;
-                StartCoroutine("stunEffect");
+//                StartCoroutine("stunEffect");
                 coll.gameObject.GetComponent<TrashBehavior_master>().Die();
             }
         }
@@ -34,12 +44,42 @@ public class ShuttleBehavior_master : MonoBehaviour {
                 transform.position += new Vector3(h * stunMovement * -1, v * stunMovement * -1, 0);
 
                 isStuned = true;
-                StartCoroutine("stunEffect");
+                //StartCoroutine("stunEffect");
             }
         }
 
     }
 
+    void Update()
+    {
+        if (isStuned)
+        {
+            localTimer += Time.deltaTime;
+            anim.SetBool("isStunned", true);
+            if(localTimer > stunCooldown)
+            {
+                anim.SetBool("isStunned", false);
+                isStuned = false;
+            }
+
+        } else
+        {
+            
+            localTimer = 0;
+        }
+    }
+
+    void setScaleStun()
+    {
+        transform.localScale = scaleStun;
+    }
+
+    void setScaleNorm()
+    {
+        transform.localScale = scaleNorm;
+    }
+
+    /*
     void Update()
     {
         if (this.isStuned)
@@ -73,5 +113,5 @@ public class ShuttleBehavior_master : MonoBehaviour {
 
         yield return new WaitForSeconds(0.25f);
         StartCoroutine("effect");
-    }
+    }*/
 }

@@ -987,6 +987,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010829761646, guid: 51c8fdac6bbf68040827e879eabbaa0a,
+        type: 2}
+      propertyPath: stunCooldown
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51c8fdac6bbf68040827e879eabbaa0a, type: 2}
   m_IsPrefabParent: 0

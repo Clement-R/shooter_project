@@ -10,6 +10,7 @@ public class shuttle_movement_master : MonoBehaviour {
     private Rigidbody2D rb2d;
     private float h;
     private float v;
+    
 
     // Use this for initialization
     void Start()
@@ -19,24 +20,32 @@ public class shuttle_movement_master : MonoBehaviour {
 
     void FixedUpdate()
     {
-        
-        h = Input.GetAxisRaw("Horizontal_1");
-        v = -Input.GetAxisRaw("Vertical_1");
-        if (GetComponent<ShuttleBehavior_master>().isStuned)
-        {
-            rb2d.velocity = new Vector2(h * hMaxSpeed * speedStunnedPercent * Time.deltaTime, v * vMaxSpeed * speedStunnedPercent * Time.deltaTime);
-        } else
-        {
-            rb2d.velocity = new Vector2(h * hMaxSpeed * Time.deltaTime, v * vMaxSpeed * Time.deltaTime);
-        }
+
+            h = Input.GetAxisRaw("Horizontal_1");
+            v = -Input.GetAxisRaw("Vertical_1");
+            if (GetComponent<ShuttleBehavior_master>().isStuned)
+            {
+                rb2d.velocity = new Vector2(h * hMaxSpeed * speedStunnedPercent * Time.deltaTime, v * vMaxSpeed * speedStunnedPercent * Time.deltaTime);
+            }
+            else
+            {
+
+                rb2d.velocity = new Vector2(h * hMaxSpeed * Time.deltaTime, v * vMaxSpeed * Time.deltaTime);
+            }
         if (h != 0 || v != 0)
         {
             transform.localEulerAngles = new Vector3(0, 0, (Mathf.Atan2(-h, v) * 180) / Mathf.PI);
-            GetComponent<Animator>().speed = 1;
-        } else
-        {
-            GetComponent<Animator>().speed = 0;
+            GetComponent<Animator>().speed = 1 ;
         }
+        else
+        {
+            if (GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("foxAnimator"))
+            {
+                GetComponent<Animator>().speed = 0;
+            }
+
+        }
+        
     }
 
     
