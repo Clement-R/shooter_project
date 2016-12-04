@@ -1,29 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TutorialEnemyTargeting : MonoBehaviour {
-    public GameObject enemy;
+public class TutorialTrashScoping : MonoBehaviour {
+    public GameObject trash;
     public float timeBeforeFail = 5.0f;
 
     private EventBehavior eventManager;
     private GameObject trashInstance;
-    private EnemyBehavior_master behavior;
+    private TrashBehavior_master behavior;
     private float nextFail = 0.0F;
 
     void Start () {
         eventManager = GetComponent<EventBehavior>();
-        trashInstance = Instantiate(enemy, this.transform) as GameObject;
+        trashInstance = Instantiate(trash, this.transform) as GameObject;
         trashInstance.transform.position = new Vector3(3.5f, -9.0f, 0.0f);
-        trashInstance.GetComponent<EnemyMovement_master>().speed = 0.0f;
-        trashInstance.GetComponent<CircleCollider2D>().isTrigger = false;
-        behavior = trashInstance.GetComponent<EnemyBehavior_master>();
+        trashInstance.GetComponent<EnemyMovement>().speed = 0.0f;
+        trashInstance.GetComponent<BoxCollider2D>().isTrigger = false;
+        behavior = trashInstance.GetComponent<TrashBehavior_master>();
+        behavior.isTargeted = true;
 
         nextFail = Time.time + timeBeforeFail;
     }
 	
 	void Update () {
-        if (behavior.isTargeted) {
-            behavior.StopSound();
+        if (behavior.isFocused) {
             eventManager.success = true;
         }
 

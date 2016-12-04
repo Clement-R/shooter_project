@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010427335300}
   - 114: {fileID: 114000013675427978}
+  - 114: {fileID: 114000011106424904}
   m_Layer: 0
   m_Name: TutorialEnemyKilling
   m_TagString: Untagged
@@ -40,6 +41,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &114000011106424904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013586507154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ccff2e5690db34d83f718db897b1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1000010330552228, guid: 8980df681e3444e48b840b6f4d67a357, type: 2}
+  timeBeforeFail: 5
 --- !u!114 &114000013675427978
 MonoBehaviour:
   m_ObjectHideFlags: 1

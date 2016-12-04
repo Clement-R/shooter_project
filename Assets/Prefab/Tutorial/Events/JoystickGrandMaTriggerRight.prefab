@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBeforeFail: 5
-  playerIndex: 0
+  playerIndex: 1
   triggerToTest: 1
 --- !u!114 &114000011002927236
 MonoBehaviour:

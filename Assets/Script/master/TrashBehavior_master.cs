@@ -22,7 +22,6 @@ public class TrashBehavior_master : MonoBehaviour {
     {
         god = GameObject.Find("GameManager_master").GetComponent<GameManager_GameRules_master>();
         GetComponent<Animator>().speed = 0;
-        
     }
 
     void Update()
@@ -99,6 +98,19 @@ public class TrashBehavior_master : MonoBehaviour {
         // Stop sound
         AkSoundEngine.StopPlayingID(eventIdIndic);
         AkSoundEngine.StopPlayingID(eventIdOn);
+    }
+
+    void OnDestroy() {
+        StopSound();
+    }
+
+    public void StopSound() {
+        if (eventIdIndic != 0) {
+            AkSoundEngine.StopPlayingID(eventIdIndic);
+        }
+        if (eventIdOn != 0) {
+            AkSoundEngine.StopPlayingID(eventIdOn);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D coll) { 
