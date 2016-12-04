@@ -100,7 +100,7 @@ Prefab:
     - target: {fileID: 114000010695286954, guid: 41c5164e4755fe04097bdf9e1dea90a4,
         type: 2}
       propertyPath: parts.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000011594254280, guid: 41c5164e4755fe04097bdf9e1dea90a4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -150,7 +150,7 @@ Prefab:
         type: 2}
       propertyPath: parts.Array.data[0]
       value: 
-      objectReference: {fileID: 1000010541457544, guid: 9fdb3d8299b3f474a8eb9b7ded9e4606,
+      objectReference: {fileID: 1000010541457544, guid: 3b6df951a7262ba44a0bf1c41258e829,
         type: 2}
     - target: {fileID: 114000010695286954, guid: 41c5164e4755fe04097bdf9e1dea90a4,
         type: 2}
