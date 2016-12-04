@@ -121,4 +121,13 @@ public class EnemyBehavior_master : MonoBehaviour {
             Destroy(this.gameObject);
         }
     }
+
+    void OnDestroy() {
+        if (eventIdIndic != 0) {
+            AkSoundEngine.StopPlayingID(eventIdIndic);
+        }
+        if (eventIdOn != 0) {
+            AkSoundEngine.StopPlayingID(eventIdOn);
+        }
+    }
 }
