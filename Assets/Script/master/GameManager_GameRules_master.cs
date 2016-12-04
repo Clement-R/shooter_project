@@ -4,15 +4,19 @@ using System.Collections;
 public class GameManager_GameRules_master : MonoBehaviour
 {
     bool gameLost = false;
+    
 
 
     public int lifeInit;
     public int levelLife = 4; //Vie du monde
     public Transform cadreLoose;
+    public Transform cadrePause;
 
     private int life;
     private SpriteRenderer blackScreen;
     private bool deathMenuVisible = false;
+    [HideInInspector]
+    public bool pauseMenuVisible = false;
 
     private Color alphaMax = new Color(0, 0, 0, 1);
 
@@ -25,6 +29,14 @@ public class GameManager_GameRules_master : MonoBehaviour
 
     void Update()
     {
+        if (!gameLost)
+        {
+            if (Input.GetButton("Start_1") && !pauseMenuVisible)
+            {
+                pauseMenuVisible = true;
+                Instantiate(cadrePause.gameObject, transform);
+            }
+        }
         if (life < 0 || gameLost)
         {
             Time.timeScale = 0.0f;

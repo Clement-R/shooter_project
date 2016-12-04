@@ -13,7 +13,7 @@ public class EnemyMovement : MonoBehaviour {
 
     void Update ()
     {
-        Vector2 bulletForce = - transform.up * speed;
+        Vector2 bulletForce = - transform.up * speed * Time.deltaTime;
         rb2d.velocity = bulletForce;
     }
 }
