@@ -57,7 +57,7 @@ MonoBehaviour:
   remainTime: 1
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: P16
-  exitEvent: {fileID: 0}
+  exitEvent: {fileID: 1000011052434448, guid: 1a1fa5682ca4699469f5da436c159ea2, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: 

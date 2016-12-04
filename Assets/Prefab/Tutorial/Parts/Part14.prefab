@@ -54,18 +54,18 @@ MonoBehaviour:
   isFinished: 0
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   text: Place une nouvelle balise avec A
-  remainTime: 10
+  remainTime: 1
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: P24
-  exitEvent: {fileID: 0}
+  exitEvent: {fileID: 1000011458834788, guid: 22cf519b04e36334a9b333e5475093fc, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: "Bien ! La balise est plac\xE9e"
-  successTextRemainTime: 5
+  successTextRemainTime: 2
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   failTextContent: "Place une balise sur les bambous en te pla\xE7ant \xE0 proximit\xE9
     et en appuyant sur A"
-  failTextRemainTime: 8
+  failTextRemainTime: 3
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
   successSoundIndex: 

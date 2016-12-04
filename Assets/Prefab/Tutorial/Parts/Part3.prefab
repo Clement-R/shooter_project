@@ -53,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFinished: 0
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
-  text: 'Attends mes instructions, je vais te montrer comment faire. '
+  text: Attends mes instructions
   remainTime: 1
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: P3

@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1000010330552228, guid: 8980df681e3444e48b840b6f4d67a357, type: 2}
-  timeBeforeFail: 5
+  timeBeforeFail: 9
 --- !u!114 &114000013675427978
 MonoBehaviour:
   m_ObjectHideFlags: 1

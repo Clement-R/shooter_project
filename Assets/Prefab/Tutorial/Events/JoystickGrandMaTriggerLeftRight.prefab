@@ -66,6 +66,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc01444985a2c544bc5fac2823a2c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBeforeFail: 5
+  timeBeforeFail: 9
   playerIndex: 1
   triggerToTest: 2

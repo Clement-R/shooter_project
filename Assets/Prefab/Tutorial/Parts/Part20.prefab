@@ -54,17 +54,17 @@ MonoBehaviour:
   isFinished: 0
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   text: Un nouvel ennemi arrive ! Balise-le !
-  remainTime: 5
+  remainTime: 3
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: 
-  exitEvent: {fileID: 0}
+  exitEvent: {fileID: 1000011523469252, guid: c8e59b82f05b49a4b92ab7d6c3532441, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: Bien
-  successTextRemainTime: 5
+  successTextRemainTime: 2
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   failTextContent: Balise le nouvel ennemi avec A
-  failTextRemainTime: 5
+  failTextRemainTime: 3
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
   successSoundIndex: 

@@ -55,17 +55,17 @@ MonoBehaviour:
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   text: "Maintenant, envoie-lui une vibration \xE0 droite avec RT. Tu peux contr\xF4ler
     l'intensit\xE9 de la vibration en appuyant plus ou moins fort"
-  remainTime: 5
+  remainTime: 4
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: 
-  exitEvent: {fileID: 0}
+  exitEvent: {fileID: 1000013713559850, guid: 3657072d7fdc9794e8118019d2734fe0, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: Bien
   successTextRemainTime: 2
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   failTextContent: "Envoie-lui une vibration \xE0 droite avec RT"
-  failTextRemainTime: 4
+  failTextRemainTime: 3
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
   successSoundIndex: P40

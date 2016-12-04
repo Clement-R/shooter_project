@@ -16,6 +16,7 @@ public class WwiseSoundPlay : MonoBehaviour {
 
 	void OnSoundEnd(object in_cookie, AkCallbackType in_type, object in_info) {
         if (in_type == AkCallbackType.AK_EndOfEvent) {
+			Debug.Log ("Sound end");
             eventBehavior.isFinished = true;
         }
     }

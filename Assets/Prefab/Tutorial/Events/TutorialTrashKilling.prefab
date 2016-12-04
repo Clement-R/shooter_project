@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trash: {fileID: 1000012044313888, guid: a0f10aef55dd5fd46b959ca8e92a931e, type: 2}
-  timeBeforeFail: 5
+  timeBeforeFail: 9
 --- !u!114 &114000012324027784
 MonoBehaviour:
   m_ObjectHideFlags: 1

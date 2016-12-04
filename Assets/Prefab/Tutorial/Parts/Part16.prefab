@@ -54,17 +54,17 @@ MonoBehaviour:
   isFinished: 0
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   text: Encore une fois. Place une balise !
-  remainTime: 8
+  remainTime: 3
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: 
-  exitEvent: {fileID: 0}
+  exitEvent: {fileID: 1000011458834788, guid: 22cf519b04e36334a9b333e5475093fc, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: Bien, Mamy va pouvoir leur tirer dessus
-  successTextRemainTime: 5
+  successTextRemainTime: 3
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   failTextContent: Place une balise sur le bambou avec A
-  failTextRemainTime: 8
+  failTextRemainTime: 3
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
   successSoundIndex: 

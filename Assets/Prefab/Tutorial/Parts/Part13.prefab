@@ -61,7 +61,7 @@ MonoBehaviour:
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: "C'est ses tirs qui vont permettre de d\xE9plier vos adversaires"
-  successTextRemainTime: 8
+  successTextRemainTime: 5
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   failTextContent: 
   failTextRemainTime: 1

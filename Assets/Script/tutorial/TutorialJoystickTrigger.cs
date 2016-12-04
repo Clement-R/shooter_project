@@ -17,6 +17,9 @@ public class TutorialJoystickTrigger : MonoBehaviour {
     }
 
     void Update () {
+
+		Debug.Log ("Deb : " + Input.GetAxisRaw ("Trigger_2_right") + Input.GetAxisRaw ("Trigger_2_left"));
+
         if (playerIndex == 0) {
             if(triggerToTest == 0) {
                 if(Input.GetAxisRaw("Trigger_1_left") == 1) {

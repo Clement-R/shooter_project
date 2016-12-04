@@ -56,17 +56,17 @@ MonoBehaviour:
   text: "Tu peux lui envoyer les deux vibrations en appuyant sur les deux g\xE2chettes
     en m\xEAme temps. Ainsi, tu peux confirmer \xE0 Mamy que son viseur est au bon
     endroit"
-  remainTime: 6
+  remainTime: 5
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: 
-  exitEvent: {fileID: 0}
+  exitEvent: {fileID: 1000010426382236, guid: befff7f5cb145d24caaf57b014f1b8c9, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: Bien
   successTextRemainTime: 2
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   failTextContent: "Essaie d'appuyer sur LT et RT en m\xEAme temps"
-  failTextRemainTime: 4
+  failTextRemainTime: 3
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
   successSoundIndex: P43
