@@ -23,6 +23,7 @@ public class TutorialTrashTargeting : MonoBehaviour {
 	
 	void Update () {
 	    if(behavior.isTargeted) {
+            behavior.StopSound();
             eventManager.success = true;
         }
 
