@@ -49,7 +49,7 @@ public class TutorialJoystickTrigger : MonoBehaviour {
             }
         }
 
-        if (Time.time > nextFail) {
+        if (Time.time > nextFail && !eventManager.success) {
             nextFail = Time.time + timeBeforeFail;
             eventManager.fail = true;
         }
