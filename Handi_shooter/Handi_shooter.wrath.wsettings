@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{F4C8B109-3C7D-40BF-9739-BEAE13E2F853}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\Musique"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="G:\les derniers sons"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -20,12 +20,18 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="TufQdhRN1kqBl9LlgS7f2g=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="uSh1P4aEa0qunL6UHtsQLg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{23C6DDD7-F217-49D4-AA81-6153ABB986F6} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP9w3xfjswydAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{3C08B47A-36DF-4755-A77E-8B5F73EFB12D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP9w3xfjswydAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{98A56803-BD3B-4EBA-8E34-4EE0EBCA5A16} - SegmentEditorZoomInfo" Type="string" Value="AQAAAAAAC0AAAAAAAADwP9w3xfjswydAAAAAAAAA8D8AAAAAAB6hQAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="5"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
+				<Property Name="Music Transition List\{192E65AB-78F8-4D90-8C7F-537D293ACA9A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{87B14D6E-AB28-4911-9BC7-183B1DCA7434}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{B9F7D089-E37B-47C6-AE35-2EE39F9BC8F3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{9A615815-0476-4FC0-AD83-B2B47D661B3E}"/>

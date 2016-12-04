@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F0CB76AC-3149-4F62-BFB5-554C81412ADC}'
-    m_lastTimePsrt1: 142570018
-    m_lastTimePart2: -1999365041
+    m_lastTimePsrt1: 2034670165
+    m_lastTimePart2: -1999365021
     List:
     - Name: chord
       Path: Default Work Unit\chord
@@ -49,6 +49,16 @@ MonoBehaviour:
       ID: 971839176
       Guid: 9a37f8ce8925a047880b1c97b737e9c1
       maxAttenuation: 0
+    - Name: mamie_hurt
+      Path: Default Work Unit\mamie_hurt
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mamie_hurt
+        ObjectType: 3
+      ID: 1503417578
+      Guid: 15170ed3ba8f5943b672e0573dd5a758
+      maxAttenuation: 0
     - Name: miss
       Path: Default Work Unit\miss
       PathAndIcons:
@@ -78,6 +88,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: 742465371
       Guid: 7fdf524cd320b6489e8d1eab1ac84b37
+      maxAttenuation: 0
+    - Name: music_menu
+      Path: Default Work Unit\music_menu
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: music_menu
+        ObjectType: 3
+      ID: 1598298728
+      Guid: 53349e2f2197f540afddc3d56188c440
       maxAttenuation: 0
     - Name: P1
       Path: Default Work Unit\P1
@@ -138,6 +158,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: -92869808
       Guid: 44728b74f8d1be4ca0f9e24881799ff9
+      maxAttenuation: 0
+    - Name: P15
+      Path: Default Work Unit\P15
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P15
+        ObjectType: 3
+      ID: -92869807
+      Guid: 99ce592dbc16314abdfb4a6ee20f1a02
       maxAttenuation: 0
     - Name: P16
       Path: Default Work Unit\P16
@@ -799,6 +829,46 @@ MonoBehaviour:
       ID: -126425078
       Guid: 4dcd787be7ef0946b207c6fac8a4a499
       maxAttenuation: 0
+    - Name: P75
+      Path: Default Work Unit\P75
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P75
+        ObjectType: 3
+      ID: -126425077
+      Guid: 834227691f53a040817246f594077e76
+      maxAttenuation: 0
+    - Name: P76
+      Path: Default Work Unit\P76
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P76
+        ObjectType: 3
+      ID: -126425080
+      Guid: 1eb81e659d311544a17b4ef8b10625f5
+      maxAttenuation: 0
+    - Name: P77
+      Path: Default Work Unit\P77
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P77
+        ObjectType: 3
+      ID: -126425079
+      Guid: 57eb88edf7317e41ab901d4f1f79fc4b
+      maxAttenuation: 0
+    - Name: P78
+      Path: Default Work Unit\P78
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P78
+        ObjectType: 3
+      ID: -126425082
+      Guid: 733f44e2a107f74389091f74c9cbe0b6
+      maxAttenuation: 0
     - Name: P8
       Path: Default Work Unit\P8
       PathAndIcons:
@@ -919,8 +989,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{35064881-6812-452C-BC96-FE88AC430106}'
-    m_lastTimePsrt1: 289348037
-    m_lastTimePart2: -1999365041
+    m_lastTimePsrt1: -1189105275
+    m_lastTimePart2: -1999365021
     List:
     - Name: player
       Path: Default Work Unit\player
@@ -935,8 +1005,6 @@ MonoBehaviour:
   - /Handi_shooter
   - /Handi_shooter/Events
   - /Handi_shooter/Events/Default Work Unit
-  - /Handi_shooter/SoundBanks
-  - /Handi_shooter/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

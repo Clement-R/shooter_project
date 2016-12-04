@@ -33,4 +33,5 @@ sysinfo.txt
 # Wwise
 /Handi_shooter/.backup
 /Handi_shooter/.cache
+/Handi_shooter/GeneratedSoundBanks/
 /Assets/StreamingAssets/Audio
