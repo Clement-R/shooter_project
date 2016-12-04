@@ -70,8 +70,7 @@ public class towerGenerator_master : MonoBehaviour {
                 case 1: return towerLevel2;
                 case 0: return towerLevel1;
                 default:
-                    Debug.Log("!!! Passage par la case default dans towerGenerator");
-                    return null;
+                    return towerLevel1;
             }
         }
         return null;

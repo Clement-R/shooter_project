@@ -899,6 +899,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013137145812, guid: 10a9568f6625b434eadef1e8d0aead10,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0.627451
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10a9568f6625b434eadef1e8d0aead10, type: 2}
   m_IsPrefabParent: 0
@@ -986,11 +991,6 @@ Prefab:
     - target: {fileID: 4000012901603226, guid: 51c8fdac6bbf68040827e879eabbaa0a, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010829761646, guid: 51c8fdac6bbf68040827e879eabbaa0a,
-        type: 2}
-      propertyPath: stunCooldown
-      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51c8fdac6bbf68040827e879eabbaa0a, type: 2}
@@ -1178,7 +1178,7 @@ Transform:
   - {fileID: 1046300655}
   - {fileID: 1322338160}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &960707981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,7 +1816,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011641068302, guid: 8a794a8a983511f4b930720e1436219b, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000013863737034, guid: 8a794a8a983511f4b930720e1436219b,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -1.2380664
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000013863737034, guid: 8a794a8a983511f4b930720e1436219b,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 15.303844
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000013863737034, guid: 8a794a8a983511f4b930720e1436219b,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.20636019
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000013863737034, guid: 8a794a8a983511f4b930720e1436219b,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 14.819327
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a794a8a983511f4b930720e1436219b, type: 2}

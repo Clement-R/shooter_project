@@ -3,8 +3,10 @@ using System.Collections;
 
 public class EnemyMovement : MonoBehaviour {
     public float speed;
+    public float realSpeed;
 
     private Rigidbody2D rb2d;
+    private bool isVisible = false;
 
     void Start()
     {
@@ -13,7 +15,19 @@ public class EnemyMovement : MonoBehaviour {
 
     void Update ()
     {
-        Vector2 bulletForce = - transform.up * speed * Time.deltaTime;
-        rb2d.velocity = bulletForce;
+        if (isVisible)
+        {
+            transform.position += Vector3.down * realSpeed * Time.deltaTime;
+
+        } else
+        {
+            transform.position += Vector3.down * speed * Time.deltaTime;
+        }
+        
+    }
+
+    void OnBecameVisible()
+    {
+        isVisible = true;
     }
 }

@@ -76,9 +76,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0.08760929, y: 2.6012802}
+  m_Offset: {x: -0.04162848, y: 2.1274185}
   serializedVersion: 2
-  m_Size: {x: 3.5514512, y: 8.655872}
+  m_Size: {x: 1.2252152, y: 5.2957344}
 --- !u!95 &95000011949104270
 Animator:
   serializedVersion: 3
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1129feeb62417f449dcb1f12ce1f93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stunCooldown: 0.4
-  stunMovement: 0.5
+  stunCooldown: 0.8
+  stunMovement: 0.3
   isStuned: 0
 --- !u!114 &114000011146524298
 MonoBehaviour:
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1f70790811aaa46a78b8c618ecbaed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  durationInSeconds: 0.5
+  durationInSeconds: 0.4
 --- !u!114 &114000011742708770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -133,8 +133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6024c59e50d703d41987d44d1a93b394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hMaxSpeed: 200
-  vMaxSpeed: 200
+  hMaxSpeed: 240
+  vMaxSpeed: 270
   speedStunnedPercent: 0
 --- !u!114 &114000012739095882
 MonoBehaviour:
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 464d892a292c95e429aaa47049725f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumDetectionRange: 1
+  minimumDetectionRange: 1.8
   cooldownBeforeNextTargeting: 0.2
   spawnOnLeftClick: {fileID: 0}
 --- !u!114 &114000014288353650
@@ -189,7 +189,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d5e900bcdbcb46e40b80ec813d303cfb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
