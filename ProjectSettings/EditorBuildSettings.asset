@@ -7,5 +7,9 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/Scene/prototype_2.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene/prototype_4.unity
+  - enabled: 1
+    path: Assets/Scene/menu.unity
+  - enabled: 1
+    path: Assets/Scene/master.unity
