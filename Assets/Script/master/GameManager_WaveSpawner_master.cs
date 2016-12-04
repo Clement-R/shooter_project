@@ -6,6 +6,8 @@ using System;
 public class GameManager_WaveSpawner_master : MonoBehaviour {
     [HideInInspector]
     public int numberOfEnemiesKilled = 0;
+    [HideInInspector]
+    public int numberOfEnemiesKilledByPlayer = 0;
 
     private int numberOfEnemiesInWave = 0;
     private int currentWave;
@@ -91,6 +93,12 @@ public class GameManager_WaveSpawner_master : MonoBehaviour {
             {
                 endGame();
             }
+        }
+
+        if(numberOfEnemiesKilledByPlayer == 5)
+        {
+            Debug.Log("Jouer son ici , 5 ennemies tués");
+            numberOfEnemiesKilledByPlayer = 0;
         }
     }
 
