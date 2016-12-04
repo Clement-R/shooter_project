@@ -26,7 +26,7 @@ public class EnemyBehavior_master : MonoBehaviour {
     {
         if (this.isTargeted)
         {
-            if (!effectLaunched)
+            if (!effectLaunched && !GetComponent<Animator>().GetBool("isDead"))
             {
                 GameObject baliseInstance = (GameObject)Instantiate(balise, transform);
                 baliseInstance.transform.localPosition = new Vector3(0, 20f, 0);
@@ -109,12 +109,14 @@ public class EnemyBehavior_master : MonoBehaviour {
         if (coll.gameObject.tag == "southWall")
         {
             god.ennemyPassed();
+            AkSoundEngine.StopPlayingID(eventIdIndic);
             GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilled++;
             Destroy(this.gameObject);
         }
         else if (coll.gameObject.tag == "Player")
         {
             god.playerTouched();
+            AkSoundEngine.StopPlayingID(eventIdIndic);
             GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilled++;
             Destroy(this.gameObject);
         }
