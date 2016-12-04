@@ -34,6 +34,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011641068302}
+  - 114: {fileID: 114000012652413670}
   m_Layer: 0
   m_Name: GrandMaPivot
   m_TagString: Untagged
@@ -51,7 +52,6 @@ GameObject:
   - 4: {fileID: 4000012701947706}
   - 212: {fileID: 212000011687245170}
   - 50: {fileID: 50000012521702884}
-  - 81: {fileID: 81000011883349282}
   - 114: {fileID: 114000012928606850}
   - 114: {fileID: 114000014041659038}
   - 114: {fileID: 114000013170549126}
@@ -168,13 +168,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 10.940001, y: 17.780003}
---- !u!81 &81000011883349282
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012402256452}
-  m_Enabled: 1
 --- !u!95 &95000012721875864
 Animator:
   serializedVersion: 3
@@ -205,6 +198,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireRate: 0.5
   projectile: {fileID: 1000013554719490, guid: 23276af699e8962429c51b4bc58d643f, type: 2}
+--- !u!114 &114000012652413670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012065948846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207e194adb8be9f49b554723ee00d854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listenerId: 0
 --- !u!114 &114000012797495116
 MonoBehaviour:
   m_ObjectHideFlags: 1
