@@ -30,7 +30,7 @@ public class TutorialMoveJoystick : MonoBehaviour {
             eventManager.success = true;
         }
 
-        if (Time.time > nextFail) {
+        if (Time.time > nextFail && !eventManager.success) {
             nextFail = Time.time + timeBeforeFail;
             eventManager.fail = true;
         }

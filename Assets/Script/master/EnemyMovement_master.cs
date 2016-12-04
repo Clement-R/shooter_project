@@ -20,13 +20,13 @@ public class EnemyMovement_master : MonoBehaviour {
         if (anim.GetBool("isDead"))
         {
             localTime += Time.deltaTime;
-            transform.position += Vector3.left * speed;
-            transform.position += Vector3.down * speed * Mathf.Cos(localTime);
+            transform.position += Vector3.left * speed * Time.deltaTime;
+            transform.position += Vector3.down * speed * Mathf.Cos(localTime) * Time.deltaTime;
 
         } else
         {
-            transform.position += Vector3.down * speed;
-            transform.eulerAngles += Vector3.forward * rotationSpeed;
+            transform.position += Vector3.down * speed * Time.deltaTime;
+            transform.eulerAngles += Vector3.forward * rotationSpeed * Time.deltaTime;
         }
         
     }

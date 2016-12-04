@@ -7,7 +7,7 @@ public class GameManager_WaveSpawner_master : MonoBehaviour {
     public int numberOfEnemiesKilled = 0;
 
     private int numberOfEnemiesInWave = 0;
-    private int currentWave = 0;
+    private int currentWave;
     private int numberOfWaves = 0;
 
     private GameManager_EnemySpawn_master enemySpawner;
@@ -17,6 +17,7 @@ public class GameManager_WaveSpawner_master : MonoBehaviour {
 
     void Start()
     {
+        currentWave = currentLevelStaticVariable.currentWave;
         enemySpawner = GetComponent<GameManager_EnemySpawn_master>();
 
         //Load data from disk
@@ -75,6 +76,7 @@ public class GameManager_WaveSpawner_master : MonoBehaviour {
     {
         if (numberOfEnemiesInWave == numberOfEnemiesKilled)
         {
+            currentLevelStaticVariable.currentWave++;
             currentWave++;
             if (currentWave <= numberOfWaves - 1)
             {

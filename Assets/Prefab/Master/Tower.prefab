@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011892740270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.0017185, y: 2.4512386, z: 0}
+  m_LocalPosition: {x: -1.1417186, y: 1.1512384, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -81,7 +81,7 @@ MonoBehaviour:
   yRespawn: -6
   scaleMin: 0.15
   scaleMax: 0.45
-  scrollSpeed: 0.007
+  scrollSpeed: 0.2
 --- !u!212 &212000014060894580
 SpriteRenderer:
   m_ObjectHideFlags: 1

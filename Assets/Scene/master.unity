@@ -450,26 +450,6 @@ Prefab:
       propertyPath: m_Name
       value: NuageSol (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.6691177
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.6691177
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.6691177
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
   m_IsPrefabParent: 0
@@ -919,10 +899,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1000013984921386, guid: 10a9568f6625b434eadef1e8d0aead10, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10a9568f6625b434eadef1e8d0aead10, type: 2}
   m_IsPrefabParent: 0
@@ -1209,6 +1185,7 @@ GameObject:
   - 20: {fileID: 960707985}
   - 92: {fileID: 960707984}
   - 124: {fileID: 960707983}
+  - 114: {fileID: 960707982}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1216,6 +1193,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &960707982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 960707981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3005976a455ea6f47a29c98a33404b66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: b928753f86846b4aae9cbe941edb102e
+  bankName: player
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!124 &960707983
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1817,54 +1813,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 4000012701947706, guid: 8a794a8a983511f4b930720e1436219b, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a794a8a983511f4b930720e1436219b, type: 2}
-  m_IsPrefabParent: 0
---- !u!1001 &2001954273
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -11.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013719087566, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b449dfc9d0debeb48acdfc810c8c2741, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &2065240082
 Prefab:
@@ -2026,32 +1976,6 @@ Prefab:
     - target: {fileID: 1000013174497892, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}
       propertyPath: m_Name
       value: NuageSol (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300002, guid: 3707a9ed7168f6448bc2bf5ada49f119,
-        type: 3}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.6691177
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.6691177
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.6691177
-      objectReference: {fileID: 0}
-    - target: {fileID: 212000013387300356, guid: 1789d562683f0a34aadaf919ac2130f0,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1789d562683f0a34aadaf919ac2130f0, type: 2}

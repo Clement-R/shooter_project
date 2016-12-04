@@ -7,18 +7,27 @@ public class blackScreenBehavior : MonoBehaviour {
 
     private SpriteRenderer sprite;
     private Color alphaMax = new Color(0, 0, 0, 1);
+    private bool isVisible = true;
+    private bool onStart = true;
 
 	// Use this for initialization
 	void Start () {
         sprite = GetComponent<SpriteRenderer>();
         sprite.enabled = true;
-        Destroy(gameObject, 10f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-       
-        sprite.color = fadeOut(speedFade, sprite.color);
+        if (isVisible && onStart)
+        {
+            sprite.color = fadeOut(speedFade, sprite.color);
+        }
+        if(sprite.color.a <= 0)
+        {
+            isVisible = false;
+            onStart = false;
+        }
+
 	}
 
     Color fadeOut(float speed, Color color)

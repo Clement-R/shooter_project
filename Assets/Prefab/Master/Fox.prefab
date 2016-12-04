@@ -133,8 +133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6024c59e50d703d41987d44d1a93b394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hMaxSpeed: 5
-  vMaxSpeed: 5
+  hMaxSpeed: 200
+  vMaxSpeed: 200
   speedStunnedPercent: 0
 --- !u!114 &114000012739095882
 MonoBehaviour:
