@@ -29,3 +29,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.zip
+
+# Wwise
+/Handi_shooter/.backup
+/Handi_shooter/.cache
+/Assets/StreamingAssets/Audio
