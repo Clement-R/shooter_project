@@ -112,6 +112,7 @@ MonoBehaviour:
   lifeInit: 2
   levelLife: 4
   cadreLoose: {fileID: 4000010719409526, guid: af8103780ff9c0c4cb55bf9da7a9a68c, type: 2}
+  cadrePause: {fileID: 4000013102785480, guid: 339384c6133d80548a64d822298014af, type: 2}
 --- !u!114 &114000012918360036
 MonoBehaviour:
   m_ObjectHideFlags: 1
