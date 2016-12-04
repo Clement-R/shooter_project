@@ -1014,6 +1014,174 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="P15" ID="{2D59CE99-16BC-4A31-BDFB-4A6EE20F1A02}">
+					<ChildrenList>
+						<Action Name="Play" ID="{20608830-6D5A-4E9A-A768-939125FFC093}" ShortID="566416932" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9890511E-6CFE-4A7E-89D6-92A8329D1703}" Global="false">
+									<ObjectRef Name="P15" ID="{2A30381A-8786-43FE-8596-CEA23CCE3FE9}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P75" ID="{69274283-531F-40A0-8172-46F594077E76}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E390D6BB-3628-4C5C-B900-83137DF50974}" ShortID="959782247" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2659C64C-2A3E-465A-9831-FD659F26E71E}" Global="false">
+									<ObjectRef Name="P75" ID="{8BB8D7B1-4DB1-4A9F-AE4C-96D3319AAAC0}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P76" ID="{651EB81E-319D-4415-A17B-4EF8B10625F5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2721CA4A-8946-4CCB-BF26-E66B4F0A4C9B}" ShortID="952681261" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{55A11123-CAC2-4C8F-BBA0-0637FF28B46E}" Global="false">
+									<ObjectRef Name="P76_hit" ID="{CA806DA0-1053-4B89-8CE3-F1EBFF59EAEE}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P77" ID="{ED88EB57-31F7-417E-AB90-1D4F1F79FC4B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EF15351E-E930-4190-9289-02981F37AC9F}" ShortID="1060936347" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D7C350F0-05E3-4F06-A593-699577845616}" Global="false">
+									<ObjectRef Name="P77_dead" ID="{F1EC0E81-2953-4F96-A80E-5396A373C6B3}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P78" ID="{E2443F73-07A1-43F7-8909-1F74C9CBE0B6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F667E8C4-DB75-4B1D-8BA7-09BE6C3C0E17}" ShortID="943167534" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{54CE7991-A158-4DB0-847A-A69CAED071ED}" Global="false">
+									<ObjectRef Name="P78_respawn_ask" ID="{732707A5-2734-4D5D-A973-8DD3B9C87ABE}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music_menu" ID="{2F9E3453-9721-40F5-AFDD-C3D56188C440}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1896E7E9-8B3E-4096-8AB0-B95A44004AB5}" ShortID="518973694" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CC8D570A-E0A5-427C-982A-9C4F2663B996}" Global="false">
+									<ObjectRef Name="music_menu" ID="{87B14D6E-AB28-4911-9BC7-183B1DCA7434}" WorkUnitID="{71575131-AD6D-466D-A1E9-3DAAFA22D108}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mamie_hurt" ID="{D30E1715-8FBA-4359-B672-E0573DD5A758}">
+					<ChildrenList>
+						<Action Name="Set Voice Pitch" ID="{814320E6-B9E1-4B6B-ADBE-8C2CD638B388}" ShortID="799329701" Type="ChangePitch" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Pitch" Type="int32" Value="-1670"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{1426EFBD-6405-40CF-8639-A51CC0E7DB09}" Global="false">
+									<ObjectRef Name="indic" ID="{A045649A-9B4A-49F7-BB68-26259ED9F448}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Voice Pitch" ID="{F4760D70-98C4-4732-A795-E25FD9B351EC}" ShortID="35342685" Type="ChangePitch" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Pitch" Type="int32" Value="-1670"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{55D961E6-687E-40DD-8F9A-04DC807D6426}" Global="false">
+									<ObjectRef Name="indic_chord" ID="{390AF4FA-809C-4163-AAAF-F3275FC6BA75}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{6E60A624-C81C-4CE6-A217-1F3FA40CD44F}" ShortID="511277973" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A74B56E1-FCB9-4839-8233-66D250FA433C}" Global="false">
+									<ObjectRef Name="mamie_hit" ID="{846ADA14-5A8D-4325-972B-DD6D0BA42DBB}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{DBB1C733-3DAA-448D-8871-15570C945749}" ShortID="182426192" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{37EEFB73-6780-44BE-B827-C92ACC6C996E}" Global="false">
+									<ObjectRef Name="coeur" ID="{4780AC1D-DF7A-4904-BA4A-3A1CF00F13F8}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Voice Low-pass Filter" ID="{44491C5D-AEF5-4CA0-8280-0D7D9845BC5A}" ShortID="35412552" Type="ChangeLPF" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16" Value="53"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{90383D92-8E10-4E3E-9A8C-3596AFE5A367}" Global="false">
+									<ObjectRef Name="P76_hit" ID="{CA806DA0-1053-4B89-8CE3-F1EBFF59EAEE}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{F1C05689-293A-440A-93C1-1E2A7AB80CA1}" ShortID="164847023" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C95452C9-6638-4CC0-8550-9E1114572445}" Global="false">
+									<ObjectRef Name="P76_hit" ID="{CA806DA0-1053-4B89-8CE3-F1EBFF59EAEE}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Reset Voice Low-pass Filter" ID="{A04C6100-16C1-4286-8E39-DB2EB4ACCEAE}" ShortID="508681022" Type="ResetLPF" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{EAFC7397-1F49-488C-AB37-99C488F91DFA}" Global="false">
+									<ObjectRef Name="P76_hit" ID="{CA806DA0-1053-4B89-8CE3-F1EBFF59EAEE}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mamie_dead" ID="{5F78CB90-EC61-45FB-836F-11C57471AF3E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{77641E13-C328-430A-A6FE-E46E96CE0F3A}" ShortID="608409193" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B78F9AFD-BFC0-42B3-B245-188B807F56C7}" Global="false">
+									<ObjectRef Name="mamie_dead" ID="{30B32126-188B-4599-9ABC-B6DCFF652E54}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{ADC81142-E813-4E7C-9A58-CFACFCBD8ADE}" ShortID="523796237" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CE45601C-107F-4C73-BA14-52353FC88A51}" Global="false">
+									<ObjectRef Name="P77_dead" ID="{F1EC0E81-2953-4F96-A80E-5396A373C6B3}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop All Except" ID="{3B9D2E1F-6172-4652-9254-0195000F36A0}" ShortID="14900384" Type="Stop" Scope="AllExcept" Global="false">
+							<ElementList>
+								<Element ID="{CFE320FA-1FEC-4C3E-8876-7B081A019B4F}" Global="false">
+									<ObjectRef Name="P77_dead" ID="{F1EC0E81-2953-4F96-A80E-5396A373C6B3}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+								<Element ID="{0B8FB304-98D6-483B-8C16-4C830C197FA9}" Global="false">
+									<ObjectRef Name="mamie_dead" ID="{30B32126-188B-4599-9ABC-B6DCFF652E54}" WorkUnitID="{3E78FF61-6337-4C45-A34E-50185BF77DB5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -60,8 +60,10 @@ MonoBehaviour:
   exitEvent: {fileID: 0}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
-  successTextContent: "Les ennemis sont repartis, bien jou\xE9 !"
-  successTextRemainTime: 5
+  successTextContent: "Les ennemis sont repartis, bien jou\xE9 ! Dans le jeu, il y
+    en a deux types. Ceux qui arrivent droit sur ta Mamy sont les plus dangereux.
+    Balise-les en premier !"
+  successTextRemainTime: 8
   failText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   failTextContent: 
   failTextRemainTime: 1

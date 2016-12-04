@@ -150,7 +150,7 @@ Prefab:
         type: 2}
       propertyPath: parts.Array.data[0]
       value: 
-      objectReference: {fileID: 1000010541457544, guid: d81178167965f5d4ab26169929fec2ad,
+      objectReference: {fileID: 1000010541457544, guid: 3b6df951a7262ba44a0bf1c41258e829,
         type: 2}
     - target: {fileID: 114000010695286954, guid: 41c5164e4755fe04097bdf9e1dea90a4,
         type: 2}
@@ -325,15 +325,6 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012736492410, guid: 49076c0c53c8c814fbf66ac73e411d8d,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000014226127612, guid: 49076c0c53c8c814fbf66ac73e411d8d, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49076c0c53c8c814fbf66ac73e411d8d, type: 2}

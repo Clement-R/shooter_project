@@ -54,10 +54,10 @@ MonoBehaviour:
   isFinished: 0
   textInfo: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b, type: 2}
   text: "Ton alli\xE9e d\xE9couvre ses pouvoirs"
-  remainTime: 10
+  remainTime: 1
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: P5
-  exitEvent: {fileID: 0}
+  exitEvent: {fileID: 1000010170302358, guid: 81f477b8ec3c79d4cbdec828c77ec25c, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: 
@@ -67,6 +67,6 @@ MonoBehaviour:
   failTextRemainTime: 1
   successSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d,
     type: 2}
-  successSoundIndex: P6
+  successSoundIndex: super
   failSound: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   failSoundIndex: P7

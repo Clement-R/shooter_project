@@ -87,7 +87,7 @@ public class PartManager : MonoBehaviour {
             // Play fail text
             if (failTextContent != "") {
                 if (failTextInstance == null) {
-                    failTextInstance = Instantiate(failText);
+					failTextInstance = Instantiate(failText, transform) as GameObject;
                     Text widgetText = failTextInstance.GetComponentInChildren<Text>();
                     widgetText.text = this.failTextContent;
                     failTextEvent = failTextInstance.GetComponent<EventBehavior>();
@@ -99,7 +99,7 @@ public class PartManager : MonoBehaviour {
             // Play fail sound
             if (failSoundIndex != "") {
                 if(failSoundInstance == null) {
-                    failSoundInstance = Instantiate(failSound);
+					failSoundInstance = Instantiate(failSound, transform) as GameObject;
                     failSoundEvent = failSoundInstance.GetComponent<EventBehavior>();
                     WwiseSoundPlay soundPlayer = failSoundInstance.GetComponent<WwiseSoundPlay>();
                     soundPlayer.soundIndex = this.failSoundIndex;
@@ -113,9 +113,9 @@ public class PartManager : MonoBehaviour {
                     exitEventEvent.fail = false;
                 }
             } else if (failSoundIndex != "") {
-                if (soundInfoEvent.isFinished) {
+				if (failSoundEvent.isFinished) {
                     Destroy(failSoundInstance);
-                    exitEventEvent.fail = false;
+                    exitEventEvent.fail = false; 
                 }
             } else if (failTextContent != "") {
                 if (failTextEvent.isFinished) {
