@@ -101,10 +101,14 @@ public class TrashBehavior_master : MonoBehaviour {
     }
 
     void OnDestroy() {
-        if(eventIdIndic != 0) {
+        StopSound();
+    }
+
+    public void StopSound() {
+        if (eventIdIndic != 0) {
             AkSoundEngine.StopPlayingID(eventIdIndic);
         }
-        if(eventIdOn != 0) {
+        if (eventIdOn != 0) {
             AkSoundEngine.StopPlayingID(eventIdOn);
         }
     }

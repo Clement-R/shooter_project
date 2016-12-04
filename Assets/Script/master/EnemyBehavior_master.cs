@@ -123,6 +123,10 @@ public class EnemyBehavior_master : MonoBehaviour {
     }
 
     void OnDestroy() {
+        StopSound();
+    }
+
+    public void StopSound() {
         if (eventIdIndic != 0) {
             AkSoundEngine.StopPlayingID(eventIdIndic);
         }
