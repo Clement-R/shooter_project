@@ -31,6 +31,7 @@ public class MainMenuBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        Time.timeScale = 1f;
         timer = 0f;
         background = transform.Find("Background");
         titre = transform.Find("Titre");

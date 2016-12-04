@@ -23,7 +23,7 @@ public class towerGenerator_master : MonoBehaviour {
     }
 	
 	void Update () {
-        transform.position += Vector3.up * scrollSpeed * -1;
+        transform.position += Vector3.up * scrollSpeed * -1 * Time.deltaTime;
         //Detecte s'il doit réaparaître
         if (transform.position.y < yDisappear)
         {

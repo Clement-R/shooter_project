@@ -22,13 +22,12 @@ public class shuttle_movement_master : MonoBehaviour {
         
         h = Input.GetAxisRaw("Horizontal_1");
         v = -Input.GetAxisRaw("Vertical_1");
-        Debug.Log(h + ", " + v);
         if (GetComponent<ShuttleBehavior_master>().isStuned)
         {
-            rb2d.velocity = new Vector2(h * hMaxSpeed * speedStunnedPercent, v * vMaxSpeed * speedStunnedPercent);
+            rb2d.velocity = new Vector2(h * hMaxSpeed * speedStunnedPercent * Time.deltaTime, v * vMaxSpeed * speedStunnedPercent * Time.deltaTime);
         } else
         {
-            rb2d.velocity = new Vector2(h * hMaxSpeed, v * vMaxSpeed);
+            rb2d.velocity = new Vector2(h * hMaxSpeed * Time.deltaTime, v * vMaxSpeed * Time.deltaTime);
         }
         if (h != 0 || v != 0)
         {

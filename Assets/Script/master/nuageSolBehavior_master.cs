@@ -17,7 +17,7 @@ public class nuageSolBehavior_master : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position += Vector3.up * scrollSpeed * -1;
+        transform.position += Vector3.up * scrollSpeed * -1 * Time.deltaTime;
         if(transform.position.y < yDisappear)
         {
             transform.position = respawnTransform;
