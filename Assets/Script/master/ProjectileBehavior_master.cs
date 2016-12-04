@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ProjectileBehavior_master : MonoBehaviour {
     public int speed;
+    public bool canDestroyTrash;
 
     private Rigidbody2D rb2d;
 
@@ -22,6 +23,11 @@ public class ProjectileBehavior_master : MonoBehaviour {
         {
             rb2d.velocity = Vector2.zero;
         }
+
+        if(transform.position.y > -8f)
+        {
+            Destroy(gameObject);
+        }
         
     }
 
@@ -34,7 +40,7 @@ public class ProjectileBehavior_master : MonoBehaviour {
             coll.GetComponent<EnemyBehavior_master>().Die();
             Destroy(gameObject, .5f);
         }
-        else if (coll.gameObject.tag == "trash")
+        else if (coll.gameObject.tag == "trash" && canDestroyTrash)
         {
             GetComponent<Animator>().SetBool("isDead", true);
             
