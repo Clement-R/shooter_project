@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011230096172}
   - 114: {fileID: 114000010201212136}
+  - 114: {fileID: 114000010970859498}
   m_Layer: 0
   m_Name: TutorialTrashScoping
   m_TagString: Untagged
@@ -54,3 +55,16 @@ MonoBehaviour:
   isFinished: 0
   success: 0
   fail: 0
+--- !u!114 &114000010970859498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011052434448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e2a545f1b434d4ba4fa2b7e16067cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trash: {fileID: 1000012044313888, guid: a0f10aef55dd5fd46b959ca8e92a931e, type: 2}
+  timeBeforeFail: 5

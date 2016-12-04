@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011006008358}
   - 114: {fileID: 114000012324027784}
+  - 114: {fileID: 114000010373716536}
   m_Layer: 0
   m_Name: TutorialTrashKilling
   m_TagString: Untagged
@@ -40,6 +41,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &114000010373716536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011327919994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4661d05a0ba3106409c2d00b82e202a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trash: {fileID: 1000012044313888, guid: a0f10aef55dd5fd46b959ca8e92a931e, type: 2}
+  timeBeforeFail: 5
 --- !u!114 &114000012324027784
 MonoBehaviour:
   m_ObjectHideFlags: 1

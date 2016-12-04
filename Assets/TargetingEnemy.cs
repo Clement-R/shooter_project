@@ -7,5 +7,9 @@ public class TargetingEnemy : MonoBehaviour {
         if(coll.tag == "enemy") {
             coll.gameObject.GetComponent<EnemyBehavior_master>().isFocused = true;
         }
+
+        if(coll.tag == "trash") {
+            coll.gameObject.GetComponent<TrashBehavior_master>().isFocused = true;
+        }
     }
 }
