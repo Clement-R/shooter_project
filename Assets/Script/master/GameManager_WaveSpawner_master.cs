@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System;
 
 public class GameManager_WaveSpawner_master : MonoBehaviour {
     [HideInInspector]
     public int numberOfEnemiesKilled = 0;
+    [HideInInspector]
+    public int numberOfEnemiesKilledByPlayer = 0;
 
     private int numberOfEnemiesInWave = 0;
     private int currentWave;
     private int numberOfWaves = 0;
+    private float localTimer = 0;
+    private bool creditNotVisible = true;
 
+    private Transform credit;
+    private Color alphaMax = new Color(0, 0, 0, 1);
     private GameManager_EnemySpawn_master enemySpawner;
 
     private Dictionary<int, List<KeyValuePair<int, Vector2>>> wave = new Dictionary<int, List<KeyValuePair<int, Vector2>>>();
@@ -82,7 +89,16 @@ public class GameManager_WaveSpawner_master : MonoBehaviour {
             {
                 // Send next wave
                 sendWave();
+            } else
+            {
+                endGame();
             }
+        }
+
+        if(numberOfEnemiesKilledByPlayer == 5)
+        {
+            Debug.Log("Jouer son ici , 5 ennemies tués");
+            numberOfEnemiesKilledByPlayer = 0;
         }
     }
 
@@ -99,5 +115,32 @@ public class GameManager_WaveSpawner_master : MonoBehaviour {
             enemySpawner.spawnEnemy(enemy.Key,enemy.Value.x, enemy.Value.y);
             numberOfEnemiesInWave++;
         }
+    }
+
+    void endGame()
+    {
+        if(localTimer > 5f)
+        {
+            transform.FindChild("Blackscreen").GetComponent<SpriteRenderer>().color = fadeIn(0.05f, transform.FindChild("Blackscreen").GetComponent<SpriteRenderer>().color);
+        }
+        if(localTimer > 6f && creditNotVisible)
+        {
+            creditNotVisible = false;
+            credit = Instantiate(GetComponent<GameManager_GameRules_master>().credits);
+
+        }
+        if(localTimer > 10f)
+        {
+            DontDestroyOnLoad(credit.gameObject);
+            Destroy(credit.gameObject, 2f);
+            SceneManager.LoadScene("menu");
+        }
+        localTimer += Time.deltaTime;
+    }
+
+    Color fadeIn(float speed, Color color)
+    {
+
+        return color + (alphaMax * speed);
     }
 }

@@ -11,6 +11,7 @@ public class GameManager_GameRules_master : MonoBehaviour
     public int levelLife = 4; //Vie du monde
     public Transform cadreLoose;
     public Transform cadrePause;
+    public Transform credits;
 
     private int life;
     private SpriteRenderer blackScreen;

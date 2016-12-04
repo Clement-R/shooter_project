@@ -94,6 +94,7 @@ public class EnemyBehavior_master : MonoBehaviour {
 
         // Push information to the game manager
         GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilled++;
+        GameObject.Find("GameManager_master").GetComponent<GameManager_WaveSpawner_master>().numberOfEnemiesKilledByPlayer++;
         god.ennemyShot();
 
         // Destroy game object
