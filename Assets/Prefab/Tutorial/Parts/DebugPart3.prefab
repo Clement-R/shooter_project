@@ -57,7 +57,7 @@ MonoBehaviour:
   remainTime: 1
   soundInfo: {fileID: 1000011555572046, guid: 4cb0825781317f8449fc59e04bd19d0d, type: 2}
   soundIndex: P5
-  exitEvent: {fileID: 1000010170302358, guid: 472fb94615de4ad45ad66d82033898fb, type: 2}
+  exitEvent: {fileID: 1000011485449234, guid: f69118222999e0e4293ec5a7c5b5b8a3, type: 2}
   successText: {fileID: 1000013192908898, guid: 8ddf76e097f64bf409b064fc90e80d0b,
     type: 2}
   successTextContent: "Bien jou\xE9 !"
